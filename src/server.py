@@ -105,6 +105,13 @@ async def websocket_endpoint(ws: WebSocket):
         while True:
             data = await ws.receive_json()
 
+            if data.get("type") == "no_hands":
+                buffer.clear()
+                pred_history.clear()
+                frame_count = 0
+                await ws.send_json({"prediction": None, "buffer_fill": 0.0})
+                continue
+
             if data.get("type") != "frame":
                 continue
 

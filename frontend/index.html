@@ -255,7 +255,12 @@
           bufferBar.style.width = (msg.buffer_fill * 100).toFixed(0) + "%";
         }
 
-        if (!msg.prediction) return;
+        if (!msg.prediction) {
+          wordEl.textContent    = "—";
+          confBar.style.width   = "0%";
+          confLabel.textContent = "Confidence: —";
+          return;
+        }
 
         // Update prediction UI
         wordEl.textContent    = msg.prediction.toUpperCase();
@@ -356,8 +361,13 @@
 
         // Send keypoints to server
         if (ws && ws.readyState === WebSocket.OPEN) {
-          const keypoints = buildKeypoints(results);
-          ws.send(JSON.stringify({ type: "frame", keypoints }));
+          const handsVisible = results.landmarks && results.landmarks.length > 0;
+          if (handsVisible) {
+            const keypoints = buildKeypoints(results);
+            ws.send(JSON.stringify({ type: "frame", keypoints }));
+          } else {
+            ws.send(JSON.stringify({ type: "no_hands" }));
+          }
         }
       }
       requestAnimationFrame(onFrame);
