@@ -1,0 +1,1032 @@
+[
+  {
+    "path": "data/processed/test/17713.npy",
+    "label": "drink",
+    "label_idx": 1
+  },
+  {
+    "path": "data/processed/test/12320.npy",
+    "label": "computer",
+    "label_idx": 2
+  },
+  {
+    "path": "data/processed/test/05727.npy",
+    "label": "before",
+    "label_idx": 3
+  },
+  {
+    "path": "data/processed/test/11311.npy",
+    "label": "clothes",
+    "label_idx": 6
+  },
+  {
+    "path": "data/processed/test/63226.npy",
+    "label": "who",
+    "label_idx": 7
+  },
+  {
+    "path": "data/processed/test/08915.npy",
+    "label": "candy",
+    "label_idx": 8
+  },
+  {
+    "path": "data/processed/test/13635.npy",
+    "label": "cousin",
+    "label_idx": 9
+  },
+  {
+    "path": "data/processed/test/14883.npy",
+    "label": "deaf",
+    "label_idx": 10
+  },
+  {
+    "path": "data/processed/test/14888.npy",
+    "label": "deaf",
+    "label_idx": 10
+  },
+  {
+    "path": "data/processed/test/27209.npy",
+    "label": "help",
+    "label_idx": 12
+  },
+  {
+    "path": "data/processed/test/38525.npy",
+    "label": "no",
+    "label_idx": 13
+  },
+  {
+    "path": "data/processed/test/57941.npy",
+    "label": "thin",
+    "label_idx": 14
+  },
+  {
+    "path": "data/processed/test/57943.npy",
+    "label": "thin",
+    "label_idx": 14
+  },
+  {
+    "path": "data/processed/test/62160.npy",
+    "label": "walk",
+    "label_idx": 15
+  },
+  {
+    "path": "data/processed/test/64210.npy",
+    "label": "year",
+    "label_idx": 16
+  },
+  {
+    "path": "data/processed/test/64209.npy",
+    "label": "year",
+    "label_idx": 16
+  },
+  {
+    "path": "data/processed/test/01986.npy",
+    "label": "all",
+    "label_idx": 18
+  },
+  {
+    "path": "data/processed/test/13198.npy",
+    "label": "cool",
+    "label_idx": 20
+  },
+  {
+    "path": "data/processed/test/13196.npy",
+    "label": "cool",
+    "label_idx": 20
+  },
+  {
+    "path": "data/processed/test/21944.npy",
+    "label": "finish",
+    "label_idx": 21
+  },
+  {
+    "path": "data/processed/test/69389.npy",
+    "label": "like",
+    "label_idx": 23
+  },
+  {
+    "path": "data/processed/test/38991.npy",
+    "label": "now",
+    "label_idx": 26
+  },
+  {
+    "path": "data/processed/test/62967.npy",
+    "label": "what",
+    "label_idx": 30
+  },
+  {
+    "path": "data/processed/test/63664.npy",
+    "label": "woman",
+    "label_idx": 31
+  },
+  {
+    "path": "data/processed/test/69257.npy",
+    "label": "can",
+    "label_idx": 35
+  },
+  {
+    "path": "data/processed/test/22117.npy",
+    "label": "fish",
+    "label_idx": 38
+  },
+  {
+    "path": "data/processed/test/31750.npy",
+    "label": "kiss",
+    "label_idx": 42
+  },
+  {
+    "path": "data/processed/test/31749.npy",
+    "label": "kiss",
+    "label_idx": 42
+  },
+  {
+    "path": "data/processed/test/32157.npy",
+    "label": "language",
+    "label_idx": 43
+  },
+  {
+    "path": "data/processed/test/56843.npy",
+    "label": "tall",
+    "label_idx": 48
+  },
+  {
+    "path": "data/processed/test/63201.npy",
+    "label": "white",
+    "label_idx": 49
+  },
+  {
+    "path": "data/processed/test/00625.npy",
+    "label": "accident",
+    "label_idx": 51
+  },
+  {
+    "path": "data/processed/test/06335.npy",
+    "label": "bird",
+    "label_idx": 53
+  },
+  {
+    "path": "data/processed/test/09950.npy",
+    "label": "change",
+    "label_idx": 54
+  },
+  {
+    "path": "data/processed/test/13325.npy",
+    "label": "corn",
+    "label_idx": 56
+  },
+  {
+    "path": "data/processed/test/14673.npy",
+    "label": "dark",
+    "label_idx": 59
+  },
+  {
+    "path": "data/processed/test/22954.npy",
+    "label": "forget",
+    "label_idx": 63
+  },
+  {
+    "path": "data/processed/test/24636.npy",
+    "label": "give",
+    "label_idx": 64
+  },
+  {
+    "path": "data/processed/test/32246.npy",
+    "label": "last",
+    "label_idx": 65
+  },
+  {
+    "path": "data/processed/test/35513.npy",
+    "label": "meet",
+    "label_idx": 66
+  },
+  {
+    "path": "data/processed/test/69431.npy",
+    "label": "pizza",
+    "label_idx": 68
+  },
+  {
+    "path": "data/processed/test/42960.npy",
+    "label": "pizza",
+    "label_idx": 68
+  },
+  {
+    "path": "data/processed/test/69433.npy",
+    "label": "play",
+    "label_idx": 69
+  },
+  {
+    "path": "data/processed/test/43171.npy",
+    "label": "play",
+    "label_idx": 69
+  },
+  {
+    "path": "data/processed/test/50041.npy",
+    "label": "secretary",
+    "label_idx": 71
+  },
+  {
+    "path": "data/processed/test/62247.npy",
+    "label": "want",
+    "label_idx": 74
+  },
+  {
+    "path": "data/processed/test/63789.npy",
+    "label": "work",
+    "label_idx": 75
+  },
+  {
+    "path": "data/processed/test/01386.npy",
+    "label": "africa",
+    "label_idx": 76
+  },
+  {
+    "path": "data/processed/test/69225.npy",
+    "label": "basketball",
+    "label_idx": 77
+  },
+  {
+    "path": "data/processed/test/06360.npy",
+    "label": "birthday",
+    "label_idx": 78
+  },
+  {
+    "path": "data/processed/test/69252.npy",
+    "label": "brown",
+    "label_idx": 79
+  },
+  {
+    "path": "data/processed/test/08425.npy",
+    "label": "but",
+    "label_idx": 80
+  },
+  {
+    "path": "data/processed/test/69269.npy",
+    "label": "city",
+    "label_idx": 82
+  },
+  {
+    "path": "data/processed/test/23767.npy",
+    "label": "full",
+    "label_idx": 85
+  },
+  {
+    "path": "data/processed/test/69370.npy",
+    "label": "how",
+    "label_idx": 86
+  },
+  {
+    "path": "data/processed/test/28201.npy",
+    "label": "how",
+    "label_idx": 86
+  },
+  {
+    "path": "data/processed/test/32950.npy",
+    "label": "letter",
+    "label_idx": 88
+  },
+  {
+    "path": "data/processed/test/69439.npy",
+    "label": "pull",
+    "label_idx": 93
+  },
+  {
+    "path": "data/processed/test/69440.npy",
+    "label": "purple",
+    "label_idx": 94
+  },
+  {
+    "path": "data/processed/test/49173.npy",
+    "label": "same",
+    "label_idx": 96
+  },
+  {
+    "path": "data/processed/test/57278.npy",
+    "label": "tell",
+    "label_idx": 98
+  },
+  {
+    "path": "data/processed/test/69545.npy",
+    "label": "yellow",
+    "label_idx": 104
+  },
+  {
+    "path": "data/processed/test/05088.npy",
+    "label": "bar",
+    "label_idx": 106
+  },
+  {
+    "path": "data/processed/test/05089.npy",
+    "label": "bar",
+    "label_idx": 106
+  },
+  {
+    "path": "data/processed/test/69251.npy",
+    "label": "brother",
+    "label_idx": 107
+  },
+  {
+    "path": "data/processed/test/69261.npy",
+    "label": "cat",
+    "label_idx": 108
+  },
+  {
+    "path": "data/processed/test/10186.npy",
+    "label": "check",
+    "label_idx": 109
+  },
+  {
+    "path": "data/processed/test/69270.npy",
+    "label": "class",
+    "label_idx": 110
+  },
+  {
+    "path": "data/processed/test/69353.npy",
+    "label": "green",
+    "label_idx": 114
+  },
+  {
+    "path": "data/processed/test/69360.npy",
+    "label": "have",
+    "label_idx": 116
+  },
+  {
+    "path": "data/processed/test/26835.npy",
+    "label": "headache",
+    "label_idx": 117
+  },
+  {
+    "path": "data/processed/test/32379.npy",
+    "label": "laugh",
+    "label_idx": 120
+  },
+  {
+    "path": "data/processed/test/45837.npy",
+    "label": "rabbit",
+    "label_idx": 123
+  },
+  {
+    "path": "data/processed/test/69446.npy",
+    "label": "red",
+    "label_idx": 125
+  },
+  {
+    "path": "data/processed/test/48510.npy",
+    "label": "room",
+    "label_idx": 126
+  },
+  {
+    "path": "data/processed/test/48514.npy",
+    "label": "room",
+    "label_idx": 126
+  },
+  {
+    "path": "data/processed/test/48797.npy",
+    "label": "run",
+    "label_idx": 127
+  },
+  {
+    "path": "data/processed/test/69470.npy",
+    "label": "sick",
+    "label_idx": 129
+  },
+  {
+    "path": "data/processed/test/69481.npy",
+    "label": "snow",
+    "label_idx": 130
+  },
+  {
+    "path": "data/processed/test/56693.npy",
+    "label": "take",
+    "label_idx": 131
+  },
+  {
+    "path": "data/processed/test/69539.npy",
+    "label": "with",
+    "label_idx": 136
+  },
+  {
+    "path": "data/processed/test/69544.npy",
+    "label": "write",
+    "label_idx": 137
+  },
+  {
+    "path": "data/processed/test/64304.npy",
+    "label": "yesterday",
+    "label_idx": 138
+  },
+  {
+    "path": "data/processed/test/69219.npy",
+    "label": "bad",
+    "label_idx": 140
+  },
+  {
+    "path": "data/processed/test/69221.npy",
+    "label": "ball",
+    "label_idx": 141
+  },
+  {
+    "path": "data/processed/test/05299.npy",
+    "label": "bathroom",
+    "label_idx": 142
+  },
+  {
+    "path": "data/processed/test/06553.npy",
+    "label": "blanket",
+    "label_idx": 143
+  },
+  {
+    "path": "data/processed/test/69255.npy",
+    "label": "buy",
+    "label_idx": 144
+  },
+  {
+    "path": "data/processed/test/20067.npy",
+    "label": "example",
+    "label_idx": 179
+  },
+  {
+    "path": "data/processed/test/25070.npy",
+    "label": "good",
+    "label_idx": 155
+  },
+  {
+    "path": "data/processed/test/26525.npy",
+    "label": "happy",
+    "label_idx": 156
+  },
+  {
+    "path": "data/processed/test/69366.npy",
+    "label": "home",
+    "label_idx": 157
+  },
+  {
+    "path": "data/processed/test/31900.npy",
+    "label": "know",
+    "label_idx": 158
+  },
+  {
+    "path": "data/processed/test/33475.npy",
+    "label": "list",
+    "label_idx": 161
+  },
+  {
+    "path": "data/processed/test/34004.npy",
+    "label": "lose",
+    "label_idx": 162
+  },
+  {
+    "path": "data/processed/test/69405.npy",
+    "label": "name",
+    "label_idx": 163
+  },
+  {
+    "path": "data/processed/test/69419.npy",
+    "label": "old",
+    "label_idx": 164
+  },
+  {
+    "path": "data/processed/test/44684.npy",
+    "label": "problem",
+    "label_idx": 167
+  },
+  {
+    "path": "data/processed/test/53296.npy",
+    "label": "soon",
+    "label_idx": 170
+  },
+  {
+    "path": "data/processed/test/53292.npy",
+    "label": "soon",
+    "label_idx": 170
+  },
+  {
+    "path": "data/processed/test/54555.npy",
+    "label": "stay",
+    "label_idx": 171
+  },
+  {
+    "path": "data/processed/test/57530.npy",
+    "label": "test",
+    "label_idx": 173
+  },
+  {
+    "path": "data/processed/test/59206.npy",
+    "label": "trade",
+    "label_idx": 175
+  },
+  {
+    "path": "data/processed/test/69547.npy",
+    "label": "you",
+    "label_idx": 178
+  },
+  {
+    "path": "data/processed/test/03120.npy",
+    "label": "approve",
+    "label_idx": 181
+  },
+  {
+    "path": "data/processed/test/03436.npy",
+    "label": "arrive",
+    "label_idx": 182
+  },
+  {
+    "path": "data/processed/test/04796.npy",
+    "label": "balance",
+    "label_idx": 183
+  },
+  {
+    "path": "data/processed/test/04896.npy",
+    "label": "banana",
+    "label_idx": 184
+  },
+  {
+    "path": "data/processed/test/07454.npy",
+    "label": "boy",
+    "label_idx": 187
+  },
+  {
+    "path": "data/processed/test/09180.npy",
+    "label": "careful",
+    "label_idx": 189
+  },
+  {
+    "path": "data/processed/test/10102.npy",
+    "label": "chat",
+    "label_idx": 191
+  },
+  {
+    "path": "data/processed/test/13135.npy",
+    "label": "convince",
+    "label_idx": 196
+  },
+  {
+    "path": "data/processed/test/69284.npy",
+    "label": "crash",
+    "label_idx": 198
+  },
+  {
+    "path": "data/processed/test/14793.npy",
+    "label": "day",
+    "label_idx": 199
+  },
+  {
+    "path": "data/processed/test/17656.npy",
+    "label": "dress",
+    "label_idx": 201
+  },
+  {
+    "path": "data/processed/test/17822.npy",
+    "label": "drop",
+    "label_idx": 203
+  },
+  {
+    "path": "data/processed/test/21434.npy",
+    "label": "feel",
+    "label_idx": 205
+  },
+  {
+    "path": "data/processed/test/22802.npy",
+    "label": "football",
+    "label_idx": 206
+  },
+  {
+    "path": "data/processed/test/23946.npy",
+    "label": "future",
+    "label_idx": 207
+  },
+  {
+    "path": "data/processed/test/24026.npy",
+    "label": "game",
+    "label_idx": 208
+  },
+  {
+    "path": "data/processed/test/24606.npy",
+    "label": "girl",
+    "label_idx": 209
+  },
+  {
+    "path": "data/processed/test/24608.npy",
+    "label": "girl",
+    "label_idx": 209
+  },
+  {
+    "path": "data/processed/test/26946.npy",
+    "label": "hear",
+    "label_idx": 211
+  },
+  {
+    "path": "data/processed/test/27263.npy",
+    "label": "here",
+    "label_idx": 212
+  },
+  {
+    "path": "data/processed/test/27922.npy",
+    "label": "hope",
+    "label_idx": 213
+  },
+  {
+    "path": "data/processed/test/28160.npy",
+    "label": "house",
+    "label_idx": 214
+  },
+  {
+    "path": "data/processed/test/28162.npy",
+    "label": "house",
+    "label_idx": 214
+  },
+  {
+    "path": "data/processed/test/28465.npy",
+    "label": "husband",
+    "label_idx": 215
+  },
+  {
+    "path": "data/processed/test/30153.npy",
+    "label": "interest",
+    "label_idx": 216
+  },
+  {
+    "path": "data/processed/test/30155.npy",
+    "label": "interest",
+    "label_idx": 216
+  },
+  {
+    "path": "data/processed/test/33206.npy",
+    "label": "light",
+    "label_idx": 218
+  },
+  {
+    "path": "data/processed/test/34577.npy",
+    "label": "make",
+    "label_idx": 220
+  },
+  {
+    "path": "data/processed/test/35289.npy",
+    "label": "mean",
+    "label_idx": 221
+  },
+  {
+    "path": "data/processed/test/36914.npy",
+    "label": "most",
+    "label_idx": 223
+  },
+  {
+    "path": "data/processed/test/36916.npy",
+    "label": "most",
+    "label_idx": 223
+  },
+  {
+    "path": "data/processed/test/37365.npy",
+    "label": "music",
+    "label_idx": 224
+  },
+  {
+    "path": "data/processed/test/38124.npy",
+    "label": "new",
+    "label_idx": 225
+  },
+  {
+    "path": "data/processed/test/38587.npy",
+    "label": "none",
+    "label_idx": 226
+  },
+  {
+    "path": "data/processed/test/39457.npy",
+    "label": "office",
+    "label_idx": 227
+  },
+  {
+    "path": "data/processed/test/41316.npy",
+    "label": "party",
+    "label_idx": 230
+  },
+  {
+    "path": "data/processed/test/41448.npy",
+    "label": "past",
+    "label_idx": 231
+  },
+  {
+    "path": "data/processed/test/41823.npy",
+    "label": "pencil",
+    "label_idx": 232
+  },
+  {
+    "path": "data/processed/test/43058.npy",
+    "label": "plan",
+    "label_idx": 233
+  },
+  {
+    "path": "data/processed/test/43219.npy",
+    "label": "please",
+    "label_idx": 234
+  },
+  {
+    "path": "data/processed/test/44081.npy",
+    "label": "practice",
+    "label_idx": 235
+  },
+  {
+    "path": "data/processed/test/44083.npy",
+    "label": "practice",
+    "label_idx": 235
+  },
+  {
+    "path": "data/processed/test/44368.npy",
+    "label": "president",
+    "label_idx": 236
+  },
+  {
+    "path": "data/processed/test/47657.npy",
+    "label": "restaurant",
+    "label_idx": 237
+  },
+  {
+    "path": "data/processed/test/49130.npy",
+    "label": "salt",
+    "label_idx": 240
+  },
+  {
+    "path": "data/processed/test/49245.npy",
+    "label": "sandwich",
+    "label_idx": 241
+  },
+  {
+    "path": "data/processed/test/51614.npy",
+    "label": "sign",
+    "label_idx": 242
+  },
+  {
+    "path": "data/processed/test/51774.npy",
+    "label": "since",
+    "label_idx": 243
+  },
+  {
+    "path": "data/processed/test/53209.npy",
+    "label": "some",
+    "label_idx": 245
+  },
+  {
+    "path": "data/processed/test/53484.npy",
+    "label": "south",
+    "label_idx": 246
+  },
+  {
+    "path": "data/processed/test/69494.npy",
+    "label": "student",
+    "label_idx": 247
+  },
+  {
+    "path": "data/processed/test/57059.npy",
+    "label": "teach",
+    "label_idx": 248
+  },
+  {
+    "path": "data/processed/test/57061.npy",
+    "label": "teach",
+    "label_idx": 248
+  },
+  {
+    "path": "data/processed/test/58785.npy",
+    "label": "tomato",
+    "label_idx": 250
+  },
+  {
+    "path": "data/processed/test/60348.npy",
+    "label": "ugly",
+    "label_idx": 252
+  },
+  {
+    "path": "data/processed/test/62274.npy",
+    "label": "war",
+    "label_idx": 253
+  },
+  {
+    "path": "data/processed/test/63082.npy",
+    "label": "where",
+    "label_idx": 254
+  },
+  {
+    "path": "data/processed/test/64428.npy",
+    "label": "your",
+    "label_idx": 255
+  },
+  {
+    "path": "data/processed/test/02229.npy",
+    "label": "always",
+    "label_idx": 256
+  },
+  {
+    "path": "data/processed/test/02231.npy",
+    "label": "always",
+    "label_idx": 256
+  },
+  {
+    "path": "data/processed/test/02585.npy",
+    "label": "animal",
+    "label_idx": 257
+  },
+  {
+    "path": "data/processed/test/02587.npy",
+    "label": "animal",
+    "label_idx": 257
+  },
+  {
+    "path": "data/processed/test/04507.npy",
+    "label": "baby",
+    "label_idx": 259
+  },
+  {
+    "path": "data/processed/test/04509.npy",
+    "label": "baby",
+    "label_idx": 259
+  },
+  {
+    "path": "data/processed/test/04593.npy",
+    "label": "back",
+    "label_idx": 260
+  },
+  {
+    "path": "data/processed/test/04770.npy",
+    "label": "bake",
+    "label_idx": 261
+  },
+  {
+    "path": "data/processed/test/05276.npy",
+    "label": "bath",
+    "label_idx": 262
+  },
+  {
+    "path": "data/processed/test/05278.npy",
+    "label": "bath",
+    "label_idx": 262
+  },
+  {
+    "path": "data/processed/test/69264.npy",
+    "label": "cereal",
+    "label_idx": 266
+  },
+  {
+    "path": "data/processed/test/09774.npy",
+    "label": "cereal",
+    "label_idx": 266
+  },
+  {
+    "path": "data/processed/test/09915.npy",
+    "label": "champion",
+    "label_idx": 267
+  },
+  {
+    "path": "data/processed/test/09917.npy",
+    "label": "champion",
+    "label_idx": 267
+  },
+  {
+    "path": "data/processed/test/10268.npy",
+    "label": "cheese",
+    "label_idx": 268
+  },
+  {
+    "path": "data/processed/test/13468.npy",
+    "label": "cough",
+    "label_idx": 269
+  },
+  {
+    "path": "data/processed/test/13470.npy",
+    "label": "cough",
+    "label_idx": 269
+  },
+  {
+    "path": "data/processed/test/13855.npy",
+    "label": "crazy",
+    "label_idx": 270
+  },
+  {
+    "path": "data/processed/test/15321.npy",
+    "label": "delay",
+    "label_idx": 271
+  },
+  {
+    "path": "data/processed/test/16438.npy",
+    "label": "disappear",
+    "label_idx": 273
+  },
+  {
+    "path": "data/processed/test/17595.npy",
+    "label": "draw",
+    "label_idx": 275
+  },
+  {
+    "path": "data/processed/test/18289.npy",
+    "label": "east",
+    "label_idx": 276
+  },
+  {
+    "path": "data/processed/test/18291.npy",
+    "label": "east",
+    "label_idx": 276
+  },
+  {
+    "path": "data/processed/test/18307.npy",
+    "label": "easy",
+    "label_idx": 277
+  },
+  {
+    "path": "data/processed/test/18486.npy",
+    "label": "egg",
+    "label_idx": 278
+  },
+  {
+    "path": "data/processed/test/19410.npy",
+    "label": "environment",
+    "label_idx": 279
+  },
+  {
+    "path": "data/processed/test/21204.npy",
+    "label": "father",
+    "label_idx": 280
+  },
+  {
+    "path": "data/processed/test/22549.npy",
+    "label": "flower",
+    "label_idx": 282
+  },
+  {
+    "path": "data/processed/test/22551.npy",
+    "label": "flower",
+    "label_idx": 282
+  },
+  {
+    "path": "data/processed/test/23581.npy",
+    "label": "friendly",
+    "label_idx": 283
+  },
+  {
+    "path": "data/processed/test/23583.npy",
+    "label": "friendly",
+    "label_idx": 283
+  },
+  {
+    "path": "data/processed/test/26568.npy",
+    "label": "hard",
+    "label_idx": 286
+  },
+  {
+    "path": "data/processed/test/26570.npy",
+    "label": "hard",
+    "label_idx": 286
+  },
+  {
+    "path": "data/processed/test/28308.npy",
+    "label": "humble",
+    "label_idx": 289
+  },
+  {
+    "path": "data/processed/test/29137.npy",
+    "label": "improve",
+    "label_idx": 291
+  },
+  {
+    "path": "data/processed/test/29139.npy",
+    "label": "improve",
+    "label_idx": 291
+  },
+  {
+    "path": "data/processed/test/30232.npy",
+    "label": "internet",
+    "label_idx": 292
+  },
+  {
+    "path": "data/processed/test/31650.npy",
+    "label": "kill",
+    "label_idx": 294
+  },
+  {
+    "path": "data/processed/test/32449.npy",
+    "label": "law",
+    "label_idx": 295
+  },
+  {
+    "path": "data/processed/test/35114.npy",
+    "label": "match",
+    "label_idx": 296
+  },
+  {
+    "path": "data/processed/test/35362.npy",
+    "label": "meat",
+    "label_idx": 297
+  },
+  {
+    "path": "data/processed/test/35364.npy",
+    "label": "meat",
+    "label_idx": 297
+  },
+  {
+    "path": "data/processed/test/36047.npy",
+    "label": "milk",
+    "label_idx": 298
+  },
+  {
+    "path": "data/processed/test/36648.npy",
+    "label": "money",
+    "label_idx": 299
+  }
+]

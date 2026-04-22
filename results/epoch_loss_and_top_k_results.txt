@@ -1,0 +1,898 @@
+Epoch 001/150 | Loss: 6.4383 | Top-1: 0.034 | Top-5: 0.116 | LR: 3.00e-04 | 73.0s                                       
+Epoch 002/150 | Loss: 4.9950 | Top-1: 0.058 | Top-5: 0.174 | LR: 3.00e-04 | 72.9s                                       
+Epoch 003/150 | Loss: 4.3737 | Top-1: 0.083 | Top-5: 0.209 | LR: 3.00e-04 | 71.6s                                       
+Epoch 004/150 | Loss: 3.8884 | Top-1: 0.109 | Top-5: 0.267 | LR: 2.99e-04 | 68.6s                                       
+Epoch 005/150 | Loss: 3.5556 | Top-1: 0.118 | Top-5: 0.281 | LR: 2.99e-04 | 67.9s                                       
+Epoch 006/150 | Loss: 3.3242 | Top-1: 0.139 | Top-5: 0.310 | LR: 2.99e-04 | 69.0s                                       
+Epoch 007/150 | Loss: 3.1481 | Top-1: 0.172 | Top-5: 0.373 | LR: 2.98e-04 | 69.7s                                       
+Epoch 008/150 | Loss: 3.0061 | Top-1: 0.160 | Top-5: 0.335 | LR: 2.98e-04 | 69.6s                                       
+Epoch 009/150 | Loss: 2.8889 | Top-1: 0.180 | Top-5: 0.362 | LR: 2.97e-04 | 78.2s                                       
+Epoch 010/150 | Loss: 2.7870 | Top-1: 0.188 | Top-5: 0.372 | LR: 2.97e-04 | 94.9s                                       
+Epoch 011/150 | Loss: 2.6931 | Top-1: 0.218 | Top-5: 0.425 | LR: 2.96e-04 | 93.3s                                       
+Epoch 012/150 | Loss: 2.6156 | Top-1: 0.196 | Top-5: 0.394 | LR: 2.95e-04 | 94.1s                                       
+Epoch 013/150 | Loss: 2.5466 | Top-1: 0.200 | Top-5: 0.392 | LR: 2.94e-04 | 95.0s                                       
+Epoch 014/150 | Loss: 2.4879 | Top-1: 0.220 | Top-5: 0.417 | LR: 2.94e-04 | 94.3s                                       
+Epoch 015/150 | Loss: 2.4281 | Top-1: 0.216 | Top-5: 0.411 | LR: 2.93e-04 | 94.5s                                       
+Epoch 016/150 | Loss: 2.3756 | Top-1: 0.220 | Top-5: 0.403 | LR: 2.92e-04 | 94.7s                                       
+Epoch 017/150 | Loss: 2.3262 | Top-1: 0.247 | Top-5: 0.457 | LR: 2.91e-04 | 95.8s                                       
+Epoch 018/150 | Loss: 2.2835 | Top-1: 0.219 | Top-5: 0.409 | LR: 2.90e-04 | 96.5s                                       
+Epoch 019/150 | Loss: 2.2421 | Top-1: 0.250 | Top-5: 0.448 | LR: 2.88e-04 | 95.1s                                       
+Epoch 020/150 | Loss: 2.1976 | Top-1: 0.253 | Top-5: 0.453 | LR: 2.87e-04 | 92.4s                                       
+Epoch 021/150 | Loss: 2.1745 | Top-1: 0.227 | Top-5: 0.413 | LR: 2.86e-04 | 94.7s                                       
+Epoch 022/150 | Loss: 2.1380 | Top-1: 0.217 | Top-5: 0.402 | LR: 2.84e-04 | 95.3s                                       
+Epoch 023/150 | Loss: 2.1090 | Top-1: 0.252 | Top-5: 0.445 | LR: 2.83e-04 | 96.7s                                       
+Epoch 024/150 | Loss: 2.0818 | Top-1: 0.237 | Top-5: 0.425 | LR: 2.82e-04 | 90.8s                                       
+Epoch 025/150 | Loss: 2.0493 | Top-1: 0.257 | Top-5: 0.455 | LR: 2.80e-04 | 90.2s                                       
+Epoch 026/150 | Loss: 2.0238 | Top-1: 0.279 | Top-5: 0.477 | LR: 2.78e-04 | 90.0s                                       
+  ✓ New best: 0.279 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 027/150 | Loss: 1.9985 | Top-1: 0.268 | Top-5: 0.464 | LR: 2.77e-04 | 91.4s                                       
+Epoch 028/150 | Loss: 1.9768 | Top-1: 0.304 | Top-5: 0.498 | LR: 2.75e-04 | 94.2s                                       
+  ✓ New best: 0.304 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 029/150 | Loss: 1.9556 | Top-1: 0.277 | Top-5: 0.471 | LR: 2.73e-04 | 93.1s                                       
+Epoch 030/150 | Loss: 1.9415 | Top-1: 0.299 | Top-5: 0.485 | LR: 2.71e-04 | 90.2s                                       
+Epoch 031/150 | Loss: 1.9193 | Top-1: 0.280 | Top-5: 0.481 | LR: 2.70e-04 | 91.0s                                       
+Epoch 032/150 | Loss: 1.9007 | Top-1: 0.310 | Top-5: 0.510 | LR: 2.68e-04 | 90.1s                                       
+  ✓ New best: 0.310 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 033/150 | Loss: 1.8834 | Top-1: 0.314 | Top-5: 0.524 | LR: 2.66e-04 | 86.0s                                       
+  ✓ New best: 0.314 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 034/150 | Loss: 1.8687 | Top-1: 0.314 | Top-5: 0.514 | LR: 2.64e-04 | 86.1s                                       
+  ✓ New best: 0.314 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 035/150 | Loss: 1.8543 | Top-1: 0.334 | Top-5: 0.538 | LR: 2.62e-04 | 90.4s                                       
+  ✓ New best: 0.334 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 036/150 | Loss: 1.8372 | Top-1: 0.332 | Top-5: 0.535 | LR: 2.59e-04 | 89.9s                                       
+Epoch 037/150 | Loss: 1.8205 | Top-1: 0.337 | Top-5: 0.557 | LR: 2.57e-04 | 89.8s                                       
+  ✓ New best: 0.337 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 038/150 | Loss: 1.8091 | Top-1: 0.330 | Top-5: 0.535 | LR: 2.55e-04 | 90.5s                                       
+Epoch 039/150 | Loss: 1.7946 | Top-1: 0.324 | Top-5: 0.526 | LR: 2.53e-04 | 90.4s                                       
+Epoch 040/150 | Loss: 1.7889 | Top-1: 0.307 | Top-5: 0.504 | LR: 2.51e-04 | 88.2s                                       
+Epoch 041/150 | Loss: 1.7765 | Top-1: 0.308 | Top-5: 0.504 | LR: 2.48e-04 | 89.5s                                       
+Epoch 042/150 | Loss: 1.7600 | Top-1: 0.340 | Top-5: 0.542 | LR: 2.46e-04 | 89.6s                                       
+  ✓ New best: 0.340 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 043/150 | Loss: 1.7513 | Top-1: 0.342 | Top-5: 0.539 | LR: 2.43e-04 | 89.8s                                       
+  ✓ New best: 0.342 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 044/150 | Loss: 1.7393 | Top-1: 0.322 | Top-5: 0.514 | LR: 2.41e-04 | 89.0s                                       
+Epoch 045/150 | Loss: 1.7302 | Top-1: 0.343 | Top-5: 0.539 | LR: 2.38e-04 | 89.0s                                       
+  ✓ New best: 0.343 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 046/150 | Loss: 1.7188 | Top-1: 0.334 | Top-5: 0.538 | LR: 2.36e-04 | 90.1s                                       
+Epoch 047/150 | Loss: 1.7114 | Top-1: 0.331 | Top-5: 0.534 | LR: 2.33e-04 | 87.2s                                       
+Epoch 048/150 | Loss: 1.7032 | Top-1: 0.339 | Top-5: 0.539 | LR: 2.31e-04 | 90.2s                                       
+Epoch 049/150 | Loss: 1.6917 | Top-1: 0.330 | Top-5: 0.526 | LR: 2.28e-04 | 92.1s                                       
+Epoch 050/150 | Loss: 1.6843 | Top-1: 0.333 | Top-5: 0.538 | LR: 2.25e-04 | 90.2s                                       
+Epoch 051/150 | Loss: 1.6734 | Top-1: 0.346 | Top-5: 0.541 | LR: 2.23e-04 | 93.5s                                       
+  ✓ New best: 0.346 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 052/150 | Loss: 1.6705 | Top-1: 0.356 | Top-5: 0.547 | LR: 2.20e-04 | 95.2s                                       
+  ✓ New best: 0.356 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 053/150 | Loss: 1.6651 | Top-1: 0.351 | Top-5: 0.540 | LR: 2.17e-04 | 94.4s                                       
+Epoch 054/150 | Loss: 1.6512 | Top-1: 0.352 | Top-5: 0.544 | LR: 2.14e-04 | 94.9s                                       
+Epoch 055/150 | Loss: 1.6445 | Top-1: 0.345 | Top-5: 0.547 | LR: 2.11e-04 | 92.1s                                       
+Epoch 056/150 | Loss: 1.6356 | Top-1: 0.345 | Top-5: 0.536 | LR: 2.08e-04 | 92.6s                                       
+Epoch 057/150 | Loss: 1.6314 | Top-1: 0.366 | Top-5: 0.566 | LR: 2.06e-04 | 91.5s                                       
+  ✓ New best: 0.366 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 058/150 | Loss: 1.6289 | Top-1: 0.363 | Top-5: 0.559 | LR: 2.03e-04 | 95.8s                                       
+Epoch 059/150 | Loss: 1.6197 | Top-1: 0.349 | Top-5: 0.546 | LR: 2.00e-04 | 98.6s                                       
+Epoch 060/150 | Loss: 1.6136 | Top-1: 0.334 | Top-5: 0.524 | LR: 1.97e-04 | 97.2s                                       
+Epoch 061/150 | Loss: 1.6070 | Top-1: 0.362 | Top-5: 0.554 | LR: 1.94e-04 | 95.2s                                       
+Epoch 062/150 | Loss: 1.6004 | Top-1: 0.364 | Top-5: 0.558 | LR: 1.91e-04 | 91.4s                                       
+Epoch 063/150 | Loss: 1.5958 | Top-1: 0.359 | Top-5: 0.560 | LR: 1.88e-04 | 92.4s                                       
+Epoch 064/150 | Loss: 1.5864 | Top-1: 0.354 | Top-5: 0.548 | LR: 1.85e-04 | 93.4s                                       
+Epoch 065/150 | Loss: 1.5815 | Top-1: 0.383 | Top-5: 0.591 | LR: 1.82e-04 | 93.1s                                       
+  ✓ New best: 0.383 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 066/150 | Loss: 1.5796 | Top-1: 0.370 | Top-5: 0.572 | LR: 1.79e-04 | 89.8s                                       
+Epoch 067/150 | Loss: 1.5700 | Top-1: 0.380 | Top-5: 0.580 | LR: 1.75e-04 | 89.1s                                       
+Epoch 068/150 | Loss: 1.5665 | Top-1: 0.368 | Top-5: 0.558 | LR: 1.72e-04 | 89.3s                                       
+Epoch 069/150 | Loss: 1.5634 | Top-1: 0.366 | Top-5: 0.566 | LR: 1.69e-04 | 89.0s                                       
+Epoch 070/150 | Loss: 1.5549 | Top-1: 0.376 | Top-5: 0.574 | LR: 1.66e-04 | 88.9s                                       
+Epoch 071/150 | Loss: 1.5514 | Top-1: 0.370 | Top-5: 0.567 | LR: 1.63e-04 | 89.6s                                       
+Epoch 072/150 | Loss: 1.5441 | Top-1: 0.373 | Top-5: 0.566 | LR: 1.60e-04 | 88.4s                                       
+Epoch 073/150 | Loss: 1.5454 | Top-1: 0.367 | Top-5: 0.567 | LR: 1.57e-04 | 87.9s                                       
+Epoch 074/150 | Loss: 1.5377 | Top-1: 0.389 | Top-5: 0.590 | LR: 1.54e-04 | 89.0s                                       
+  ✓ New best: 0.389 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 075/150 | Loss: 1.5327 | Top-1: 0.360 | Top-5: 0.558 | LR: 1.50e-04 | 88.5s                                       
+Epoch 076/150 | Loss: 1.5297 | Top-1: 0.346 | Top-5: 0.528 | LR: 1.47e-04 | 88.0s                                       
+Epoch 077/150 | Loss: 1.5268 | Top-1: 0.369 | Top-5: 0.565 | LR: 1.44e-04 | 88.2s                                       
+Epoch 078/150 | Loss: 1.5198 | Top-1: 0.378 | Top-5: 0.574 | LR: 1.41e-04 | 87.6s                                       
+Epoch 079/150 | Loss: 1.5160 | Top-1: 0.374 | Top-5: 0.560 | LR: 1.38e-04 | 88.4s                                       
+Epoch 080/150 | Loss: 1.5118 | Top-1: 0.380 | Top-5: 0.577 | LR: 1.35e-04 | 88.4s                                       
+Epoch 081/150 | Loss: 1.5100 | Top-1: 0.375 | Top-5: 0.567 | LR: 1.32e-04 | 88.8s                                       
+Epoch 082/150 | Loss: 1.5063 | Top-1: 0.380 | Top-5: 0.575 | LR: 1.29e-04 | 88.3s                                       
+Epoch 083/150 | Loss: 1.5006 | Top-1: 0.385 | Top-5: 0.577 | LR: 1.26e-04 | 89.0s                                       
+Epoch 084/150 | Loss: 1.4986 | Top-1: 0.379 | Top-5: 0.570 | LR: 1.22e-04 | 87.9s                                       
+Epoch 085/150 | Loss: 1.4931 | Top-1: 0.389 | Top-5: 0.585 | LR: 1.19e-04 | 88.8s                                       
+  ✓ New best: 0.389 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 086/150 | Loss: 1.4900 | Top-1: 0.384 | Top-5: 0.581 | LR: 1.16e-04 | 88.7s                                       
+Epoch 087/150 | Loss: 1.4879 | Top-1: 0.369 | Top-5: 0.560 | LR: 1.13e-04 | 88.2s                                       
+Epoch 088/150 | Loss: 1.4850 | Top-1: 0.380 | Top-5: 0.577 | LR: 1.10e-04 | 88.8s                                       
+Epoch 089/150 | Loss: 1.4806 | Top-1: 0.388 | Top-5: 0.576 | LR: 1.07e-04 | 87.9s                                       
+Epoch 090/150 | Loss: 1.4786 | Top-1: 0.375 | Top-5: 0.564 | LR: 1.04e-04 | 88.2s                                       
+Epoch 091/150 | Loss: 1.4760 | Top-1: 0.376 | Top-5: 0.569 | LR: 1.01e-04 | 88.2s                                       
+Epoch 092/150 | Loss: 1.4731 | Top-1: 0.387 | Top-5: 0.578 | LR: 9.84e-05 | 88.7s                                       
+Epoch 093/150 | Loss: 1.4716 | Top-1: 0.385 | Top-5: 0.585 | LR: 9.55e-05 | 88.3s                                       
+Epoch 094/150 | Loss: 1.4670 | Top-1: 0.375 | Top-5: 0.564 | LR: 9.26e-05 | 88.5s                                       
+Epoch 095/150 | Loss: 1.4648 | Top-1: 0.375 | Top-5: 0.568 | LR: 8.97e-05 | 88.1s                                       
+Epoch 096/150 | Loss: 1.4620 | Top-1: 0.369 | Top-5: 0.562 | LR: 8.68e-05 | 87.9s                                       
+Epoch 097/150 | Loss: 1.4572 | Top-1: 0.385 | Top-5: 0.572 | LR: 8.40e-05 | 87.8s                                       
+Epoch 098/150 | Loss: 1.4564 | Top-1: 0.385 | Top-5: 0.580 | LR: 8.12e-05 | 87.9s                                       
+Epoch 099/150 | Loss: 1.4519 | Top-1: 0.384 | Top-5: 0.571 | LR: 7.85e-05 | 89.1s                                       
+Epoch 100/150 | Loss: 1.4506 | Top-1: 0.388 | Top-5: 0.579 | LR: 7.57e-05 | 88.9s                                       
+Epoch 101/150 | Loss: 1.4514 | Top-1: 0.388 | Top-5: 0.586 | LR: 7.31e-05 | 88.7s                                       
+Epoch 102/150 | Loss: 1.4427 | Top-1: 0.384 | Top-5: 0.575 | LR: 7.04e-05 | 89.3s                                       
+Epoch 103/150 | Loss: 1.4443 | Top-1: 0.379 | Top-5: 0.573 | LR: 6.78e-05 | 88.3s                                       
+Epoch 104/150 | Loss: 1.4404 | Top-1: 0.385 | Top-5: 0.581 | LR: 6.52e-05 | 88.9s                                       
+Epoch 105/150 | Loss: 1.4394 | Top-1: 0.387 | Top-5: 0.581 | LR: 6.26e-05 | 87.2s                                       
+Epoch 106/150 | Loss: 1.4352 | Top-1: 0.398 | Top-5: 0.585 | LR: 6.01e-05 | 87.0s                                       
+  ✓ New best: 0.398 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 107/150 | Loss: 1.4338 | Top-1: 0.385 | Top-5: 0.582 | LR: 5.76e-05 | 89.1s                                       
+Epoch 108/150 | Loss: 1.4337 | Top-1: 0.381 | Top-5: 0.571 | LR: 5.52e-05 | 88.9s                                       
+Epoch 109/150 | Loss: 1.4309 | Top-1: 0.385 | Top-5: 0.579 | LR: 5.28e-05 | 89.3s                                       
+Epoch 110/150 | Loss: 1.4274 | Top-1: 0.384 | Top-5: 0.578 | LR: 5.05e-05 | 89.3s                                       
+Epoch 111/150 | Loss: 1.4266 | Top-1: 0.393 | Top-5: 0.583 | LR: 4.82e-05 | 88.4s                                       
+Epoch 112/150 | Loss: 1.4266 | Top-1: 0.385 | Top-5: 0.580 | LR: 4.59e-05 | 88.8s                                       
+Epoch 113/150 | Loss: 1.4218 | Top-1: 0.394 | Top-5: 0.586 | LR: 4.37e-05 | 88.8s                                       
+Epoch 114/150 | Loss: 1.4237 | Top-1: 0.393 | Top-5: 0.585 | LR: 4.15e-05 | 89.1s                                       
+Epoch 115/150 | Loss: 1.4219 | Top-1: 0.388 | Top-5: 0.580 | LR: 3.94e-05 | 89.6s                                       
+Epoch 116/150 | Loss: 1.4202 | Top-1: 0.385 | Top-5: 0.577 | LR: 3.73e-05 | 88.7s                                       
+Epoch 117/150 | Loss: 1.4181 | Top-1: 0.393 | Top-5: 0.587 | LR: 3.53e-05 | 87.6s                                       
+Epoch 118/150 | Loss: 1.4158 | Top-1: 0.398 | Top-5: 0.592 | LR: 3.33e-05 | 88.3s                                       
+Epoch 119/150 | Loss: 1.4142 | Top-1: 0.397 | Top-5: 0.584 | LR: 3.14e-05 | 88.7s                                       
+Epoch 120/150 | Loss: 1.4125 | Top-1: 0.397 | Top-5: 0.588 | LR: 2.96e-05 | 88.5s                                       
+Epoch 121/150 | Loss: 1.4127 | Top-1: 0.394 | Top-5: 0.585 | LR: 2.77e-05 | 89.0s                                       
+Epoch 122/150 | Loss: 1.4110 | Top-1: 0.396 | Top-5: 0.584 | LR: 2.60e-05 | 88.9s                                       
+Epoch 123/150 | Loss: 1.4101 | Top-1: 0.399 | Top-5: 0.587 | LR: 2.43e-05 | 89.0s                                       
+  ✓ New best: 0.399 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 124/150 | Loss: 1.4090 | Top-1: 0.392 | Top-5: 0.581 | LR: 2.26e-05 | 88.6s                                       
+Epoch 125/150 | Loss: 1.4082 | Top-1: 0.394 | Top-5: 0.584 | LR: 2.10e-05 | 89.0s                                       
+Epoch 126/150 | Loss: 1.4080 | Top-1: 0.397 | Top-5: 0.581 | LR: 1.95e-05 | 89.1s                                       
+Epoch 127/150 | Loss: 1.4062 | Top-1: 0.393 | Top-5: 0.581 | LR: 1.80e-05 | 89.0s                                       
+Epoch 128/150 | Loss: 1.4044 | Top-1: 0.401 | Top-5: 0.589 | LR: 1.66e-05 | 88.8s                                       
+  ✓ New best: 0.401 → saved to models/checkpoints/transformer_d128_l3_v1896_combined_best.pt
+Epoch 129/150 | Loss: 1.4007 | Top-1: 0.395 | Top-5: 0.581 | LR: 1.52e-05 | 88.8s                                       
+Epoch 130/150 | Loss: 1.4043 | Top-1: 0.399 | Top-5: 0.588 | LR: 1.39e-05 | 88.7s                                       
+Epoch 131/150 | Loss: 1.4015 | Top-1: 0.395 | Top-5: 0.583 | LR: 1.27e-05 | 88.7s                                       
+Epoch 132/150 | Loss: 1.4021 | Top-1: 0.393 | Top-5: 0.585 | LR: 1.15e-05 | 88.6s                                       
+Epoch 133/150 | Loss: 1.4026 | Top-1: 0.398 | Top-5: 0.584 | LR: 1.04e-05 | 88.5s                                       
+Epoch 134/150 | Loss: 1.3992 | Top-1: 0.399 | Top-5: 0.585 | LR: 9.32e-06 | 88.7s                                       
+Epoch 135/150 | Loss: 1.4022 | Top-1: 0.398 | Top-5: 0.585 | LR: 8.32e-06 | 88.7s                                       
+Epoch 136/150 | Loss: 1.4006 | Top-1: 0.397 | Top-5: 0.586 | LR: 7.38e-06 | 87.6s                                       
+Epoch 137/150 | Loss: 1.3989 | Top-1: 0.398 | Top-5: 0.587 | LR: 6.51e-06 | 89.0s                                       
+Epoch 138/150 | Loss: 1.4016 | Top-1: 0.393 | Top-5: 0.583 | LR: 5.70e-06 | 88.7s                                       
+Epoch 139/150 | Loss: 1.3975 | Top-1: 0.398 | Top-5: 0.588 | LR: 4.95e-06 | 88.4s                                       
+Epoch 140/150 | Loss: 1.3962 | Top-1: 0.398 | Top-5: 0.586 | LR: 4.27e-06 | 88.5s                                       
+Epoch 141/150 | Loss: 1.3966 | Top-1: 0.394 | Top-5: 0.585 | LR: 3.65e-06 | 88.6s                                       
+Epoch 142/150 | Loss: 1.3975 | Top-1: 0.394 | Top-5: 0.586 | LR: 3.09e-06 | 89.1s                                       
+Epoch 143/150 | Loss: 1.3980 | Top-1: 0.396 | Top-5: 0.588 | LR: 2.60e-06 | 88.5s                                       
+Epoch 144/150 | Loss: 1.3956 | Top-1: 0.396 | Top-5: 0.588 | LR: 2.18e-06 | 88.6s                                       
+Epoch 145/150 | Loss: 1.3957 | Top-1: 0.396 | Top-5: 0.587 | LR: 1.82e-06 | 88.3s                                       
+Epoch 146/150 | Loss: 1.3973 | Top-1: 0.398 | Top-5: 0.588 | LR: 1.52e-06 | 88.9s                                       
+Epoch 147/150 | Loss: 1.3957 | Top-1: 0.400 | Top-5: 0.588 | LR: 1.30e-06 | 88.6s                                       
+Epoch 148/150 | Loss: 1.3962 | Top-1: 0.397 | Top-5: 0.587 | LR: 1.13e-06 | 87.7s                                       
+Epoch 149/150 | Loss: 1.3970 | Top-1: 0.399 | Top-5: 0.589 | LR: 1.03e-06 | 89.1s                                       
+Epoch 150/150 | Loss: 1.3954 | Top-1: 0.399 | Top-5: 0.587 | LR: 1.00e-06 | 90.1s                                       
+
+Training complete. Best Top-1: 0.401
+
+=== Per-class accuracy breakdown ===
+Top-10 classes:                                                                                                         
+  finish               3/3  (100%)
+  jump                 3/3  (100%)
+  beard                3/3  (100%)
+  many                 3/3  (100%)
+  more                 3/3  (100%)
+  move                 3/3  (100%)
+  last                 3/3  (100%)
+  glasses              3/3  (100%)
+  go                   3/3  (100%)
+  purple               3/3  (100%)
+Bottom-10 classes:
+  necklace             0/1  (0%)
+  compare              0/1  (0%)
+  right                0/1  (0%)
+  arm                  0/1  (0%)
+  what                 0/1  (0%)
+  turkey               0/1  (0%)
+  police               0/1  (0%)
+  problem              0/1  (0%)
+  short                0/1  (0%)
+  approve              0/1  (0%)
+
+Classes with 0% accuracy: 577/1896
+Per-class results saved → results/metrics/transformer_d128_l3_v1896_combined_per_class.json
+
+
+khuranaradhika@Mac asl-realtime % python3 -m src.train --vocab 1896 --epochs 450 --combined --workers 0 --d_model 256 --n_layers 4
+Device: mps
+[train/combined] 52998 samples loaded
+[val/wlasl] 5567 samples loaded
+/Users/khuranaradhika/asl-realtime/src/model.py:294: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder    = nn.TransformerEncoder(enc_layer, num_layers=n_layers)
+Model parameters: 2,628,200
+Training:   0%|                                                                                | 0/1656 [00:00<?, ?it/s]/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+Epoch 001/450 | Loss: 6.0953 | Top-1: 0.036 | Top-5: 0.111 | LR: 3.00e-04 | 126.1s                                      
+  ✓ New best: 0.036 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 002/450 | Loss: 4.2705 | Top-1: 0.079 | Top-5: 0.204 | LR: 3.00e-04 | 125.4s                                      
+  ✓ New best: 0.079 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 003/450 | Loss: 3.5586 | Top-1: 0.104 | Top-5: 0.241 | LR: 3.00e-04 | 124.9s                                      
+  ✓ New best: 0.104 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 004/450 | Loss: 3.1312 | Top-1: 0.138 | Top-5: 0.292 | LR: 3.00e-04 | 124.4s                                      
+  ✓ New best: 0.138 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 005/450 | Loss: 2.8344 | Top-1: 0.136 | Top-5: 0.291 | LR: 3.00e-04 | 124.9s                                      
+Epoch 006/450 | Loss: 2.6194 | Top-1: 0.145 | Top-5: 0.309 | LR: 3.00e-04 | 124.8s                                      
+  ✓ New best: 0.145 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 007/450 | Loss: 2.4461 | Top-1: 0.170 | Top-5: 0.336 | LR: 3.00e-04 | 124.9s                                      
+  ✓ New best: 0.170 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 008/450 | Loss: 2.3206 | Top-1: 0.162 | Top-5: 0.320 | LR: 3.00e-04 | 124.5s                                      
+Epoch 009/450 | Loss: 2.2074 | Top-1: 0.155 | Top-5: 0.308 | LR: 3.00e-04 | 124.0s                                      
+Epoch 010/450 | Loss: 2.1289 | Top-1: 0.154 | Top-5: 0.307 | LR: 3.00e-04 | 124.3s                                      
+Epoch 011/450 | Loss: 2.0533 | Top-1: 0.177 | Top-5: 0.334 | LR: 3.00e-04 | 123.2s                                      
+  ✓ New best: 0.177 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 012/450 | Loss: 1.9957 | Top-1: 0.190 | Top-5: 0.357 | LR: 2.99e-04 | 123.7s                                      
+  ✓ New best: 0.190 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 013/450 | Loss: 1.9308 | Top-1: 0.233 | Top-5: 0.407 | LR: 2.99e-04 | 124.8s                                      
+  ✓ New best: 0.233 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 014/450 | Loss: 1.8902 | Top-1: 0.212 | Top-5: 0.385 | LR: 2.99e-04 | 125.3s                                      
+Epoch 015/450 | Loss: 1.8343 | Top-1: 0.233 | Top-5: 0.413 | LR: 2.99e-04 | 125.8s                                      
+  ✓ New best: 0.233 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 016/450 | Loss: 1.8033 | Top-1: 0.189 | Top-5: 0.353 | LR: 2.99e-04 | 124.3s                                      
+Epoch 017/450 | Loss: 1.7659 | Top-1: 0.234 | Top-5: 0.409 | LR: 2.99e-04 | 124.1s                                      
+  ✓ New best: 0.234 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 018/450 | Loss: 1.7389 | Top-1: 0.227 | Top-5: 0.397 | LR: 2.99e-04 | 125.0s                                      
+Epoch 019/450 | Loss: 1.7055 | Top-1: 0.240 | Top-5: 0.413 | LR: 2.99e-04 | 123.8s                                      
+  ✓ New best: 0.240 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 020/450 | Loss: 1.6844 | Top-1: 0.276 | Top-5: 0.460 | LR: 2.99e-04 | 125.3s                                      
+  ✓ New best: 0.276 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 021/450 | Loss: 1.6531 | Top-1: 0.272 | Top-5: 0.455 | LR: 2.98e-04 | 124.6s                                      
+Epoch 022/450 | Loss: 1.6310 | Top-1: 0.281 | Top-5: 0.473 | LR: 2.98e-04 | 124.3s                                      
+  ✓ New best: 0.281 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 023/450 | Loss: 1.6157 | Top-1: 0.293 | Top-5: 0.478 | LR: 2.98e-04 | 124.7s                                      
+  ✓ New best: 0.293 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 024/450 | Loss: 1.5942 | Top-1: 0.295 | Top-5: 0.486 | LR: 2.98e-04 | 124.6s                                      
+  ✓ New best: 0.295 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 025/450 | Loss: 1.5778 | Top-1: 0.274 | Top-5: 0.463 | LR: 2.98e-04 | 123.9s                                      
+Epoch 026/450 | Loss: 1.5650 | Top-1: 0.313 | Top-5: 0.502 | LR: 2.98e-04 | 124.4s                                      
+  ✓ New best: 0.313 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 027/450 | Loss: 1.5478 | Top-1: 0.267 | Top-5: 0.451 | LR: 2.97e-04 | 122.8s                                      
+Epoch 028/450 | Loss: 1.5365 | Top-1: 0.277 | Top-5: 0.458 | LR: 2.97e-04 | 121.5s                                      
+Epoch 029/450 | Loss: 1.5219 | Top-1: 0.267 | Top-5: 0.444 | LR: 2.97e-04 | 121.5s                                      
+Epoch 030/450 | Loss: 1.5114 | Top-1: 0.295 | Top-5: 0.486 | LR: 2.97e-04 | 121.6s                                      
+Epoch 031/450 | Loss: 1.4968 | Top-1: 0.303 | Top-5: 0.490 | LR: 2.97e-04 | 121.9s                                      
+Epoch 032/450 | Loss: 1.4891 | Top-1: 0.309 | Top-5: 0.500 | LR: 2.96e-04 | 122.2s                                      
+Epoch 033/450 | Loss: 1.4774 | Top-1: 0.295 | Top-5: 0.491 | LR: 2.96e-04 | 121.4s                                      
+Epoch 034/450 | Loss: 1.4677 | Top-1: 0.328 | Top-5: 0.518 | LR: 2.96e-04 | 121.7s                                      
+  ✓ New best: 0.328 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 035/450 | Loss: 1.4596 | Top-1: 0.302 | Top-5: 0.502 | LR: 2.96e-04 | 122.4s                                      
+Epoch 036/450 | Loss: 1.4510 | Top-1: 0.319 | Top-5: 0.502 | LR: 2.95e-04 | 121.6s                                      
+Epoch 037/450 | Loss: 1.4443 | Top-1: 0.317 | Top-5: 0.496 | LR: 2.95e-04 | 121.9s                                      
+Epoch 038/450 | Loss: 1.4392 | Top-1: 0.323 | Top-5: 0.487 | LR: 2.95e-04 | 121.6s                                      
+Epoch 039/450 | Loss: 1.4280 | Top-1: 0.346 | Top-5: 0.532 | LR: 2.94e-04 | 122.2s                                      
+  ✓ New best: 0.346 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 040/450 | Loss: 1.4257 | Top-1: 0.315 | Top-5: 0.493 | LR: 2.94e-04 | 122.2s                                      
+Epoch 041/450 | Loss: 1.4167 | Top-1: 0.322 | Top-5: 0.508 | LR: 2.94e-04 | 121.5s                                      
+Epoch 042/450 | Loss: 1.4095 | Top-1: 0.353 | Top-5: 0.532 | LR: 2.94e-04 | 122.3s                                      
+  ✓ New best: 0.353 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 043/450 | Loss: 1.4059 | Top-1: 0.348 | Top-5: 0.530 | LR: 2.93e-04 | 122.6s                                      
+Epoch 044/450 | Loss: 1.3981 | Top-1: 0.371 | Top-5: 0.558 | LR: 2.93e-04 | 123.1s                                      
+  ✓ New best: 0.371 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 045/450 | Loss: 1.3911 | Top-1: 0.366 | Top-5: 0.549 | LR: 2.93e-04 | 122.8s                                      
+Epoch 046/450 | Loss: 1.3911 | Top-1: 0.341 | Top-5: 0.521 | LR: 2.92e-04 | 121.5s                                      
+Epoch 047/450 | Loss: 1.3841 | Top-1: 0.360 | Top-5: 0.550 | LR: 2.92e-04 | 122.0s                                      
+Epoch 048/450 | Loss: 1.3812 | Top-1: 0.363 | Top-5: 0.543 | LR: 2.92e-04 | 121.1s                                      
+Epoch 049/450 | Loss: 1.3754 | Top-1: 0.349 | Top-5: 0.525 | LR: 2.91e-04 | 121.2s                                      
+Epoch 050/450 | Loss: 1.3719 | Top-1: 0.359 | Top-5: 0.549 | LR: 2.91e-04 | 122.1s                                      
+Epoch 051/450 | Loss: 1.3675 | Top-1: 0.339 | Top-5: 0.515 | LR: 2.91e-04 | 121.7s                                      
+Epoch 052/450 | Loss: 1.3644 | Top-1: 0.339 | Top-5: 0.518 | LR: 2.90e-04 | 122.1s                                      
+Epoch 053/450 | Loss: 1.3575 | Top-1: 0.344 | Top-5: 0.530 | LR: 2.90e-04 | 122.1s                                      
+Epoch 054/450 | Loss: 1.3572 | Top-1: 0.351 | Top-5: 0.534 | LR: 2.90e-04 | 122.1s                                      
+Epoch 055/450 | Loss: 1.3507 | Top-1: 0.393 | Top-5: 0.582 | LR: 2.89e-04 | 123.1s                                      
+  ✓ New best: 0.393 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 056/450 | Loss: 1.3499 | Top-1: 0.354 | Top-5: 0.541 | LR: 2.89e-04 | 123.2s                                      
+Epoch 057/450 | Loss: 1.3472 | Top-1: 0.362 | Top-5: 0.539 | LR: 2.88e-04 | 122.2s                                      
+Epoch 058/450 | Loss: 1.3448 | Top-1: 0.341 | Top-5: 0.510 | LR: 2.88e-04 | 122.7s                                      
+Epoch 059/450 | Loss: 1.3374 | Top-1: 0.368 | Top-5: 0.544 | LR: 2.87e-04 | 124.1s                                      
+Epoch 060/450 | Loss: 1.3374 | Top-1: 0.363 | Top-5: 0.544 | LR: 2.87e-04 | 122.0s                                      
+Epoch 061/450 | Loss: 1.3344 | Top-1: 0.367 | Top-5: 0.552 | LR: 2.87e-04 | 121.7s                                      
+Epoch 062/450 | Loss: 1.3333 | Top-1: 0.384 | Top-5: 0.566 | LR: 2.86e-04 | 122.8s                                      
+Epoch 063/450 | Loss: 1.3275 | Top-1: 0.377 | Top-5: 0.560 | LR: 2.86e-04 | 122.4s                                      
+Epoch 064/450 | Loss: 1.3275 | Top-1: 0.348 | Top-5: 0.520 | LR: 2.85e-04 | 121.9s                                      
+Epoch 065/450 | Loss: 1.3250 | Top-1: 0.362 | Top-5: 0.551 | LR: 2.85e-04 | 122.0s                                      
+Epoch 066/450 | Loss: 1.3210 | Top-1: 0.396 | Top-5: 0.582 | LR: 2.84e-04 | 121.8s                                      
+  ✓ New best: 0.396 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 067/450 | Loss: 1.3174 | Top-1: 0.353 | Top-5: 0.522 | LR: 2.84e-04 | 122.9s                                      
+Epoch 068/450 | Loss: 1.3195 | Top-1: 0.368 | Top-5: 0.548 | LR: 2.83e-04 | 140.9s                                      
+Epoch 069/450 | Loss: 1.3119 | Top-1: 0.373 | Top-5: 0.555 | LR: 2.83e-04 | 151.2s                                      
+Epoch 070/450 | Loss: 1.3123 | Top-1: 0.404 | Top-5: 0.592 | LR: 2.83e-04 | 154.2s                                      
+  ✓ New best: 0.404 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 071/450 | Loss: 1.3112 | Top-1: 0.383 | Top-5: 0.565 | LR: 2.82e-04 | 156.4s                                      
+Epoch 072/450 | Loss: 1.3077 | Top-1: 0.381 | Top-5: 0.569 | LR: 2.82e-04 | 156.2s                                      
+Epoch 073/450 | Loss: 1.3066 | Top-1: 0.400 | Top-5: 0.588 | LR: 2.81e-04 | 155.6s                                      
+Epoch 074/450 | Loss: 1.3047 | Top-1: 0.393 | Top-5: 0.576 | LR: 2.80e-04 | 156.0s                                      
+Epoch 075/450 | Loss: 1.3024 | Top-1: 0.378 | Top-5: 0.553 | LR: 2.80e-04 | 155.4s                                      
+Epoch 076/450 | Loss: 1.2997 | Top-1: 0.382 | Top-5: 0.557 | LR: 2.79e-04 | 155.5s                                      
+Epoch 077/450 | Loss: 1.2969 | Top-1: 0.407 | Top-5: 0.591 | LR: 2.79e-04 | 155.4s                                      
+  ✓ New best: 0.407 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 078/450 | Loss: 1.2962 | Top-1: 0.405 | Top-5: 0.584 | LR: 2.78e-04 | 155.4s                                      
+Epoch 079/450 | Loss: 1.2930 | Top-1: 0.372 | Top-5: 0.544 | LR: 2.78e-04 | 151.2s                                      
+Epoch 080/450 | Loss: 1.2940 | Top-1: 0.389 | Top-5: 0.576 | LR: 2.77e-04 | 148.9s                                      
+Epoch 081/450 | Loss: 1.2916 | Top-1: 0.372 | Top-5: 0.546 | LR: 2.77e-04 | 147.1s                                      
+Epoch 082/450 | Loss: 1.2884 | Top-1: 0.372 | Top-5: 0.542 | LR: 2.76e-04 | 145.3s                                      
+Epoch 083/450 | Loss: 1.2854 | Top-1: 0.377 | Top-5: 0.555 | LR: 2.76e-04 | 139.3s                                      
+Epoch 084/450 | Loss: 1.2848 | Top-1: 0.380 | Top-5: 0.546 | LR: 2.75e-04 | 126.4s                                      
+Epoch 085/450 | Loss: 1.2857 | Top-1: 0.375 | Top-5: 0.553 | LR: 2.74e-04 | 138.9s                                      
+Epoch 086/450 | Loss: 1.2837 | Top-1: 0.383 | Top-5: 0.567 | LR: 2.74e-04 | 143.8s                                      
+Epoch 087/450 | Loss: 1.2825 | Top-1: 0.372 | Top-5: 0.545 | LR: 2.73e-04 | 144.5s                                      
+Epoch 088/450 | Loss: 1.2797 | Top-1: 0.397 | Top-5: 0.579 | LR: 2.73e-04 | 144.7s                                      
+Epoch 089/450 | Loss: 1.2808 | Top-1: 0.407 | Top-5: 0.580 | LR: 2.72e-04 | 145.7s                                      
+Epoch 090/450 | Loss: 1.2768 | Top-1: 0.390 | Top-5: 0.570 | LR: 2.71e-04 | 147.8s                                      
+Epoch 091/450 | Loss: 1.2733 | Top-1: 0.391 | Top-5: 0.570 | LR: 2.71e-04 | 152.6s                                      
+Epoch 092/450 | Loss: 1.2735 | Top-1: 0.382 | Top-5: 0.558 | LR: 2.70e-04 | 152.5s                                      
+Epoch 093/450 | Loss: 1.2728 | Top-1: 0.403 | Top-5: 0.583 | LR: 2.70e-04 | 154.8s                                      
+Epoch 094/450 | Loss: 1.2696 | Top-1: 0.372 | Top-5: 0.537 | LR: 2.69e-04 | 156.9s                                      
+Epoch 095/450 | Loss: 1.2697 | Top-1: 0.377 | Top-5: 0.545 | LR: 2.68e-04 | 157.2s                                      
+Epoch 096/450 | Loss: 1.2697 | Top-1: 0.377 | Top-5: 0.557 | LR: 2.68e-04 | 157.4s                                      
+Epoch 097/450 | Loss: 1.2677 | Top-1: 0.382 | Top-5: 0.555 | LR: 2.67e-04 | 158.8s                                      
+Epoch 098/450 | Loss: 1.2669 | Top-1: 0.368 | Top-5: 0.533 | LR: 2.66e-04 | 157.1s                                      
+Epoch 099/450 | Loss: 1.2677 | Top-1: 0.407 | Top-5: 0.585 | LR: 2.66e-04 | 157.3s                                      
+  ✓ New best: 0.407 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 100/450 | Loss: 1.2653 | Top-1: 0.394 | Top-5: 0.566 | LR: 2.65e-04 | 157.6s                                      
+Epoch 101/450 | Loss: 1.2624 | Top-1: 0.395 | Top-5: 0.567 | LR: 2.64e-04 | 156.8s                                      
+Epoch 102/450 | Loss: 1.2622 | Top-1: 0.394 | Top-5: 0.571 | LR: 2.64e-04 | 156.5s                                      
+Epoch 103/450 | Loss: 1.2616 | Top-1: 0.382 | Top-5: 0.548 | LR: 2.63e-04 | 156.9s                                      
+Epoch 104/450 | Loss: 1.2611 | Top-1: 0.395 | Top-5: 0.565 | LR: 2.62e-04 | 156.0s                                      
+Epoch 105/450 | Loss: 1.2576 | Top-1: 0.385 | Top-5: 0.560 | LR: 2.62e-04 | 154.7s                                      
+Epoch 106/450 | Loss: 1.2570 | Top-1: 0.397 | Top-5: 0.565 | LR: 2.61e-04 | 150.8s                                      
+Epoch 107/450 | Loss: 1.2558 | Top-1: 0.379 | Top-5: 0.550 | LR: 2.60e-04 | 149.6s                                      
+Epoch 108/450 | Loss: 1.2570 | Top-1: 0.373 | Top-5: 0.544 | LR: 2.59e-04 | 147.6s                                      
+Epoch 109/450 | Loss: 1.2546 | Top-1: 0.373 | Top-5: 0.552 | LR: 2.59e-04 | 144.7s                                      
+Epoch 110/450 | Loss: 1.2523 | Top-1: 0.385 | Top-5: 0.552 | LR: 2.58e-04 | 130.7s                                      
+Epoch 111/450 | Loss: 1.2502 | Top-1: 0.378 | Top-5: 0.548 | LR: 2.57e-04 | 134.0s                                      
+Epoch 112/450 | Loss: 1.2504 | Top-1: 0.389 | Top-5: 0.560 | LR: 2.57e-04 | 138.1s                                      
+Epoch 113/450 | Loss: 1.2497 | Top-1: 0.390 | Top-5: 0.564 | LR: 2.56e-04 | 145.6s                                      
+Epoch 114/450 | Loss: 1.2488 | Top-1: 0.396 | Top-5: 0.573 | LR: 2.55e-04 | 146.1s                                      
+Epoch 115/450 | Loss: 1.2488 | Top-1: 0.412 | Top-5: 0.589 | LR: 2.54e-04 | 147.4s                                      
+  ✓ New best: 0.412 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 116/450 | Loss: 1.2465 | Top-1: 0.409 | Top-5: 0.582 | LR: 2.54e-04 | 149.9s                                      
+Epoch 117/450 | Loss: 1.2454 | Top-1: 0.404 | Top-5: 0.576 | LR: 2.53e-04 | 151.8s                                      
+Epoch 118/450 | Loss: 1.2456 | Top-1: 0.400 | Top-5: 0.580 | LR: 2.52e-04 | 153.8s                                      
+Epoch 119/450 | Loss: 1.2440 | Top-1: 0.390 | Top-5: 0.557 | LR: 2.51e-04 | 156.7s                                      
+Epoch 120/450 | Loss: 1.2431 | Top-1: 0.379 | Top-5: 0.553 | LR: 2.51e-04 | 157.4s                                      
+Epoch 121/450 | Loss: 1.2411 | Top-1: 0.400 | Top-5: 0.572 | LR: 2.50e-04 | 158.1s                                      
+Epoch 122/450 | Loss: 1.2415 | Top-1: 0.421 | Top-5: 0.592 | LR: 2.49e-04 | 157.5s                                      
+  ✓ New best: 0.421 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 123/450 | Loss: 1.2394 | Top-1: 0.408 | Top-5: 0.587 | LR: 2.48e-04 | 157.5s                                      
+Epoch 124/450 | Loss: 1.2403 | Top-1: 0.412 | Top-5: 0.583 | LR: 2.47e-04 | 156.8s                                      
+Epoch 125/450 | Loss: 1.2389 | Top-1: 0.409 | Top-5: 0.584 | LR: 2.47e-04 | 157.1s                                      
+Epoch 126/450 | Loss: 1.2374 | Top-1: 0.407 | Top-5: 0.579 | LR: 2.46e-04 | 156.4s                                      
+Epoch 127/450 | Loss: 1.2366 | Top-1: 0.391 | Top-5: 0.557 | LR: 2.45e-04 | 156.9s                                      
+Epoch 128/450 | Loss: 1.2353 | Top-1: 0.403 | Top-5: 0.573 | LR: 2.44e-04 | 156.4s                                      
+Epoch 129/450 | Loss: 1.2352 | Top-1: 0.405 | Top-5: 0.583 | LR: 2.43e-04 | 153.1s                                      
+Epoch 130/450 | Loss: 1.2349 | Top-1: 0.404 | Top-5: 0.578 | LR: 2.43e-04 | 151.1s                                      
+Epoch 131/450 | Loss: 1.2338 | Top-1: 0.393 | Top-5: 0.568 | LR: 2.42e-04 | 148.5s                                      
+Epoch 132/450 | Loss: 1.2335 | Top-1: 0.394 | Top-5: 0.565 | LR: 2.41e-04 | 148.7s                                      
+Epoch 133/450 | Loss: 1.2315 | Top-1: 0.372 | Top-5: 0.551 | LR: 2.40e-04 | 145.6s                                      
+Epoch 134/450 | Loss: 1.2331 | Top-1: 0.409 | Top-5: 0.577 | LR: 2.39e-04 | 130.0s                                      
+Epoch 135/450 | Loss: 1.2293 | Top-1: 0.402 | Top-5: 0.578 | LR: 2.38e-04 | 134.0s                                      
+Epoch 136/450 | Loss: 1.2280 | Top-1: 0.413 | Top-5: 0.593 | LR: 2.38e-04 | 143.9s                                      
+Epoch 137/450 | Loss: 1.2295 | Top-1: 0.407 | Top-5: 0.577 | LR: 2.37e-04 | 141.8s                                      
+Epoch 138/450 | Loss: 1.2286 | Top-1: 0.405 | Top-5: 0.572 | LR: 2.36e-04 | 144.4s                                      
+Epoch 139/450 | Loss: 1.2281 | Top-1: 0.382 | Top-5: 0.550 | LR: 2.35e-04 | 146.1s                                      
+Epoch 140/450 | Loss: 1.2267 | Top-1: 0.402 | Top-5: 0.579 | LR: 2.34e-04 | 147.5s                                      
+Epoch 141/450 | Loss: 1.2261 | Top-1: 0.404 | Top-5: 0.578 | LR: 2.33e-04 | 149.9s                                      
+Epoch 142/450 | Loss: 1.2250 | Top-1: 0.389 | Top-5: 0.559 | LR: 2.32e-04 | 151.5s                                      
+Epoch 143/450 | Loss: 1.2242 | Top-1: 0.403 | Top-5: 0.571 | LR: 2.31e-04 | 154.0s                                      
+Epoch 144/450 | Loss: 1.2243 | Top-1: 0.392 | Top-5: 0.571 | LR: 2.31e-04 | 157.1s                                      
+Epoch 145/450 | Loss: 1.2244 | Top-1: 0.409 | Top-5: 0.576 | LR: 2.30e-04 | 157.2s                                      
+Epoch 146/450 | Loss: 1.2219 | Top-1: 0.400 | Top-5: 0.577 | LR: 2.29e-04 | 158.1s                                      
+Epoch 147/450 | Loss: 1.2222 | Top-1: 0.431 | Top-5: 0.602 | LR: 2.28e-04 | 156.9s                                      
+  ✓ New best: 0.431 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 148/450 | Loss: 1.2189 | Top-1: 0.410 | Top-5: 0.577 | LR: 2.27e-04 | 157.7s                                      
+Epoch 149/450 | Loss: 1.2198 | Top-1: 0.392 | Top-5: 0.562 | LR: 2.26e-04 | 156.9s                                      
+Epoch 150/450 | Loss: 1.2193 | Top-1: 0.408 | Top-5: 0.582 | LR: 2.25e-04 | 156.9s                                      
+Epoch 151/450 | Loss: 1.2180 | Top-1: 0.408 | Top-5: 0.575 | LR: 2.24e-04 | 156.4s                                      
+Epoch 152/450 | Loss: 1.2177 | Top-1: 0.408 | Top-5: 0.574 | LR: 2.23e-04 | 156.7s                                      
+Epoch 153/450 | Loss: 1.2171 | Top-1: 0.412 | Top-5: 0.582 | LR: 2.23e-04 | 156.8s                                      
+Epoch 154/450 | Loss: 1.2170 | Top-1: 0.411 | Top-5: 0.581 | LR: 2.22e-04 | 156.2s                                      
+Epoch 155/450 | Loss: 1.2155 | Top-1: 0.410 | Top-5: 0.586 | LR: 2.21e-04 | 152.9s                                      
+Epoch 156/450 | Loss: 1.2163 | Top-1: 0.398 | Top-5: 0.575 | LR: 2.20e-04 | 151.5s                                      
+Epoch 157/450 | Loss: 1.2152 | Top-1: 0.407 | Top-5: 0.580 | LR: 2.19e-04 | 148.0s                                      
+Epoch 158/450 | Loss: 1.2137 | Top-1: 0.394 | Top-5: 0.559 | LR: 2.18e-04 | 146.3s                                      
+Epoch 159/450 | Loss: 1.2135 | Top-1: 0.419 | Top-5: 0.592 | LR: 2.17e-04 | 142.0s                                      
+Epoch 160/450 | Loss: 1.2132 | Top-1: 0.400 | Top-5: 0.575 | LR: 2.16e-04 | 126.4s                                      
+Epoch 161/450 | Loss: 1.2125 | Top-1: 0.417 | Top-5: 0.590 | LR: 2.15e-04 | 133.9s                                      
+Epoch 162/450 | Loss: 1.2118 | Top-1: 0.413 | Top-5: 0.584 | LR: 2.14e-04 | 144.9s                                      
+Epoch 163/450 | Loss: 1.2115 | Top-1: 0.428 | Top-5: 0.606 | LR: 2.13e-04 | 144.4s                                      
+Epoch 164/450 | Loss: 1.2108 | Top-1: 0.409 | Top-5: 0.581 | LR: 2.12e-04 | 145.5s                                      
+Epoch 165/450 | Loss: 1.2099 | Top-1: 0.408 | Top-5: 0.575 | LR: 2.11e-04 | 146.9s                                      
+Epoch 166/450 | Loss: 1.2085 | Top-1: 0.422 | Top-5: 0.594 | LR: 2.10e-04 | 149.2s                                      
+Epoch 167/450 | Loss: 1.2106 | Top-1: 0.409 | Top-5: 0.580 | LR: 2.09e-04 | 157.9s                                      
+Epoch 168/450 | Loss: 1.2072 | Top-1: 0.414 | Top-5: 0.586 | LR: 2.08e-04 | 149.7s                                      
+Epoch 169/450 | Loss: 1.2078 | Top-1: 0.412 | Top-5: 0.580 | LR: 2.07e-04 | 150.8s                                      
+Epoch 170/450 | Loss: 1.2059 | Top-1: 0.431 | Top-5: 0.595 | LR: 2.07e-04 | 151.6s                                      
+Epoch 171/450 | Loss: 1.2063 | Top-1: 0.407 | Top-5: 0.578 | LR: 2.06e-04 | 152.4s                                      
+Epoch 172/450 | Loss: 1.2068 | Top-1: 0.410 | Top-5: 0.585 | LR: 2.05e-04 | 151.5s                                      
+Epoch 173/450 | Loss: 1.2048 | Top-1: 0.434 | Top-5: 0.607 | LR: 2.04e-04 | 152.5s                                      
+  ✓ New best: 0.434 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 174/450 | Loss: 1.2037 | Top-1: 0.424 | Top-5: 0.593 | LR: 2.03e-04 | 153.3s                                      
+Epoch 175/450 | Loss: 1.2030 | Top-1: 0.406 | Top-5: 0.579 | LR: 2.02e-04 | 153.0s                                      
+Epoch 176/450 | Loss: 1.2039 | Top-1: 0.417 | Top-5: 0.585 | LR: 2.01e-04 | 158.4s                                      
+Epoch 177/450 | Loss: 1.2018 | Top-1: 0.407 | Top-5: 0.571 | LR: 2.00e-04 | 159.9s                                      
+Epoch 178/450 | Loss: 1.2021 | Top-1: 0.413 | Top-5: 0.585 | LR: 1.99e-04 | 158.9s                                      
+Epoch 179/450 | Loss: 1.2016 | Top-1: 0.405 | Top-5: 0.577 | LR: 1.98e-04 | 155.8s                                      
+Epoch 180/450 | Loss: 1.2003 | Top-1: 0.402 | Top-5: 0.574 | LR: 1.97e-04 | 154.9s                                      
+Epoch 181/450 | Loss: 1.2018 | Top-1: 0.407 | Top-5: 0.577 | LR: 1.96e-04 | 150.8s                                      
+Epoch 182/450 | Loss: 1.2003 | Top-1: 0.412 | Top-5: 0.586 | LR: 1.95e-04 | 149.6s                                      
+Epoch 183/450 | Loss: 1.2002 | Top-1: 0.422 | Top-5: 0.585 | LR: 1.94e-04 | 146.7s                                      
+Epoch 184/450 | Loss: 1.1989 | Top-1: 0.411 | Top-5: 0.574 | LR: 1.93e-04 | 132.5s                                      
+Epoch 185/450 | Loss: 1.1983 | Top-1: 0.405 | Top-5: 0.569 | LR: 1.92e-04 | 134.3s                                      
+Epoch 186/450 | Loss: 1.1979 | Top-1: 0.401 | Top-5: 0.574 | LR: 1.91e-04 | 144.7s                                      
+Epoch 187/450 | Loss: 1.1978 | Top-1: 0.405 | Top-5: 0.578 | LR: 1.90e-04 | 143.8s                                      
+Epoch 188/450 | Loss: 1.1967 | Top-1: 0.402 | Top-5: 0.576 | LR: 1.89e-04 | 145.6s                                      
+Epoch 189/450 | Loss: 1.1960 | Top-1: 0.398 | Top-5: 0.575 | LR: 1.88e-04 | 148.0s                                      
+Epoch 190/450 | Loss: 1.1956 | Top-1: 0.403 | Top-5: 0.572 | LR: 1.87e-04 | 150.1s                                      
+Epoch 191/450 | Loss: 1.1959 | Top-1: 0.416 | Top-5: 0.587 | LR: 1.86e-04 | 152.9s                                      
+Epoch 192/450 | Loss: 1.1951 | Top-1: 0.409 | Top-5: 0.577 | LR: 1.85e-04 | 154.7s                                      
+Epoch 193/450 | Loss: 1.1952 | Top-1: 0.401 | Top-5: 0.568 | LR: 1.84e-04 | 156.8s                                      
+Epoch 194/450 | Loss: 1.1934 | Top-1: 0.402 | Top-5: 0.574 | LR: 1.83e-04 | 162.1s                                      
+Epoch 195/450 | Loss: 1.1931 | Top-1: 0.416 | Top-5: 0.592 | LR: 1.82e-04 | 172.3s                                      
+Epoch 196/450 | Loss: 1.1924 | Top-1: 0.420 | Top-5: 0.588 | LR: 1.81e-04 | 193.2s                                      
+Epoch 197/450 | Loss: 1.1916 | Top-1: 0.421 | Top-5: 0.596 | LR: 1.80e-04 | 183.5s                                      
+Epoch 198/450 | Loss: 1.1927 | Top-1: 0.404 | Top-5: 0.576 | LR: 1.79e-04 | 183.6s                                      
+Epoch 199/450 | Loss: 1.1921 | Top-1: 0.411 | Top-5: 0.581 | LR: 1.77e-04 | 174.9s                                      
+Epoch 200/450 | Loss: 1.1903 | Top-1: 0.414 | Top-5: 0.589 | LR: 1.76e-04 | 178.0s                                      
+Epoch 201/450 | Loss: 1.1897 | Top-1: 0.433 | Top-5: 0.609 | LR: 1.75e-04 | 172.0s                                      
+Epoch 202/450 | Loss: 1.1891 | Top-1: 0.416 | Top-5: 0.591 | LR: 1.74e-04 | 169.6s                                      
+Epoch 203/450 | Loss: 1.1903 | Top-1: 0.411 | Top-5: 0.585 | LR: 1.73e-04 | 168.1s                                      
+Epoch 204/450 | Loss: 1.1884 | Top-1: 0.404 | Top-5: 0.571 | LR: 1.72e-04 | 141.7s                                      
+Epoch 205/450 | Loss: 1.1885 | Top-1: 0.412 | Top-5: 0.579 | LR: 1.71e-04 | 139.5s                                      
+Epoch 206/450 | Loss: 1.1881 | Top-1: 0.411 | Top-5: 0.586 | LR: 1.70e-04 | 139.0s                                      
+Epoch 207/450 | Loss: 1.1878 | Top-1: 0.400 | Top-5: 0.572 | LR: 1.69e-04 | 125.9s                                      
+Epoch 208/450 | Loss: 1.1868 | Top-1: 0.414 | Top-5: 0.583 | LR: 1.68e-04 | 124.0s                                      
+Epoch 209/450 | Loss: 1.1870 | Top-1: 0.413 | Top-5: 0.586 | LR: 1.67e-04 | 133.3s                                      
+Epoch 210/450 | Loss: 1.1859 | Top-1: 0.411 | Top-5: 0.577 | LR: 1.66e-04 | 140.5s                                      
+Epoch 211/450 | Loss: 1.1856 | Top-1: 0.422 | Top-5: 0.593 | LR: 1.65e-04 | 151.6s                                      
+Epoch 212/450 | Loss: 1.1840 | Top-1: 0.427 | Top-5: 0.599 | LR: 1.64e-04 | 162.9s                                      
+Epoch 213/450 | Loss: 1.1861 | Top-1: 0.403 | Top-5: 0.574 | LR: 1.63e-04 | 178.5s                                      
+Epoch 214/450 | Loss: 1.1848 | Top-1: 0.399 | Top-5: 0.571 | LR: 1.62e-04 | 176.5s                                      
+Epoch 215/450 | Loss: 1.1833 | Top-1: 0.409 | Top-5: 0.581 | LR: 1.61e-04 | 162.0s                                      
+Epoch 216/450 | Loss: 1.1824 | Top-1: 0.413 | Top-5: 0.586 | LR: 1.60e-04 | 156.9s                                      
+Epoch 217/450 | Loss: 1.1834 | Top-1: 0.403 | Top-5: 0.574 | LR: 1.59e-04 | 149.8s                                      
+Epoch 218/450 | Loss: 1.1819 | Top-1: 0.413 | Top-5: 0.585 | LR: 1.58e-04 | 160.9s                                      
+Epoch 219/450 | Loss: 1.1815 | Top-1: 0.406 | Top-5: 0.573 | LR: 1.57e-04 | 177.3s                                      
+Epoch 220/450 | Loss: 1.1805 | Top-1: 0.408 | Top-5: 0.581 | LR: 1.56e-04 | 154.2s                                      
+Epoch 221/450 | Loss: 1.1804 | Top-1: 0.406 | Top-5: 0.576 | LR: 1.55e-04 | 134.4s                                      
+Epoch 222/450 | Loss: 1.1812 | Top-1: 0.420 | Top-5: 0.591 | LR: 1.54e-04 | 128.0s                                      
+Epoch 223/450 | Loss: 1.1794 | Top-1: 0.415 | Top-5: 0.581 | LR: 1.53e-04 | 127.7s                                      
+Epoch 224/450 | Loss: 1.1799 | Top-1: 0.426 | Top-5: 0.593 | LR: 1.52e-04 | 125.4s                                      
+Epoch 225/450 | Loss: 1.1794 | Top-1: 0.414 | Top-5: 0.578 | LR: 1.50e-04 | 119.4s                                      
+Epoch 226/450 | Loss: 1.1790 | Top-1: 0.407 | Top-5: 0.572 | LR: 1.49e-04 | 113.8s                                      
+Epoch 227/450 | Loss: 1.1782 | Top-1: 0.420 | Top-5: 0.589 | LR: 1.48e-04 | 119.0s                                      
+Epoch 228/450 | Loss: 1.1773 | Top-1: 0.424 | Top-5: 0.593 | LR: 1.47e-04 | 132.3s                                      
+Epoch 229/450 | Loss: 1.1775 | Top-1: 0.416 | Top-5: 0.581 | LR: 1.46e-04 | 133.4s                                      
+Epoch 230/450 | Loss: 1.1775 | Top-1: 0.410 | Top-5: 0.578 | LR: 1.45e-04 | 146.8s                                      
+Epoch 231/450 | Loss: 1.1768 | Top-1: 0.419 | Top-5: 0.585 | LR: 1.44e-04 | 155.6s                                      
+Epoch 232/450 | Loss: 1.1758 | Top-1: 0.412 | Top-5: 0.584 | LR: 1.43e-04 | 155.7s                                      
+Epoch 233/450 | Loss: 1.1760 | Top-1: 0.401 | Top-5: 0.575 | LR: 1.42e-04 | 155.6s                                      
+Epoch 234/450 | Loss: 1.1761 | Top-1: 0.417 | Top-5: 0.583 | LR: 1.41e-04 | 155.8s                                      
+Epoch 235/450 | Loss: 1.1751 | Top-1: 0.409 | Top-5: 0.578 | LR: 1.40e-04 | 155.5s                                      
+Epoch 236/450 | Loss: 1.1746 | Top-1: 0.426 | Top-5: 0.593 | LR: 1.39e-04 | 155.4s                                      
+Epoch 237/450 | Loss: 1.1740 | Top-1: 0.425 | Top-5: 0.587 | LR: 1.38e-04 | 155.9s                                      
+Epoch 238/450 | Loss: 1.1742 | Top-1: 0.416 | Top-5: 0.587 | LR: 1.37e-04 | 155.4s                                      
+Epoch 239/450 | Loss: 1.1732 | Top-1: 0.418 | Top-5: 0.584 | LR: 1.36e-04 | 152.8s                                      
+Epoch 240/450 | Loss: 1.1726 | Top-1: 0.421 | Top-5: 0.593 | LR: 1.35e-04 | 149.9s                                      
+Epoch 241/450 | Loss: 1.1723 | Top-1: 0.420 | Top-5: 0.587 | LR: 1.34e-04 | 147.2s                                      
+Epoch 242/450 | Loss: 1.1727 | Top-1: 0.429 | Top-5: 0.595 | LR: 1.33e-04 | 145.8s                                      
+Epoch 243/450 | Loss: 1.1720 | Top-1: 0.421 | Top-5: 0.592 | LR: 1.32e-04 | 143.3s                                      
+Epoch 244/450 | Loss: 1.1712 | Top-1: 0.420 | Top-5: 0.589 | LR: 1.31e-04 | 126.1s                                      
+Epoch 245/450 | Loss: 1.1706 | Top-1: 0.408 | Top-5: 0.573 | LR: 1.30e-04 | 133.0s                                      
+Epoch 246/450 | Loss: 1.1711 | Top-1: 0.417 | Top-5: 0.590 | LR: 1.29e-04 | 138.8s                                      
+Epoch 247/450 | Loss: 1.1708 | Top-1: 0.411 | Top-5: 0.575 | LR: 1.28e-04 | 142.5s                                      
+Epoch 248/450 | Loss: 1.1707 | Top-1: 0.411 | Top-5: 0.578 | LR: 1.27e-04 | 143.2s                                      
+Epoch 249/450 | Loss: 1.1707 | Top-1: 0.419 | Top-5: 0.588 | LR: 1.26e-04 | 142.5s                                      
+Epoch 250/450 | Loss: 1.1696 | Top-1: 0.423 | Top-5: 0.584 | LR: 1.25e-04 | 143.2s                                      
+Epoch 251/450 | Loss: 1.1701 | Top-1: 0.416 | Top-5: 0.584 | LR: 1.24e-04 | 143.9s                                      
+Epoch 252/450 | Loss: 1.1683 | Top-1: 0.423 | Top-5: 0.586 | LR: 1.22e-04 | 144.7s                                      
+Epoch 253/450 | Loss: 1.1683 | Top-1: 0.423 | Top-5: 0.592 | LR: 1.21e-04 | 146.1s                                      
+Epoch 254/450 | Loss: 1.1691 | Top-1: 0.428 | Top-5: 0.596 | LR: 1.20e-04 | 148.5s                                      
+Epoch 255/450 | Loss: 1.1677 | Top-1: 0.426 | Top-5: 0.600 | LR: 1.19e-04 | 150.1s                                      
+Epoch 256/450 | Loss: 1.1663 | Top-1: 0.426 | Top-5: 0.594 | LR: 1.18e-04 | 152.2s                                      
+Epoch 257/450 | Loss: 1.1664 | Top-1: 0.424 | Top-5: 0.592 | LR: 1.17e-04 | 154.5s                                      
+Epoch 258/450 | Loss: 1.1667 | Top-1: 0.421 | Top-5: 0.590 | LR: 1.16e-04 | 155.7s                                      
+Epoch 259/450 | Loss: 1.1661 | Top-1: 0.423 | Top-5: 0.596 | LR: 1.15e-04 | 156.7s                                      
+Epoch 260/450 | Loss: 1.1662 | Top-1: 0.427 | Top-5: 0.586 | LR: 1.14e-04 | 156.6s                                      
+Epoch 261/450 | Loss: 1.1659 | Top-1: 0.424 | Top-5: 0.596 | LR: 1.13e-04 | 156.7s                                      
+Epoch 262/450 | Loss: 1.1651 | Top-1: 0.429 | Top-5: 0.596 | LR: 1.12e-04 | 156.5s                                      
+Epoch 263/450 | Loss: 1.1649 | Top-1: 0.432 | Top-5: 0.599 | LR: 1.11e-04 | 156.2s                                      
+Epoch 264/450 | Loss: 1.1646 | Top-1: 0.426 | Top-5: 0.595 | LR: 1.10e-04 | 157.2s                                      
+Epoch 265/450 | Loss: 1.1645 | Top-1: 0.426 | Top-5: 0.597 | LR: 1.09e-04 | 156.1s                                      
+Epoch 266/450 | Loss: 1.1635 | Top-1: 0.424 | Top-5: 0.590 | LR: 1.08e-04 | 155.6s                                      
+Epoch 267/450 | Loss: 1.1635 | Top-1: 0.426 | Top-5: 0.597 | LR: 1.07e-04 | 152.6s                                      
+Epoch 268/450 | Loss: 1.1632 | Top-1: 0.430 | Top-5: 0.594 | LR: 1.06e-04 | 150.0s                                      
+Epoch 269/450 | Loss: 1.1634 | Top-1: 0.435 | Top-5: 0.598 | LR: 1.05e-04 | 147.3s                                      
+  ✓ New best: 0.435 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 270/450 | Loss: 1.1627 | Top-1: 0.432 | Top-5: 0.602 | LR: 1.04e-04 | 146.1s                                      
+Epoch 271/450 | Loss: 1.1621 | Top-1: 0.423 | Top-5: 0.591 | LR: 1.03e-04 | 143.2s                                      
+Epoch 272/450 | Loss: 1.1621 | Top-1: 0.429 | Top-5: 0.597 | LR: 1.02e-04 | 139.1s                                      
+Epoch 273/450 | Loss: 1.1615 | Top-1: 0.424 | Top-5: 0.587 | LR: 1.01e-04 | 136.4s                                      
+Epoch 274/450 | Loss: 1.1616 | Top-1: 0.429 | Top-5: 0.597 | LR: 1.00e-04 | 142.7s                                      
+Epoch 275/450 | Loss: 1.1612 | Top-1: 0.437 | Top-5: 0.607 | LR: 9.94e-05 | 142.5s                                      
+  ✓ New best: 0.437 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 276/450 | Loss: 1.1607 | Top-1: 0.421 | Top-5: 0.595 | LR: 9.84e-05 | 142.4s                                      
+Epoch 277/450 | Loss: 1.1604 | Top-1: 0.435 | Top-5: 0.601 | LR: 9.74e-05 | 143.1s                                      
+Epoch 278/450 | Loss: 1.1602 | Top-1: 0.438 | Top-5: 0.609 | LR: 9.64e-05 | 144.3s                                      
+  ✓ New best: 0.438 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 279/450 | Loss: 1.1597 | Top-1: 0.428 | Top-5: 0.605 | LR: 9.55e-05 | 146.2s                                      
+Epoch 280/450 | Loss: 1.1593 | Top-1: 0.430 | Top-5: 0.599 | LR: 9.45e-05 | 147.7s                                      
+Epoch 281/450 | Loss: 1.1585 | Top-1: 0.429 | Top-5: 0.596 | LR: 9.35e-05 | 150.4s                                      
+Epoch 282/450 | Loss: 1.1593 | Top-1: 0.437 | Top-5: 0.599 | LR: 9.26e-05 | 152.4s                                      
+Epoch 283/450 | Loss: 1.1588 | Top-1: 0.421 | Top-5: 0.593 | LR: 9.16e-05 | 154.5s                                      
+Epoch 284/450 | Loss: 1.1577 | Top-1: 0.428 | Top-5: 0.595 | LR: 9.06e-05 | 155.8s                                      
+Epoch 285/450 | Loss: 1.1589 | Top-1: 0.433 | Top-5: 0.605 | LR: 8.97e-05 | 155.9s                                      
+Epoch 286/450 | Loss: 1.1582 | Top-1: 0.436 | Top-5: 0.607 | LR: 8.87e-05 | 156.6s                                      
+Epoch 287/450 | Loss: 1.1574 | Top-1: 0.428 | Top-5: 0.594 | LR: 8.78e-05 | 156.8s                                      
+Epoch 288/450 | Loss: 1.1580 | Top-1: 0.439 | Top-5: 0.604 | LR: 8.68e-05 | 157.1s                                      
+  ✓ New best: 0.439 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 289/450 | Loss: 1.1571 | Top-1: 0.428 | Top-5: 0.599 | LR: 8.59e-05 | 156.6s                                      
+Epoch 290/450 | Loss: 1.1568 | Top-1: 0.424 | Top-5: 0.591 | LR: 8.50e-05 | 156.4s                                      
+Epoch 291/450 | Loss: 1.1563 | Top-1: 0.427 | Top-5: 0.591 | LR: 8.40e-05 | 153.6s                                      
+Epoch 292/450 | Loss: 1.1563 | Top-1: 0.428 | Top-5: 0.590 | LR: 8.31e-05 | 151.5s                                      
+Epoch 293/450 | Loss: 1.1551 | Top-1: 0.436 | Top-5: 0.604 | LR: 8.22e-05 | 148.3s                                      
+Epoch 294/450 | Loss: 1.1562 | Top-1: 0.430 | Top-5: 0.599 | LR: 8.12e-05 | 146.7s                                      
+Epoch 295/450 | Loss: 1.1552 | Top-1: 0.433 | Top-5: 0.601 | LR: 8.03e-05 | 144.8s                                      
+Epoch 296/450 | Loss: 1.1547 | Top-1: 0.431 | Top-5: 0.595 | LR: 7.94e-05 | 143.9s                                      
+Epoch 297/450 | Loss: 1.1548 | Top-1: 0.431 | Top-5: 0.601 | LR: 7.85e-05 | 136.0s                                      
+Epoch 298/450 | Loss: 1.1545 | Top-1: 0.435 | Top-5: 0.600 | LR: 7.76e-05 | 137.7s                                      
+Epoch 299/450 | Loss: 1.1549 | Top-1: 0.440 | Top-5: 0.598 | LR: 7.67e-05 | 143.2s                                      
+  ✓ New best: 0.440 → saved to models/checkpoints/transformer_d256_l4_v1896_combined_best.pt
+Epoch 300/450 | Loss: 1.1534 | Top-1: 0.438 | Top-5: 0.601 | LR: 7.58e-05 | 142.9s                                      
+Epoch 301/450 | Loss: 1.1538 | Top-1: 0.425 | Top-5: 0.591 | LR: 7.48e-05 | 143.5s                                      
+Epoch 302/450 | Loss: 1.1541 | Top-1: 0.425 | Top-5: 0.585 | LR: 7.39e-05 | 143.5s                                      
+Epoch 303/450 | Loss: 1.1538 | Top-1: 0.429 | Top-5: 0.594 | LR: 7.31e-05 | 145.2s                                      
+Epoch 304/450 | Loss: 1.1522 | Top-1: 0.426 | Top-5: 0.592 | LR: 7.22e-05 | 146.5s                                      
+Epoch 305/450 | Loss: 1.1526 | Top-1: 0.428 | Top-5: 0.592 | LR: 7.13e-05 | 149.2s                                      
+Epoch 306/450 | Loss: 1.1525 | Top-1: 0.430 | Top-5: 0.597 | LR: 7.04e-05 | 151.1s                                      
+Epoch 307/450 | Loss: 1.1530 | Top-1: 0.429 | Top-5: 0.594 | LR: 6.95e-05 | 154.4s                                      
+Epoch 308/450 | Loss: 1.1519 | Top-1: 0.425 | Top-5: 0.590 | LR: 6.86e-05 | 155.9s                                      
+Epoch 309/450 | Loss: 1.1518 | Top-1: 0.419 | Top-5: 0.582 | LR: 6.78e-05 | 156.9s                                      
+Epoch 310/450 | Loss: 1.1517 | Top-1: 0.424 | Top-5: 0.587 | LR: 6.69e-05 | 156.8s                                      
+Epoch 311/450 | Loss: 1.1509 | Top-1: 0.423 | Top-5: 0.589 | LR: 6.60e-05 | 157.0s                                      
+Epoch 312/450 | Loss: 1.1508 | Top-1: 0.424 | Top-5: 0.589 | LR: 6.52e-05 | 157.0s                                      
+Epoch 313/450 | Loss: 1.1515 | Top-1: 0.426 | Top-5: 0.588 | LR: 6.43e-05 | 156.0s                                      
+Epoch 314/450 | Loss: 1.1504 | Top-1: 0.426 | Top-5: 0.593 | LR: 6.35e-05 | 156.1s                                      
+Epoch 315/450 | Loss: 1.1500 | Top-1: 0.429 | Top-5: 0.598 | LR: 6.26e-05 | 156.4s                                      
+Epoch 316/450 | Loss: 1.1502 | Top-1: 0.426 | Top-5: 0.592 | LR: 6.18e-05 | 154.4s                                      
+Epoch 317/450 | Loss: 1.1502 | Top-1: 0.427 | Top-5: 0.591 | LR: 6.09e-05 | 151.4s                                      
+Epoch 318/450 | Loss: 1.1497 | Top-1: 0.427 | Top-5: 0.590 | LR: 6.01e-05 | 149.6s                                      
+Epoch 319/450 | Loss: 1.1506 | Top-1: 0.430 | Top-5: 0.592 | LR: 5.93e-05 | 147.4s                                      
+Epoch 320/450 | Loss: 1.1488 | Top-1: 0.432 | Top-5: 0.600 | LR: 5.85e-05 | 145.4s                                      
+Epoch 321/450 | Loss: 1.1490 | Top-1: 0.425 | Top-5: 0.590 | LR: 5.76e-05 | 143.9s                                      
+Epoch 322/450 | Loss: 1.1486 | Top-1: 0.427 | Top-5: 0.596 | LR: 5.68e-05 | 137.6s                                      
+Epoch 323/450 | Loss: 1.1486 | Top-1: 0.421 | Top-5: 0.590 | LR: 5.60e-05 | 138.3s                                      
+Epoch 324/450 | Loss: 1.1478 | Top-1: 0.426 | Top-5: 0.596 | LR: 5.52e-05 | 141.7s                                      
+Epoch 325/450 | Loss: 1.1480 | Top-1: 0.425 | Top-5: 0.593 | LR: 5.44e-05 | 142.1s                                      
+Epoch 326/450 | Loss: 1.1484 | Top-1: 0.431 | Top-5: 0.599 | LR: 5.36e-05 | 142.0s                                      
+Epoch 327/450 | Loss: 1.1472 | Top-1: 0.430 | Top-5: 0.593 | LR: 5.28e-05 | 143.5s                                      
+Epoch 328/450 | Loss: 1.1481 | Top-1: 0.429 | Top-5: 0.595 | LR: 5.20e-05 | 142.5s                                      
+Epoch 329/450 | Loss: 1.1474 | Top-1: 0.430 | Top-5: 0.597 | LR: 5.12e-05 | 144.0s                                      
+Epoch 330/450 | Loss: 1.1476 | Top-1: 0.430 | Top-5: 0.596 | LR: 5.05e-05 | 145.2s                                      
+Epoch 331/450 | Loss: 1.1476 | Top-1: 0.432 | Top-5: 0.596 | LR: 4.97e-05 | 146.5s                                      
+Epoch 332/450 | Loss: 1.1472 | Top-1: 0.430 | Top-5: 0.597 | LR: 4.89e-05 | 149.1s                                      
+Epoch 333/450 | Loss: 1.1457 | Top-1: 0.426 | Top-5: 0.591 | LR: 4.82e-05 | 151.8s                                      
+Epoch 334/450 | Loss: 1.1468 | Top-1: 0.428 | Top-5: 0.591 | LR: 4.74e-05 | 154.3s                                      
+Epoch 335/450 | Loss: 1.1467 | Top-1: 0.428 | Top-5: 0.591 | LR: 4.66e-05 | 156.8s                                      
+Epoch 336/450 | Loss: 1.1458 | Top-1: 0.425 | Top-5: 0.593 | LR: 4.59e-05 | 158.0s                                      
+Epoch 337/450 | Loss: 1.1450 | Top-1: 0.425 | Top-5: 0.591 | LR: 4.52e-05 | 157.5s                                      
+Epoch 338/450 | Loss: 1.1458 | Top-1: 0.433 | Top-5: 0.601 | LR: 4.44e-05 | 157.3s                                      
+Epoch 339/450 | Loss: 1.1457 | Top-1: 0.429 | Top-5: 0.598 | LR: 4.37e-05 | 157.2s                                      
+Epoch 340/450 | Loss: 1.1447 | Top-1: 0.425 | Top-5: 0.593 | LR: 4.30e-05 | 157.4s                                      
+Epoch 341/450 | Loss: 1.1457 | Top-1: 0.430 | Top-5: 0.602 | LR: 4.22e-05 | 157.1s                                      
+Epoch 342/450 | Loss: 1.1451 | Top-1: 0.424 | Top-5: 0.592 | LR: 4.15e-05 | 157.1s                                      
+Epoch 343/450 | Loss: 1.1453 | Top-1: 0.426 | Top-5: 0.591 | LR: 4.08e-05 | 156.0s                                      
+Epoch 344/450 | Loss: 1.1455 | Top-1: 0.431 | Top-5: 0.599 | LR: 4.01e-05 | 154.3s                                      
+Epoch 345/450 | Loss: 1.1443 | Top-1: 0.424 | Top-5: 0.592 | LR: 3.94e-05 | 152.1s                                      
+Epoch 346/450 | Loss: 1.1452 | Top-1: 0.421 | Top-5: 0.588 | LR: 3.87e-05 | 149.6s                                      
+Epoch 347/450 | Loss: 1.1447 | Top-1: 0.428 | Top-5: 0.593 | LR: 3.80e-05 | 147.4s                                      
+Epoch 348/450 | Loss: 1.1446 | Top-1: 0.425 | Top-5: 0.594 | LR: 3.73e-05 | 145.2s                                      
+Epoch 349/450 | Loss: 1.1438 | Top-1: 0.425 | Top-5: 0.594 | LR: 3.67e-05 | 143.0s                                      
+Epoch 350/450 | Loss: 1.1438 | Top-1: 0.429 | Top-5: 0.592 | LR: 3.60e-05 | 134.6s                                      
+Epoch 351/450 | Loss: 1.1436 | Top-1: 0.428 | Top-5: 0.592 | LR: 3.53e-05 | 138.1s                                      
+Epoch 352/450 | Loss: 1.1435 | Top-1: 0.433 | Top-5: 0.601 | LR: 3.46e-05 | 142.1s                                      
+Epoch 353/450 | Loss: 1.1439 | Top-1: 0.427 | Top-5: 0.590 | LR: 3.40e-05 | 142.6s                                      
+Epoch 354/450 | Loss: 1.1430 | Top-1: 0.427 | Top-5: 0.594 | LR: 3.33e-05 | 143.8s                                      
+Epoch 355/450 | Loss: 1.1434 | Top-1: 0.429 | Top-5: 0.597 | LR: 3.27e-05 | 145.7s                                      
+Epoch 356/450 | Loss: 1.1424 | Top-1: 0.424 | Top-5: 0.595 | LR: 3.21e-05 | 147.4s                                      
+Epoch 357/450 | Loss: 1.1426 | Top-1: 0.429 | Top-5: 0.594 | LR: 3.14e-05 | 148.8s                                      
+Epoch 358/450 | Loss: 1.1428 | Top-1: 0.431 | Top-5: 0.601 | LR: 3.08e-05 | 150.9s                                      
+Epoch 359/450 | Loss: 1.1420 | Top-1: 0.430 | Top-5: 0.598 | LR: 3.02e-05 | 154.2s                                      
+Epoch 360/450 | Loss: 1.1422 | Top-1: 0.433 | Top-5: 0.603 | LR: 2.96e-05 | 156.9s                                      
+Epoch 361/450 | Loss: 1.1426 | Top-1: 0.432 | Top-5: 0.602 | LR: 2.89e-05 | 158.6s                                      
+Epoch 362/450 | Loss: 1.1418 | Top-1: 0.430 | Top-5: 0.598 | LR: 2.83e-05 | 157.7s                                      
+Epoch 363/450 | Loss: 1.1425 | Top-1: 0.430 | Top-5: 0.601 | LR: 2.77e-05 | 157.1s                                      
+Epoch 364/450 | Loss: 1.1418 | Top-1: 0.428 | Top-5: 0.593 | LR: 2.71e-05 | 157.6s                                      
+Epoch 365/450 | Loss: 1.1429 | Top-1: 0.426 | Top-5: 0.590 | LR: 2.66e-05 | 157.2s                                      
+Epoch 366/450 | Loss: 1.1416 | Top-1: 0.426 | Top-5: 0.589 | LR: 2.60e-05 | 157.3s                                      
+Epoch 367/450 | Loss: 1.1415 | Top-1: 0.428 | Top-5: 0.595 | LR: 2.54e-05 | 157.3s                                      
+Epoch 368/450 | Loss: 1.1420 | Top-1: 0.433 | Top-5: 0.600 | LR: 2.48e-05 | 154.5s                                      
+Epoch 369/450 | Loss: 1.1414 | Top-1: 0.428 | Top-5: 0.595 | LR: 2.43e-05 | 152.6s                                      
+Epoch 370/450 | Loss: 1.1404 | Top-1: 0.434 | Top-5: 0.601 | LR: 2.37e-05 | 149.5s                                      
+Epoch 371/450 | Loss: 1.1410 | Top-1: 0.430 | Top-5: 0.599 | LR: 2.32e-05 | 147.4s                                      
+Epoch 372/450 | Loss: 1.1414 | Top-1: 0.429 | Top-5: 0.600 | LR: 2.26e-05 | 145.4s                                      
+Epoch 373/450 | Loss: 1.1403 | Top-1: 0.429 | Top-5: 0.600 | LR: 2.21e-05 | 142.9s                                      
+Epoch 374/450 | Loss: 1.1414 | Top-1: 0.428 | Top-5: 0.596 | LR: 2.16e-05 | 133.7s                                      
+Epoch 375/450 | Loss: 1.1413 | Top-1: 0.429 | Top-5: 0.599 | LR: 2.10e-05 | 139.7s                                      
+Epoch 376/450 | Loss: 1.1405 | Top-1: 0.428 | Top-5: 0.595 | LR: 2.05e-05 | 141.8s                                      
+Epoch 377/450 | Loss: 1.1399 | Top-1: 0.430 | Top-5: 0.599 | LR: 2.00e-05 | 143.4s                                      
+Epoch 378/450 | Loss: 1.1400 | Top-1: 0.434 | Top-5: 0.604 | LR: 1.95e-05 | 144.6s                                      
+Epoch 379/450 | Loss: 1.1395 | Top-1: 0.429 | Top-5: 0.598 | LR: 1.90e-05 | 145.6s                                      
+Epoch 380/450 | Loss: 1.1399 | Top-1: 0.432 | Top-5: 0.599 | LR: 1.85e-05 | 147.0s                                      
+Epoch 381/450 | Loss: 1.1400 | Top-1: 0.427 | Top-5: 0.595 | LR: 1.80e-05 | 149.5s                                      
+Epoch 382/450 | Loss: 1.1398 | Top-1: 0.427 | Top-5: 0.596 | LR: 1.75e-05 | 152.0s                                      
+Epoch 383/450 | Loss: 1.1397 | Top-1: 0.429 | Top-5: 0.600 | LR: 1.71e-05 | 153.6s                                      
+Epoch 384/450 | Loss: 1.1395 | Top-1: 0.429 | Top-5: 0.600 | LR: 1.66e-05 | 253.3s                                      
+Epoch 385/450 | Loss: 1.1404 | Top-1: 0.430 | Top-5: 0.599 | LR: 1.61e-05 | 233.7s                                      
+Epoch 386/450 | Loss: 1.1394 | Top-1: 0.428 | Top-5: 0.595 | LR: 1.57e-05 | 155.1s                                      
+Epoch 387/450 | Loss: 1.1398 | Top-1: 0.430 | Top-5: 0.601 | LR: 1.52e-05 | 155.9s                                      
+Epoch 388/450 | Loss: 1.1393 | Top-1: 0.428 | Top-5: 0.599 | LR: 1.48e-05 | 155.9s                                      
+Epoch 389/450 | Loss: 1.1399 | Top-1: 0.428 | Top-5: 0.597 | LR: 1.44e-05 | 156.6s                                      
+Epoch 390/450 | Loss: 1.1393 | Top-1: 0.429 | Top-5: 0.600 | LR: 1.39e-05 | 157.0s                                      
+Epoch 391/450 | Loss: 1.1398 | Top-1: 0.430 | Top-5: 0.601 | LR: 1.35e-05 | 156.2s                                      
+Epoch 392/450 | Loss: 1.1390 | Top-1: 0.428 | Top-5: 0.599 | LR: 1.31e-05 | 153.5s                                      
+Epoch 393/450 | Loss: 1.1398 | Top-1: 0.429 | Top-5: 0.600 | LR: 1.27e-05 | 150.6s                                      
+Epoch 394/450 | Loss: 1.1387 | Top-1: 0.428 | Top-5: 0.598 | LR: 1.23e-05 | 149.0s                                      
+Epoch 395/450 | Loss: 1.1389 | Top-1: 0.428 | Top-5: 0.599 | LR: 1.19e-05 | 146.5s                                      
+Epoch 396/450 | Loss: 1.1390 | Top-1: 0.428 | Top-5: 0.601 | LR: 1.15e-05 | 144.7s                                      
+Epoch 397/450 | Loss: 1.1391 | Top-1: 0.431 | Top-5: 0.600 | LR: 1.11e-05 | 142.5s                                      
+Epoch 398/450 | Loss: 1.1388 | Top-1: 0.431 | Top-5: 0.600 | LR: 1.07e-05 | 133.0s                                      
+Epoch 399/450 | Loss: 1.1383 | Top-1: 0.428 | Top-5: 0.598 | LR: 1.04e-05 | 142.8s                                      
+Epoch 400/450 | Loss: 1.1389 | Top-1: 0.429 | Top-5: 0.596 | LR: 1.00e-05 | 142.8s                                      
+Epoch 401/450 | Loss: 1.1381 | Top-1: 0.429 | Top-5: 0.597 | LR: 9.66e-06 | 143.2s                                      
+Epoch 402/450 | Loss: 1.1380 | Top-1: 0.430 | Top-5: 0.599 | LR: 9.32e-06 | 145.2s                                      
+Epoch 403/450 | Loss: 1.1377 | Top-1: 0.431 | Top-5: 0.600 | LR: 8.98e-06 | 146.3s                                      
+Epoch 404/450 | Loss: 1.1378 | Top-1: 0.428 | Top-5: 0.601 | LR: 8.64e-06 | 147.6s                                      
+Epoch 405/450 | Loss: 1.1383 | Top-1: 0.428 | Top-5: 0.600 | LR: 8.32e-06 | 149.5s                                      
+Epoch 406/450 | Loss: 1.1376 | Top-1: 0.430 | Top-5: 0.601 | LR: 8.00e-06 | 152.3s                                      
+Epoch 407/450 | Loss: 1.1374 | Top-1: 0.429 | Top-5: 0.599 | LR: 7.69e-06 | 154.8s                                      
+Epoch 408/450 | Loss: 1.1386 | Top-1: 0.429 | Top-5: 0.601 | LR: 7.38e-06 | 157.3s                                      
+Epoch 409/450 | Loss: 1.1377 | Top-1: 0.432 | Top-5: 0.603 | LR: 7.08e-06 | 157.7s                                      
+Epoch 410/450 | Loss: 1.1378 | Top-1: 0.432 | Top-5: 0.601 | LR: 6.79e-06 | 158.3s                                      
+Epoch 411/450 | Loss: 1.1374 | Top-1: 0.429 | Top-5: 0.599 | LR: 6.51e-06 | 158.4s                                      
+Epoch 412/450 | Loss: 1.1379 | Top-1: 0.427 | Top-5: 0.599 | LR: 6.23e-06 | 158.1s                                      
+Epoch 413/450 | Loss: 1.1374 | Top-1: 0.427 | Top-5: 0.599 | LR: 5.96e-06 | 158.0s                                      
+Epoch 414/450 | Loss: 1.1378 | Top-1: 0.428 | Top-5: 0.598 | LR: 5.70e-06 | 160.0s                                      
+Epoch 415/450 | Loss: 1.1380 | Top-1: 0.429 | Top-5: 0.600 | LR: 5.44e-06 | 157.6s                                      
+Epoch 416/450 | Loss: 1.1381 | Top-1: 0.429 | Top-5: 0.601 | LR: 5.19e-06 | 153.7s                                      
+Epoch 417/450 | Loss: 1.1376 | Top-1: 0.429 | Top-5: 0.600 | LR: 4.95e-06 | 151.4s                                      
+Epoch 418/450 | Loss: 1.1377 | Top-1: 0.428 | Top-5: 0.598 | LR: 4.72e-06 | 151.1s                                      
+Epoch 419/450 | Loss: 1.1377 | Top-1: 0.428 | Top-5: 0.599 | LR: 4.49e-06 | 147.7s                                      
+Epoch 420/450 | Loss: 1.1374 | Top-1: 0.428 | Top-5: 0.600 | LR: 4.27e-06 | 145.7s                                      
+Epoch 421/450 | Loss: 1.1371 | Top-1: 0.429 | Top-5: 0.601 | LR: 4.05e-06 | 139.1s                                      
+Epoch 422/450 | Loss: 1.1375 | Top-1: 0.428 | Top-5: 0.601 | LR: 3.85e-06 | 138.7s                                      
+Epoch 423/450 | Loss: 1.1379 | Top-1: 0.429 | Top-5: 0.600 | LR: 3.65e-06 | 143.9s                                      
+Epoch 424/450 | Loss: 1.1372 | Top-1: 0.429 | Top-5: 0.601 | LR: 3.46e-06 | 143.4s                                      
+Epoch 425/450 | Loss: 1.1379 | Top-1: 0.429 | Top-5: 0.600 | LR: 3.27e-06 | 145.1s                                      
+Epoch 426/450 | Loss: 1.1372 | Top-1: 0.429 | Top-5: 0.600 | LR: 3.09e-06 | 148.3s                                      
+Epoch 427/450 | Loss: 1.1367 | Top-1: 0.428 | Top-5: 0.601 | LR: 2.92e-06 | 149.2s                                      
+Epoch 428/450 | Loss: 1.1370 | Top-1: 0.428 | Top-5: 0.600 | LR: 2.76e-06 | 151.8s                                      
+Epoch 429/450 | Loss: 1.1377 | Top-1: 0.428 | Top-5: 0.599 | LR: 2.60e-06 | 154.1s                                      
+Epoch 430/450 | Loss: 1.1364 | Top-1: 0.427 | Top-5: 0.598 | LR: 2.45e-06 | 156.8s                                      
+Epoch 431/450 | Loss: 1.1371 | Top-1: 0.427 | Top-5: 0.597 | LR: 2.31e-06 | 159.5s                                      
+Epoch 432/450 | Loss: 1.1372 | Top-1: 0.426 | Top-5: 0.597 | LR: 2.18e-06 | 159.1s                                      
+Epoch 433/450 | Loss: 1.1372 | Top-1: 0.427 | Top-5: 0.598 | LR: 2.05e-06 | 159.5s                                      
+Epoch 434/450 | Loss: 1.1373 | Top-1: 0.428 | Top-5: 0.596 | LR: 1.93e-06 | 158.8s                                      
+Epoch 435/450 | Loss: 1.1375 | Top-1: 0.427 | Top-5: 0.597 | LR: 1.82e-06 | 159.7s                                      
+Epoch 436/450 | Loss: 1.1368 | Top-1: 0.426 | Top-5: 0.596 | LR: 1.71e-06 | 159.1s                                      
+Epoch 437/450 | Loss: 1.1373 | Top-1: 0.427 | Top-5: 0.598 | LR: 1.62e-06 | 158.9s                                      
+Epoch 438/450 | Loss: 1.1368 | Top-1: 0.427 | Top-5: 0.597 | LR: 1.52e-06 | 156.4s                                      
+Epoch 439/450 | Loss: 1.1378 | Top-1: 0.426 | Top-5: 0.599 | LR: 1.44e-06 | 153.3s                                      
+Epoch 440/450 | Loss: 1.1372 | Top-1: 0.427 | Top-5: 0.598 | LR: 1.36e-06 | 150.2s                                      
+Epoch 441/450 | Loss: 1.1366 | Top-1: 0.427 | Top-5: 0.598 | LR: 1.30e-06 | 149.0s                                      
+Epoch 442/450 | Loss: 1.1371 | Top-1: 0.427 | Top-5: 0.597 | LR: 1.23e-06 | 159.3s                                      
+Epoch 443/450 | Loss: 1.1372 | Top-1: 0.426 | Top-5: 0.597 | LR: 1.18e-06 | 155.0s                                      
+Epoch 444/450 | Loss: 1.1374 | Top-1: 0.427 | Top-5: 0.598 | LR: 1.13e-06 | 160.1s                                      
+Epoch 445/450 | Loss: 1.1368 | Top-1: 0.427 | Top-5: 0.598 | LR: 1.09e-06 | 150.8s                                      
+Epoch 446/450 | Loss: 1.1373 | Top-1: 0.426 | Top-5: 0.598 | LR: 1.06e-06 | 142.5s                                      
+Epoch 447/450 | Loss: 1.1371 | Top-1: 0.427 | Top-5: 0.597 | LR: 1.03e-06 | 162.9s                                      
+Epoch 448/450 | Loss: 1.1367 | Top-1: 0.427 | Top-5: 0.598 | LR: 1.01e-06 | 155.6s                                      
+Epoch 449/450 | Loss: 1.1367 | Top-1: 0.427 | Top-5: 0.599 | LR: 1.00e-06 | 145.8s                                      
+Epoch 450/450 | Loss: 1.1373 | Top-1: 0.426 | Top-5: 0.597 | LR: 1.00e-06 | 147.8s                                      
+
+Training complete. Best Top-1: 0.440
+
+=== Per-class accuracy breakdown ===
+Top-10 classes:                                                                                                         
+  jump                 3/3  (100%)
+  why                  3/3  (100%)
+  beard                3/3  (100%)
+  sign                 3/3  (100%)
+  many                 3/3  (100%)
+  move                 3/3  (100%)
+  far                  3/3  (100%)
+  last                 3/3  (100%)
+  graduate             3/3  (100%)
+  glasses              3/3  (100%)
+Bottom-10 classes:
+  food                 0/1  (0%)
+  necklace             0/1  (0%)
+  right                0/1  (0%)
+  arm                  0/1  (0%)
+  what                 0/1  (0%)
+  turkey               0/1  (0%)
+  police               0/1  (0%)
+  problem              0/1  (0%)
+  short                0/1  (0%)
+  approve              0/1  (0%)
+
+Classes with 0% accuracy: 501/1896
+Per-class results saved → results/metrics/transformer_d256_l4_v1896_combined_per_class.json
+
+/Users/khuranaradhika/asl-realtime/src/model.py:294: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder    = nn.TransformerEncoder(enc_layer, num_layers=n_layers)
+Teacher type: student classifier (d=256, l=4)
+Teacher Top-1: 0.440
+Teacher params: 0
+
+Student params: 658,280
+Distillation: alpha=0.5, tau=4.0
+[train/combined] 52998 samples loaded
+[val/wlasl] 5567 samples loaded
+
+Saving to: models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Starting distillation for 100 epochs...
+
+Distilling:   0%|                                                                              | 0/1656 [00:00<?, ?it/s]/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+Epoch 001/100 | Loss: 3.9277 | Top-1: 0.038 | Top-5: 0.119 | LR: 3.00e-04 | 111.5s                                      
+  ✓ New best: 0.038 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 002/100 | Loss: 3.2689 | Top-1: 0.084 | Top-5: 0.239 | LR: 3.00e-04 | 102.7s                                      
+  ✓ New best: 0.084 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 003/100 | Loss: 2.8592 | Top-1: 0.146 | Top-5: 0.329 | LR: 2.99e-04 | 104.0s                                      
+  ✓ New best: 0.146 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 004/100 | Loss: 2.5865 | Top-1: 0.162 | Top-5: 0.368 | LR: 2.99e-04 | 108.3s                                      
+  ✓ New best: 0.162 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 005/100 | Loss: 2.3889 | Top-1: 0.208 | Top-5: 0.422 | LR: 2.98e-04 | 118.6s                                      
+  ✓ New best: 0.208 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 006/100 | Loss: 2.2443 | Top-1: 0.215 | Top-5: 0.449 | LR: 2.97e-04 | 116.5s                                      
+  ✓ New best: 0.215 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 007/100 | Loss: 2.1329 | Top-1: 0.261 | Top-5: 0.503 | LR: 2.96e-04 | 104.2s                                      
+  ✓ New best: 0.261 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 008/100 | Loss: 2.0506 | Top-1: 0.260 | Top-5: 0.491 | LR: 2.95e-04 | 114.1s                                      
+Epoch 009/100 | Loss: 1.9820 | Top-1: 0.260 | Top-5: 0.493 | LR: 2.94e-04 | 119.0s                                      
+Epoch 010/100 | Loss: 1.9239 | Top-1: 0.298 | Top-5: 0.541 | LR: 2.93e-04 | 111.4s                                      
+  ✓ New best: 0.298 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 011/100 | Loss: 1.8632 | Top-1: 0.294 | Top-5: 0.526 | LR: 2.91e-04 | 105.4s                                      
+Epoch 012/100 | Loss: 1.8189 | Top-1: 0.317 | Top-5: 0.548 | LR: 2.90e-04 | 118.3s                                      
+  ✓ New best: 0.317 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 013/100 | Loss: 1.7799 | Top-1: 0.329 | Top-5: 0.579 | LR: 2.88e-04 | 116.0s                                      
+  ✓ New best: 0.329 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 014/100 | Loss: 1.7406 | Top-1: 0.360 | Top-5: 0.620 | LR: 2.86e-04 | 117.9s                                      
+  ✓ New best: 0.360 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 015/100 | Loss: 1.7086 | Top-1: 0.341 | Top-5: 0.591 | LR: 2.84e-04 | 137.1s                                      
+Epoch 016/100 | Loss: 1.6908 | Top-1: 0.358 | Top-5: 0.620 | LR: 2.82e-04 | 142.6s                                      
+Epoch 017/100 | Loss: 1.6628 | Top-1: 0.348 | Top-5: 0.592 | LR: 2.79e-04 | 134.8s                                      
+Epoch 018/100 | Loss: 1.6422 | Top-1: 0.352 | Top-5: 0.597 | LR: 2.77e-04 | 149.0s                                      
+Epoch 019/100 | Loss: 1.6229 | Top-1: 0.392 | Top-5: 0.648 | LR: 2.74e-04 | 124.7s                                      
+  ✓ New best: 0.392 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 020/100 | Loss: 1.6079 | Top-1: 0.391 | Top-5: 0.637 | LR: 2.71e-04 | 266.6s                                      
+Epoch 021/100 | Loss: 1.5932 | Top-1: 0.411 | Top-5: 0.659 | LR: 2.69e-04 | 296.2s                                      
+  ✓ New best: 0.411 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 022/100 | Loss: 1.5770 | Top-1: 0.402 | Top-5: 0.641 | LR: 2.66e-04 | 139.3s                                      
+Epoch 023/100 | Loss: 1.5635 | Top-1: 0.430 | Top-5: 0.676 | LR: 2.63e-04 | 104.3s                                      
+  ✓ New best: 0.430 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 024/100 | Loss: 1.5472 | Top-1: 0.406 | Top-5: 0.651 | LR: 2.59e-04 | 101.7s                                      
+Epoch 025/100 | Loss: 1.5431 | Top-1: 0.415 | Top-5: 0.669 | LR: 2.56e-04 | 100.8s                                      
+Epoch 026/100 | Loss: 1.5228 | Top-1: 0.401 | Top-5: 0.652 | LR: 2.53e-04 | 97.6s                                       
+Epoch 027/100 | Loss: 1.5193 | Top-1: 0.419 | Top-5: 0.669 | LR: 2.49e-04 | 95.8s                                       
+Epoch 028/100 | Loss: 1.5065 | Top-1: 0.436 | Top-5: 0.680 | LR: 2.46e-04 | 92.1s                                       
+  ✓ New best: 0.436 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 029/100 | Loss: 1.4999 | Top-1: 0.408 | Top-5: 0.662 | LR: 2.42e-04 | 89.6s                                       
+Epoch 030/100 | Loss: 1.4882 | Top-1: 0.418 | Top-5: 0.668 | LR: 2.38e-04 | 84.9s                                       
+Epoch 031/100 | Loss: 1.4792 | Top-1: 0.429 | Top-5: 0.669 | LR: 2.35e-04 | 93.7s                                       
+Epoch 032/100 | Loss: 1.4704 | Top-1: 0.423 | Top-5: 0.652 | LR: 2.31e-04 | 106.1s                                      
+Epoch 033/100 | Loss: 1.4609 | Top-1: 0.426 | Top-5: 0.663 | LR: 2.27e-04 | 125.2s                                      
+Epoch 034/100 | Loss: 1.4566 | Top-1: 0.441 | Top-5: 0.679 | LR: 2.23e-04 | 127.5s                                      
+  ✓ New best: 0.441 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 035/100 | Loss: 1.4504 | Top-1: 0.431 | Top-5: 0.663 | LR: 2.18e-04 | 131.0s                                      
+Epoch 036/100 | Loss: 1.4438 | Top-1: 0.421 | Top-5: 0.656 | LR: 2.14e-04 | 135.1s                                      
+Epoch 037/100 | Loss: 1.4339 | Top-1: 0.447 | Top-5: 0.681 | LR: 2.10e-04 | 129.5s                                      
+  ✓ New best: 0.447 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 038/100 | Loss: 1.4296 | Top-1: 0.447 | Top-5: 0.681 | LR: 2.06e-04 | 131.3s                                      
+  ✓ New best: 0.447 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 039/100 | Loss: 1.4240 | Top-1: 0.443 | Top-5: 0.683 | LR: 2.01e-04 | 153.1s                                      
+Epoch 040/100 | Loss: 1.4140 | Top-1: 0.447 | Top-5: 0.675 | LR: 1.97e-04 | 162.2s                                      
+Epoch 041/100 | Loss: 1.4113 | Top-1: 0.430 | Top-5: 0.657 | LR: 1.92e-04 | 165.1s                                      
+Epoch 042/100 | Loss: 1.4052 | Top-1: 0.454 | Top-5: 0.680 | LR: 1.88e-04 | 163.1s                                      
+  ✓ New best: 0.454 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 043/100 | Loss: 1.3988 | Top-1: 0.455 | Top-5: 0.689 | LR: 1.83e-04 | 164.0s                                      
+  ✓ New best: 0.455 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 044/100 | Loss: 1.3940 | Top-1: 0.454 | Top-5: 0.682 | LR: 1.79e-04 | 164.2s                                      
+Epoch 045/100 | Loss: 1.3878 | Top-1: 0.438 | Top-5: 0.664 | LR: 1.74e-04 | 162.7s                                      
+Epoch 046/100 | Loss: 1.3832 | Top-1: 0.463 | Top-5: 0.689 | LR: 1.69e-04 | 155.7s                                      
+  ✓ New best: 0.463 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 047/100 | Loss: 1.3770 | Top-1: 0.461 | Top-5: 0.682 | LR: 1.65e-04 | 155.9s                                      
+Epoch 048/100 | Loss: 1.3713 | Top-1: 0.455 | Top-5: 0.676 | LR: 1.60e-04 | 125.9s                                      
+Epoch 049/100 | Loss: 1.3684 | Top-1: 0.455 | Top-5: 0.678 | LR: 1.55e-04 | 122.8s                                      
+Epoch 050/100 | Loss: 1.3651 | Top-1: 0.468 | Top-5: 0.698 | LR: 1.50e-04 | 115.8s                                      
+  ✓ New best: 0.468 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 051/100 | Loss: 1.3569 | Top-1: 0.475 | Top-5: 0.698 | LR: 1.46e-04 | 134.2s                                      
+  ✓ New best: 0.475 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 052/100 | Loss: 1.3540 | Top-1: 0.450 | Top-5: 0.677 | LR: 1.41e-04 | 98.4s                                       
+Epoch 053/100 | Loss: 1.3484 | Top-1: 0.459 | Top-5: 0.684 | LR: 1.36e-04 | 93.7s                                       
+Epoch 054/100 | Loss: 1.3439 | Top-1: 0.453 | Top-5: 0.675 | LR: 1.32e-04 | 95.7s                                       
+Epoch 055/100 | Loss: 1.3407 | Top-1: 0.467 | Top-5: 0.688 | LR: 1.27e-04 | 100.5s                                      
+Epoch 056/100 | Loss: 1.3363 | Top-1: 0.470 | Top-5: 0.693 | LR: 1.22e-04 | 105.7s                                      
+Epoch 057/100 | Loss: 1.3355 | Top-1: 0.458 | Top-5: 0.679 | LR: 1.18e-04 | 104.9s                                      
+Epoch 058/100 | Loss: 1.3332 | Top-1: 0.479 | Top-5: 0.694 | LR: 1.13e-04 | 103.9s                                      
+  ✓ New best: 0.479 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 059/100 | Loss: 1.3256 | Top-1: 0.472 | Top-5: 0.692 | LR: 1.09e-04 | 104.2s                                      
+Epoch 060/100 | Loss: 1.3252 | Top-1: 0.476 | Top-5: 0.694 | LR: 1.04e-04 | 109.8s                                      
+Epoch 061/100 | Loss: 1.3187 | Top-1: 0.476 | Top-5: 0.701 | LR: 9.99e-05 | 104.6s                                      
+Epoch 062/100 | Loss: 1.3158 | Top-1: 0.465 | Top-5: 0.691 | LR: 9.55e-05 | 105.0s                                      
+Epoch 063/100 | Loss: 1.3178 | Top-1: 0.473 | Top-5: 0.694 | LR: 9.11e-05 | 103.5s                                      
+Epoch 064/100 | Loss: 1.3092 | Top-1: 0.475 | Top-5: 0.694 | LR: 8.68e-05 | 107.6s                                      
+Epoch 065/100 | Loss: 1.3071 | Top-1: 0.485 | Top-5: 0.706 | LR: 8.26e-05 | 101.8s                                      
+  ✓ New best: 0.485 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 066/100 | Loss: 1.3034 | Top-1: 0.477 | Top-5: 0.695 | LR: 7.85e-05 | 101.1s                                      
+Epoch 067/100 | Loss: 1.3019 | Top-1: 0.462 | Top-5: 0.690 | LR: 7.44e-05 | 102.5s                                      
+Epoch 068/100 | Loss: 1.2967 | Top-1: 0.477 | Top-5: 0.698 | LR: 7.04e-05 | 105.1s                                      
+Epoch 069/100 | Loss: 1.2937 | Top-1: 0.474 | Top-5: 0.693 | LR: 6.65e-05 | 109.4s                                      
+Epoch 070/100 | Loss: 1.2909 | Top-1: 0.494 | Top-5: 0.713 | LR: 6.26e-05 | 107.8s                                      
+  ✓ New best: 0.494 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 071/100 | Loss: 1.2932 | Top-1: 0.477 | Top-5: 0.694 | LR: 5.89e-05 | 109.9s                                      
+Epoch 072/100 | Loss: 1.2875 | Top-1: 0.484 | Top-5: 0.701 | LR: 5.52e-05 | 103.9s                                      
+Epoch 073/100 | Loss: 1.2850 | Top-1: 0.490 | Top-5: 0.707 | LR: 5.16e-05 | 104.8s                                      
+Epoch 074/100 | Loss: 1.2835 | Top-1: 0.488 | Top-5: 0.705 | LR: 4.82e-05 | 103.7s                                      
+Epoch 075/100 | Loss: 1.2840 | Top-1: 0.484 | Top-5: 0.698 | LR: 4.48e-05 | 102.8s                                      
+Epoch 076/100 | Loss: 1.2784 | Top-1: 0.475 | Top-5: 0.695 | LR: 4.15e-05 | 104.5s                                      
+Epoch 077/100 | Loss: 1.2778 | Top-1: 0.486 | Top-5: 0.705 | LR: 3.84e-05 | 106.3s                                      
+Epoch 078/100 | Loss: 1.2720 | Top-1: 0.484 | Top-5: 0.702 | LR: 3.53e-05 | 104.7s                                      
+Epoch 079/100 | Loss: 1.2763 | Top-1: 0.488 | Top-5: 0.706 | LR: 3.24e-05 | 106.6s                                      
+Epoch 080/100 | Loss: 1.2745 | Top-1: 0.494 | Top-5: 0.709 | LR: 2.96e-05 | 106.5s                                      
+Epoch 081/100 | Loss: 1.2678 | Top-1: 0.495 | Top-5: 0.712 | LR: 2.69e-05 | 105.7s                                      
+  ✓ New best: 0.495 → models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+Epoch 082/100 | Loss: 1.2695 | Top-1: 0.490 | Top-5: 0.703 | LR: 2.43e-05 | 104.8s                                      
+Epoch 083/100 | Loss: 1.2696 | Top-1: 0.494 | Top-5: 0.709 | LR: 2.18e-05 | 111.6s                                      
+Epoch 084/100 | Loss: 1.2697 | Top-1: 0.489 | Top-5: 0.705 | LR: 1.95e-05 | 108.9s                                      
+Epoch 085/100 | Loss: 1.2681 | Top-1: 0.490 | Top-5: 0.708 | LR: 1.73e-05 | 107.6s                                      
+Epoch 086/100 | Loss: 1.2639 | Top-1: 0.491 | Top-5: 0.712 | LR: 1.52e-05 | 107.9s                                      
+Epoch 087/100 | Loss: 1.2626 | Top-1: 0.483 | Top-5: 0.701 | LR: 1.33e-05 | 108.1s                                      
+Epoch 088/100 | Loss: 1.2636 | Top-1: 0.486 | Top-5: 0.705 | LR: 1.15e-05 | 109.7s                                      
+Epoch 089/100 | Loss: 1.2622 | Top-1: 0.487 | Top-5: 0.704 | LR: 9.84e-06 | 109.1s                                      
+Epoch 090/100 | Loss: 1.2634 | Top-1: 0.488 | Top-5: 0.704 | LR: 8.32e-06 | 108.0s                                      
+Epoch 091/100 | Loss: 1.2574 | Top-1: 0.489 | Top-5: 0.704 | LR: 6.94e-06 | 107.0s                                      
+Epoch 092/100 | Loss: 1.2630 | Top-1: 0.489 | Top-5: 0.706 | LR: 5.70e-06 | 108.8s                                      
+Epoch 093/100 | Loss: 1.2604 | Top-1: 0.490 | Top-5: 0.705 | LR: 4.60e-06 | 108.4s                                      
+Epoch 094/100 | Loss: 1.2599 | Top-1: 0.489 | Top-5: 0.707 | LR: 3.65e-06 | 108.5s                                      
+Epoch 095/100 | Loss: 1.2612 | Top-1: 0.492 | Top-5: 0.708 | LR: 2.84e-06 | 108.6s                                      
+Epoch 096/100 | Loss: 1.2584 | Top-1: 0.491 | Top-5: 0.706 | LR: 2.18e-06 | 109.1s                                      
+Epoch 097/100 | Loss: 1.2587 | Top-1: 0.491 | Top-5: 0.707 | LR: 1.66e-06 | 109.2s                                      
+Epoch 098/100 | Loss: 1.2594 | Top-1: 0.489 | Top-5: 0.705 | LR: 1.30e-06 | 107.9s                                      
+Epoch 099/100 | Loss: 1.2576 | Top-1: 0.488 | Top-5: 0.706 | LR: 1.07e-06 | 108.7s                                      
+Epoch 100/100 | Loss: 1.2603 | Top-1: 0.489 | Top-5: 0.707 | LR: 1.00e-06 | 108.3s                                      
+
+Distillation complete.
+Best Top-1: 0.495
+Checkpoint: models/checkpoints/distill_s128l3_a5_t4_v1896_combined_best.pt
+
+=== Per-class accuracy breakdown ===
+Top-10 classes:                                                                                                         
+  why                       3/3  (100%)
+  brother                   3/3  (100%)
+  beard                     3/3  (100%)
+  dress                     3/3  (100%)
+  many                      3/3  (100%)
+  more                      3/3  (100%)
+  football                  3/3  (100%)
+  move                      3/3  (100%)
+  last                      3/3  (100%)
+  graduate                  3/3  (100%)
+Bottom-10 classes:
+  town                      0/1  (0%)
+  food                      0/1  (0%)
+  necklace                  0/1  (0%)
+  right                     0/1  (0%)
+  arm                       0/1  (0%)
+  what                      0/1  (0%)
+  turkey                    0/1  (0%)
+  police                    0/1  (0%)
+  short                     0/1  (0%)
+  approve                   0/1  (0%)
+
+Classes with 0% accuracy: 374/1896
+Per-class saved → results/metrics/distill_s128l3_a5_t4_v1896_combined_per_class.json

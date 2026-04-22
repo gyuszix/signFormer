@@ -1,0 +1,29 @@
+        print(f"{word:20s} → confused with: {confused_with}")
+EOF
+/Users/khuranaradhika/asl-realtime/src/model.py:294: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder    = nn.TransformerEncoder(enc_layer, num_layers=n_layers)
+[val/wlasl] 5567 samples loaded
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+What the model predicts instead of zero-accuracy signs:
+============================================================
+bar                  → confused with: suck thumb(1), back(1)
+bath                 → confused with: example(1), gorilla(1), have(1)
+book                 → confused with: lesson(2), proof(1)
+brown                → confused with: your(1), candle(1)
+business             → confused with: sailboat(2), christmas(1)
+cow                  → confused with: iphone(1), independent(1), apart(1)
+delicious            → confused with: leave(1), validate(1), four(1)
+different            → confused with: but(3)
+egg                  → confused with: come out(1), cocaine(1), abbreviate(1)
+example              → confused with: again(1), draw(1), copy(1)
+future               → confused with: idea(1), compare(1)
+husband              → confused with: temper blow up(1), lecture(1), overlook(1)
+know                 → confused with: impossible(1), validate(1), christmas(1)
+learn                → confused with: bring(1), inhale(1)
+new                  → confused with: reduce(1), cereal(1), lesson(1)
+paper                → confused with: pencil(1), impossible(1), reduce(1)
+salt                 → confused with: train(1), circuswheel(1), salt shaker(1)
+school               → confused with: less(1), reduce(1), again(1)
+share                → confused with: why(2), skill(1)
+water                → confused with: raisin(1), wine(1)

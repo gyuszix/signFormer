@@ -1,0 +1,8 @@
+# BiLSTM baseline
+python3 -m src.train --model lstm --vocab 1896 --epochs 50 --combined --workers 0
+
+# 1D CNN baseline
+python3 -m src.train --model cnn --vocab 1896 --epochs 50 --combined --workers 0
+
+# Transformer no augmentation (ablation)
+python3 -m src.train --model transformer --vocab 1896 --epochs 50 --combined --workers 0 --no-augment

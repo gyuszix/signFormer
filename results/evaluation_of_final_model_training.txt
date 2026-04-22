@@ -1,0 +1,810 @@
+Saved per-class results → results/metrics/transformer_d256_l4_v1896_combined_per_class.json
+
+Accuracy Band  Classes % of vocab
+-----------------------------------
+100%                0       0.0%
+80-99%            266      14.0%
+60-79%            524      27.6%
+40-59%             13       0.7%
+20-39%            628      33.1%
+1-19%               0       0.0%
+0%                465      24.5%
+
+Overall Top-1: 44.0%
+Total classes: 1896
+
+=======================================================
+TIER 1 DEMO SIGNS — 245 signs (3+ val, 70%+ acc)
+=======================================================
+Word                        Val  Correct      Acc
+-------------------------------------------------------
+go                            3        3   100.0%  ███████████████
+yes                           3        3   100.0%  ███████████████
+like                          3        3   100.0%  ███████████████
+many                          3        3   100.0%  ███████████████
+accident                      3        3   100.0%  ███████████████
+last                          3        3   100.0%  ███████████████
+meet                          3        3   100.0%  ███████████████
+play                          3        3   100.0%  ███████████████
+purple                        3        3   100.0%  ███████████████
+check                         3        3   100.0%  ███████████████
+have                          3        3   100.0%  ███████████████
+headache                      3        3   100.0%  ███████████████
+laugh                         3        3   100.0%  ███████████████
+take                          3        3   100.0%  ███████████████
+teacher                       3        3   100.0%  ███████████████
+why                           3        3   100.0%  ███████████████
+again                         3        3   100.0%  ███████████████
+cold                          3        3   100.0%  ███████████████
+far                           3        3   100.0%  ███████████████
+friend                        3        3   100.0%  ███████████████
+leave                         3        3   100.0%  ███████████████
+name                          3        3   100.0%  ███████████████
+stay                          3        3   100.0%  ███████████████
+tired                         3        3   100.0%  ███████████████
+beard                         3        3   100.0%  ███████████████
+day                           3        3   100.0%  ███████████████
+hope                          3        3   100.0%  ███████████████
+office                        3        3   100.0%  ███████████████
+pencil                        3        3   100.0%  ███████████████
+sign                          3        3   100.0%  ███████████████
+animal                        3        3   100.0%  ███████████████
+behind                        3        3   100.0%  ███████████████
+environment                   3        3   100.0%  ███████████████
+flower                        3        3   100.0%  ███████████████
+jump                          3        3   100.0%  ███████████████
+move                          3        3   100.0%  ███████████████
+nurse                         3        3   100.0%  ███████████████
+ok                            3        3   100.0%  ███████████████
+perspective                   3        3   100.0%  ███████████████
+shoes                         3        3   100.0%  ███████████████
+sleep                         3        3   100.0%  ███████████████
+sorry                         3        3   100.0%  ███████████████
+sweet                         3        3   100.0%  ███████████████
+today                         3        3   100.0%  ███████████████
+wednesday                     3        3   100.0%  ███████████████
+australia                     3        3   100.0%  ███████████████
+bear                          3        3   100.0%  ███████████████
+from                          3        3   100.0%  ███████████████
+japan                         3        3   100.0%  ███████████████
+mirror                        3        3   100.0%  ███████████████
+science                       3        3   100.0%  ███████████████
+tiger                         3        3   100.0%  ███████████████
+toast                         3        3   100.0%  ███████████████
+tomorrow                      3        3   100.0%  ███████████████
+angel                         3        3   100.0%  ███████████████
+big                           3        3   100.0%  ███████████████
+challenge                     3        3   100.0%  ███████████████
+complex                       3        3   100.0%  ███████████████
+easter                        3        3   100.0%  ███████████████
+egypt                         3        3   100.0%  ███████████████
+europe                        3        3   100.0%  ███████████████
+experience                    3        3   100.0%  ███████████████
+form                          3        3   100.0%  ███████████████
+grammar                       3        3   100.0%  ███████████████
+great                         3        3   100.0%  ███████████████
+high                          3        3   100.0%  ███████████████
+introduce                     3        3   100.0%  ███████████████
+reason                        3        3   100.0%  ███████████████
+shower                        3        3   100.0%  ███████████████
+suspect                       3        3   100.0%  ███████████████
+therapy                       3        3   100.0%  ███████████████
+top                           3        3   100.0%  ███████████████
+wow                           3        3   100.0%  ███████████████
+airplane                      3        3   100.0%  ███████████████
+army                          3        3   100.0%  ███████████████
+ask                           3        3   100.0%  ███████████████
+butter                        3        3   100.0%  ███████████████
+conflict                      3        3   100.0%  ███████████████
+funny                         3        3   100.0%  ███████████████
+goal                          3        3   100.0%  ███████████████
+gossip                        3        3   100.0%  ███████████████
+group                         3        3   100.0%  ███████████████
+independent                   3        3   100.0%  ███████████████
+lecture                       3        3   100.0%  ███████████████
+lesson                        3        3   100.0%  ███████████████
+listen                        3        3   100.0%  ███████████████
+mustache                      3        3   100.0%  ███████████████
+quit                          3        3   100.0%  ███████████████
+should                        3        3   100.0%  ███████████████
+summon                        3        3   100.0%  ███████████████
+actor                         3        3   100.0%  ███████████████
+announce                      3        3   100.0%  ███████████████
+building                      3        3   100.0%  ███████████████
+chain                         3        3   100.0%  ███████████████
+function                      3        3   100.0%  ███████████████
+interview                     3        3   100.0%  ███████████████
+lesbian                       3        3   100.0%  ███████████████
+place                         3        3   100.0%  ███████████████
+project                       3        3   100.0%  ███████████████
+revenge                       3        3   100.0%  ███████████████
+scientist                     3        3   100.0%  ███████████████
+senate                        3        3   100.0%  ███████████████
+situation                     3        3   100.0%  ███████████████
+team                          3        3   100.0%  ███████████████
+try                           3        3   100.0%  ███████████████
+winter                        3        3   100.0%  ███████████████
+culture                       3        3   100.0%  ███████████████
+department                    3        3   100.0%  ███████████████
+director                      3        3   100.0%  ███████████████
+drum                          3        3   100.0%  ███████████████
+famous                        3        3   100.0%  ███████████████
+fix                           3        3   100.0%  ███████████████
+misunderstand                 3        3   100.0%  ███████████████
+out                           3        3   100.0%  ███████████████
+rock                          3        3   100.0%  ███████████████
+shelf                         3        3   100.0%  ███████████████
+tough                         3        3   100.0%  ███████████████
+trouble                       3        3   100.0%  ███████████████
+verb                          3        3   100.0%  ███████████████
+wall                          3        3   100.0%  ███████████████
+while                         3        3   100.0%  ███████████████
+workshop                      3        3   100.0%  ███████████████
+alcohol                       3        3   100.0%  ███████████████
+april                         3        3   100.0%  ███████████████
+awake                         3        3   100.0%  ███████████████
+camping                       3        3   100.0%  ███████████████
+ceiling                       3        3   100.0%  ███████████████
+date                          3        3   100.0%  ███████████████
+defeat                        3        3   100.0%  ███████████████
+dizzy                         3        3   100.0%  ███████████████
+dormitory                     3        3   100.0%  ███████████████
+february                      3        3   100.0%  ███████████████
+gas                           3        3   100.0%  ███████████████
+haircut                       3        3   100.0%  ███████████████
+hurricane                     3        3   100.0%  ███████████████
+manage                        3        3   100.0%  ███████████████
+once                          3        3   100.0%  ███████████████
+philadelphia                  3        3   100.0%  ███████████████
+prefer                        3        3   100.0%  ███████████████
+sauce                         3        3   100.0%  ███████████████
+shame                         3        3   100.0%  ███████████████
+still                         3        3   100.0%  ███████████████
+tornado                       3        3   100.0%  ███████████████
+visitor                       3        3   100.0%  ███████████████
+wonder                        3        3   100.0%  ███████████████
+admire                        3        3   100.0%  ███████████████
+bank                          3        3   100.0%  ███████████████
+cannot                        3        3   100.0%  ███████████████
+crown                         3        3   100.0%  ███████████████
+due                           3        3   100.0%  ███████████████
+fool                          3        3   100.0%  ███████████████
+gift                          3        3   100.0%  ███████████████
+hanukkah                      3        3   100.0%  ███████████████
+jewelry                       3        3   100.0%  ███████████████
+league                        3        3   100.0%  ███████████████
+quarter                       3        3   100.0%  ███████████████
+free                          3        3   100.0%  ███████████████
+starbucks                     3        3   100.0%  ███████████████
+beak                          3        3   100.0%  ███████████████
+pass out                      3        3   100.0%  ███████████████
+opportunity                   3        3   100.0%  ███████████████
+curtain                       3        3   100.0%  ███████████████
+inch                          3        3   100.0%  ███████████████
+long word                     3        3   100.0%  ███████████████
+frame                         3        3   100.0%  ███████████████
+donkey                        3        3   100.0%  ███████████████
+do do                         3        3   100.0%  ███████████████
+dig up                        3        3   100.0%  ███████████████
+beat                          3        3   100.0%  ███████████████
+mine                          3        3   100.0%  ███████████████
+tendency                      3        3   100.0%  ███████████████
+think over                    3        3   100.0%  ███████████████
+back up                       3        3   100.0%  ███████████████
+stapler                       3        3   100.0%  ███████████████
+tend your                     3        3   100.0%  ███████████████
+ruin                          3        3   100.0%  ███████████████
+lungs                         3        3   100.0%  ███████████████
+ponder                        3        3   100.0%  ███████████████
+enemy                         3        3   100.0%  ███████████████
+specialist                    3        3   100.0%  ███████████████
+peekaboo                      3        3   100.0%  ███████████████
+roast                         3        3   100.0%  ███████████████
+delinquent                    3        3   100.0%  ███████████████
+same time                     3        3   100.0%  ███████████████
+maple                         3        3   100.0%  ███████████████
+tty                           3        3   100.0%  ███████████████
+damn                          3        3   100.0%  ███████████████
+spaghetti                     3        3   100.0%  ███████████████
+protest                       3        3   100.0%  ███████████████
+deaf school                   3        3   100.0%  ███████████████
+lollipop                      3        3   100.0%  ███████████████
+icecream                      3        3   100.0%  ███████████████
+yoyo                          3        3   100.0%  ███████████████
+blank                         3        3   100.0%  ███████████████
+athlete                       3        3   100.0%  ███████████████
+call tty                      3        3   100.0%  ███████████████
+skate                         3        3   100.0%  ███████████████
+agency                        3        3   100.0%  ███████████████
+tear                          3        3   100.0%  ███████████████
+sideburns                     3        3   100.0%  ███████████████
+ski                           3        3   100.0%  ███████████████
+yeah                          3        3   100.0%  ███████████████
+vagina                        3        3   100.0%  ███████████████
+brainstorm                    3        3   100.0%  ███████████████
+glow                          3        3   100.0%  ███████████████
+let go                        3        3   100.0%  ███████████████
+move down                     3        3   100.0%  ███████████████
+think ponder                  3        3   100.0%  ███████████████
+brick                         3        3   100.0%  ███████████████
+9 oclock                      3        3   100.0%  ███████████████
+eclipse                       3        3   100.0%  ███████████████
+dart                          3        3   100.0%  ███████████████
+hotel                         3        3   100.0%  ███████████████
+undergraduate                 3        3   100.0%  ███████████████
+sweat                         3        3   100.0%  ███████████████
+beanie                        3        3   100.0%  ███████████████
+spot something                3        3   100.0%  ███████████████
+harp                          3        3   100.0%  ███████████████
+learn lesson                  3        3   100.0%  ███████████████
+hell                          3        3   100.0%  ███████████████
+bib                           3        3   100.0%  ███████████████
+bison                         3        3   100.0%  ███████████████
+square idiot                  3        3   100.0%  ███████████████
+react                         3        3   100.0%  ███████████████
+at                            3        3   100.0%  ███████████████
+license                       3        3   100.0%  ███████████████
+organization                  3        3   100.0%  ███████████████
+confident                     3        3   100.0%  ███████████████
+produce sign                  3        3   100.0%  ███████████████
+orange eyes                   3        3   100.0%  ███████████████
+howl                          3        3   100.0%  ███████████████
+pepsi                         3        3   100.0%  ███████████████
+leave alone                   3        3   100.0%  ███████████████
+vanish                        3        3   100.0%  ███████████████
+same same                     3        3   100.0%  ███████████████
+walrus                        3        3   100.0%  ███████████████
+whole                         3        3   100.0%  ███████████████
+faucet                        3        3   100.0%  ███████████████
+connection                    3        3   100.0%  ███████████████
+every year                    3        3   100.0%  ███████████████
+choke                         3        3   100.0%  ███████████████
+8 hour                        3        3   100.0%  ███████████████
+unicorn                       3        3   100.0%  ███████████████
+peck                          3        3   100.0%  ███████████████
+sailboat                      3        3   100.0%  ███████████████
+
+TIER 2 DEMO SIGNS — 528 signs (2+ val, 60%+ acc)
+-------------------------------------------------------
+  hat                       2/2  (100%)
+  pizza                     2/2  (100%)
+  knife                     2/2  (100%)
+  mean                      2/2  (100%)
+  computer                  2/3  (67%)
+  chair                     2/3  (67%)
+  help                      2/3  (67%)
+  no                        2/3  (67%)
+  thin                      2/3  (67%)
+  all                       2/3  (67%)
+  finish                    2/3  (67%)
+  hot                       2/3  (67%)
+  now                       2/3  (67%)
+  orange                    2/3  (67%)
+  family                    2/3  (67%)
+  graduate                  2/3  (67%)
+  later                     2/3  (67%)
+  white                     2/3  (67%)
+  bird                      2/3  (67%)
+  dance                     2/3  (67%)
+  give                      2/3  (67%)
+  work                      2/3  (67%)
+  but                       2/3  (67%)
+  paint                     2/3  (67%)
+  son                       2/3  (67%)
+  thursday                  2/3  (67%)
+  visit                     2/3  (67%)
+  wait                      2/3  (67%)
+  yellow                    2/3  (67%)
+  brother                   2/3  (67%)
+  class                     2/3  (67%)
+  tea                       2/3  (67%)
+  write                     2/3  (67%)
+  bad                       2/3  (67%)
+  bathroom                  2/3  (67%)
+  coffee                    2/3  (67%)
+  college                   2/3  (67%)
+  copy                      2/3  (67%)
+  happy                     2/3  (67%)
+  lose                      2/3  (67%)
+  sunday                    2/3  (67%)
+  test                      2/3  (67%)
+  travel                    2/3  (67%)
+  window                    2/3  (67%)
+  balance                   2/3  (67%)
+  because                   2/3  (67%)
+  boy                       2/3  (67%)
+  chat                      2/3  (67%)
+  country                   2/3  (67%)
+  crash                     2/3  (67%)
+  dress                     2/3  (67%)
+  drop                      2/3  (67%)
+  fat                       2/3  (67%)
+  football                  2/3  (67%)
+  game                      2/3  (67%)
+  girl                      2/3  (67%)
+  government                2/3  (67%)
+  here                      2/3  (67%)
+  make                      2/3  (67%)
+  more                      2/3  (67%)
+  none                      2/3  (67%)
+  president                 2/3  (67%)
+  restaurant                2/3  (67%)
+  since                     2/3  (67%)
+  small                     2/3  (67%)
+  south                     2/3  (67%)
+  theory                    2/3  (67%)
+  tomato                    2/3  (67%)
+  train                     2/3  (67%)
+  where                     2/3  (67%)
+  always                    2/3  (67%)
+  argue                     2/3  (67%)
+  back                      2/3  (67%)
+  bring                     2/3  (67%)
+  cereal                    2/3  (67%)
+  champion                  2/3  (67%)
+  draw                      2/3  (67%)
+  father                    2/3  (67%)
+  friendly                  2/3  (67%)
+  glasses                   2/3  (67%)
+  hard                      2/3  (67%)
+  hurry                     2/3  (67%)
+  nephew                    2/3  (67%)
+  north                     2/3  (67%)
+  scissors                  2/3  (67%)
+  tent                      2/3  (67%)
+  understand                2/3  (67%)
+  which                     2/3  (67%)
+  win                       2/3  (67%)
+  word                      2/3  (67%)
+  age                       2/3  (67%)
+  avoid                     2/3  (67%)
+  bowl                      2/3  (67%)
+  box                       2/3  (67%)
+  child                     2/3  (67%)
+  church                    2/3  (67%)
+  cookie                    2/3  (67%)
+  cup                       2/3  (67%)
+  deer                      2/3  (67%)
+  escape                    2/3  (67%)
+  expensive                 2/3  (67%)
+  fast                      2/3  (67%)
+  get                       2/3  (67%)
+  important                 2/3  (67%)
+  meeting                   2/3  (67%)
+  onion                     2/3  (67%)
+  picture                   2/3  (67%)
+  point                     2/3  (67%)
+  poor                      2/3  (67%)
+  possible                  2/3  (67%)
+  rain                      2/3  (67%)
+  shape                     2/3  (67%)
+  sit                       2/3  (67%)
+  struggle                  2/3  (67%)
+  stubborn                  2/3  (67%)
+  transfer                  2/3  (67%)
+  tree                      2/3  (67%)
+  adult                     2/3  (67%)
+  any                       2/3  (67%)
+  aunt                      2/3  (67%)
+  awkward                   2/3  (67%)
+  bacon                     2/3  (67%)
+  bedroom                   2/3  (67%)
+  cake                      2/3  (67%)
+  continue                  2/3  (67%)
+  desert                    2/3  (67%)
+  event                     2/3  (67%)
+  fail                      2/3  (67%)
+  front                     2/3  (67%)
+  god                       2/3  (67%)
+  grandfather               2/3  (67%)
+  greece                    2/3  (67%)
+  guitar                    2/3  (67%)
+  history                   2/3  (67%)
+  lazy                      2/3  (67%)
+  library                   2/3  (67%)
+  lie                       2/3  (67%)
+  microwave                 2/3  (67%)
+  postpone                  2/3  (67%)
+  religion                  2/3  (67%)
+  sell                      2/3  (67%)
+  smart                     2/3  (67%)
+  soft                      2/3  (67%)
+  spain                     2/3  (67%)
+  squirrel                  2/3  (67%)
+  strange                   2/3  (67%)
+  thirsty                   2/3  (67%)
+  ticket                    2/3  (67%)
+  watch                     2/3  (67%)
+  analyze                   2/3  (67%)
+  angry                     2/3  (67%)
+  asia                      2/3  (67%)
+  barely                    2/3  (67%)
+  baseball                  2/3  (67%)
+  blame                     2/3  (67%)
+  body                      2/3  (67%)
+  bottle                    2/3  (67%)
+  comfortable               2/3  (67%)
+  dessert                   2/3  (67%)
+  diamond                   2/3  (67%)
+  dream                     2/3  (67%)
+  excited                   2/3  (67%)
+  experiment                2/3  (67%)
+  expert                    2/3  (67%)
+  forest                    2/3  (67%)
+  frog                      2/3  (67%)
+  garage                    2/3  (67%)
+  golf                      2/3  (67%)
+  guilty                    2/3  (67%)
+  hamburger                 2/3  (67%)
+  head                      2/3  (67%)
+  ignore                    2/3  (67%)
+  impossible                2/3  (67%)
+  island                    2/3  (67%)
+  lion                      2/3  (67%)
+  maybe                     2/3  (67%)
+  must                      2/3  (67%)
+  neutral                   2/3  (67%)
+  nose                      2/3  (67%)
+  other                     2/3  (67%)
+  priest                    2/3  (67%)
+  queen                     2/3  (67%)
+  rough                     2/3  (67%)
+  seem                      2/3  (67%)
+  triangle                  2/3  (67%)
+  up                        2/3  (67%)
+  violin                    2/3  (67%)
+  volunteer                 2/3  (67%)
+  wine                      2/3  (67%)
+  wood                      2/3  (67%)
+  best                      2/3  (67%)
+  bicycle                   2/3  (67%)
+  biology                   2/3  (67%)
+  boyfriend                 2/3  (67%)
+  break                     2/3  (67%)
+  brush                     2/3  (67%)
+  camera                    2/3  (67%)
+  celebrate                 2/3  (67%)
+  chance                    2/3  (67%)
+  character                 2/3  (67%)
+  chase                     2/3  (67%)
+  complain                  2/3  (67%)
+  diaper                    2/3  (67%)
+  embarrass                 2/3  (67%)
+  emotion                   2/3  (67%)
+  fox                       2/3  (67%)
+  fruit                     2/3  (67%)
+  goat                      2/3  (67%)
+  half                      2/3  (67%)
+  invite                    2/3  (67%)
+  keep                      2/3  (67%)
+  keyboard                  2/3  (67%)
+  mad                       2/3  (67%)
+  mushroom                  2/3  (67%)
+  neck                      2/3  (67%)
+  next                      2/3  (67%)
+  open                      2/3  (67%)
+  owe                       2/3  (67%)
+  print                     2/3  (67%)
+  puzzled                   2/3  (67%)
+  rich                      2/3  (67%)
+  shrimp                    2/3  (67%)
+  shy                       2/3  (67%)
+  slave                     2/3  (67%)
+  straw                     2/3  (67%)
+  structure                 2/3  (67%)
+  topic                     2/3  (67%)
+  touch                     2/3  (67%)
+  tournament                2/3  (67%)
+  we                        2/3  (67%)
+  wolf                      2/3  (67%)
+  yourself                  2/3  (67%)
+  accomplish                2/3  (67%)
+  breathe                   2/3  (67%)
+  bright                    2/3  (67%)
+  china                     2/3  (67%)
+  chop                      2/3  (67%)
+  cigarette                 2/3  (67%)
+  disconnect                2/3  (67%)
+  electrician               2/3  (67%)
+  excuse                    2/3  (67%)
+  eyeglasses                2/3  (67%)
+  gallaudet                 2/3  (67%)
+  ghost                     2/3  (67%)
+  health                    2/3  (67%)
+  hearing aid               2/3  (67%)
+  hide                      2/3  (67%)
+  interpreter               2/3  (67%)
+  italy                     2/3  (67%)
+  label                     2/3  (67%)
+  less                      2/3  (67%)
+  linguistics               2/3  (67%)
+  lonely                    2/3  (67%)
+  magic                     2/3  (67%)
+  mainstream                2/3  (67%)
+  me                        2/3  (67%)
+  mind                      2/3  (67%)
+  physics                   2/3  (67%)
+  piano                     2/3  (67%)
+  popcorn                   2/3  (67%)
+  positive                  2/3  (67%)
+  responsibility            2/3  (67%)
+  rope                      2/3  (67%)
+  sensitive                 2/3  (67%)
+  seven                     2/3  (67%)
+  six                       2/3  (67%)
+  skill                     2/3  (67%)
+  smell                     2/3  (67%)
+  snob                      2/3  (67%)
+  teeth                     2/3  (67%)
+  toothbrush                2/3  (67%)
+  total                     2/3  (67%)
+  tradition                 2/3  (67%)
+  trophy                    2/3  (67%)
+  under                     2/3  (67%)
+  weird                     2/3  (67%)
+  worse                     2/3  (67%)
+  apart                     2/3  (67%)
+  article                   2/3  (67%)
+  canoe                     2/3  (67%)
+  come                      2/3  (67%)
+  come here                 2/3  (67%)
+  fourth                    2/3  (67%)
+  grass                     2/3  (67%)
+  innocent                  2/3  (67%)
+  institute                 2/3  (67%)
+  lightning                 2/3  (67%)
+  lipstick                  2/3  (67%)
+  member                    2/3  (67%)
+  metal                     2/3  (67%)
+  owl                       2/3  (67%)
+  paragraph                 2/3  (67%)
+  preacher                  2/3  (67%)
+  priority                  2/3  (67%)
+  promote                   2/3  (67%)
+  reduce                    2/3  (67%)
+  resign                    2/3  (67%)
+  sausage                   2/3  (67%)
+  siren                     2/3  (67%)
+  skunk                     2/3  (67%)
+  society                   2/3  (67%)
+  technology                2/3  (67%)
+  act                       2/3  (67%)
+  agreement                 2/3  (67%)
+  battery                   2/3  (67%)
+  berry                     2/3  (67%)
+  buffalo                   2/3  (67%)
+  burp                      2/3  (67%)
+  comment                   2/3  (67%)
+  committee                 2/3  (67%)
+  consume                   2/3  (67%)
+  counselor                 2/3  (67%)
+  create                    2/3  (67%)
+  dancer                    2/3  (67%)
+  design                    2/3  (67%)
+  fire                      2/3  (67%)
+  heap                      2/3  (67%)
+  mock                      2/3  (67%)
+  nine                      2/3  (67%)
+  not yet                   2/3  (67%)
+  our                       2/3  (67%)
+  pear                      2/3  (67%)
+  pride                     2/3  (67%)
+  quality                   2/3  (67%)
+  practice                  2/3  (67%)
+  time to_time              2/3  (67%)
+  dont know                 2/3  (67%)
+  very interested           2/3  (67%)
+  mummy                     2/3  (67%)
+  fiance                    2/3  (67%)
+  thunder                   2/3  (67%)
+  zoom off                  2/3  (67%)
+  persuade                  2/3  (67%)
+  reach                     2/3  (67%)
+  gesture                   2/3  (67%)
+  pharmacist                2/3  (67%)
+  noose                     2/3  (67%)
+  intentional               2/3  (67%)
+  couch 1                   2/3  (67%)
+  overwhelmed               2/3  (67%)
+  climb ladder              2/3  (67%)
+  fringe                    2/3  (67%)
+  fraction                  2/3  (67%)
+  wise                      2/3  (67%)
+  megaphone                 2/3  (67%)
+  iphone                    2/3  (67%)
+  jigsaw puzzle             2/3  (67%)
+  catapult                  2/3  (67%)
+  he                        2/3  (67%)
+  dont feel_like            2/3  (67%)
+  deliberate                2/3  (67%)
+  hoe                       2/3  (67%)
+  hunt                      2/3  (67%)
+  mailman                   2/3  (67%)
+  scratch                   2/3  (67%)
+  every night               2/3  (67%)
+  resent                    2/3  (67%)
+  eye turn                  2/3  (67%)
+  recording                 2/3  (67%)
+  upload                    2/3  (67%)
+  water ski                 2/3  (67%)
+  abbreviate                2/3  (67%)
+  freedom                   2/3  (67%)
+  depend on                 2/3  (67%)
+  cape                      2/3  (67%)
+  permission                2/3  (67%)
+  lose game                 2/3  (67%)
+  grab                      2/3  (67%)
+  two more                  2/3  (67%)
+  freckles                  2/3  (67%)
+  grieve                    2/3  (67%)
+  spend                     2/3  (67%)
+  badge                     2/3  (67%)
+  stand-up                  2/3  (67%)
+  speakers                  2/3  (67%)
+  celery                    2/3  (67%)
+  different situation       2/3  (67%)
+  risk                      2/3  (67%)
+  ice                       2/3  (67%)
+  noise                     2/3  (67%)
+  juggle                    2/3  (67%)
+  disney                    2/3  (67%)
+  friends no_more_1         2/3  (67%)
+  propeller 1               2/3  (67%)
+  not used_to               2/3  (67%)
+  stay awake_24hrs          2/3  (67%)
+  spaceship                 2/3  (67%)
+  deflate                   2/3  (67%)
+  fond                      2/3  (67%)
+  intelligent               2/3  (67%)
+  locker                    2/3  (67%)
+  living room               2/3  (67%)
+  his                       2/3  (67%)
+  hang                      2/3  (67%)
+  drip                      2/3  (67%)
+  concerned                 2/3  (67%)
+  penny                     2/3  (67%)
+  memorize memorize         2/3  (67%)
+  string                    2/3  (67%)
+  stir                      2/3  (67%)
+  tube                      2/3  (67%)
+  knock                     2/3  (67%)
+  signature                 2/3  (67%)
+  drill                     2/3  (67%)
+  mischievous               2/3  (67%)
+  persistent                2/3  (67%)
+  remind                    2/3  (67%)
+  metaphor                  2/3  (67%)
+  alaska                    2/3  (67%)
+  hummingbird               2/3  (67%)
+  bind                      2/3  (67%)
+  hairdresser               2/3  (67%)
+  blond                     2/3  (67%)
+  loyal                     2/3  (67%)
+  sneak adventure           2/3  (67%)
+  board                     2/3  (67%)
+  picnic                    2/3  (67%)
+  zebra                     2/3  (67%)
+  get together              2/3  (67%)
+  visualize                 2/3  (67%)
+  pole                      2/3  (67%)
+  tickle                    2/3  (67%)
+  curly hair                2/3  (67%)
+  blink                     2/3  (67%)
+  harmonica                 2/3  (67%)
+  baseball cap              2/3  (67%)
+  head grind                2/3  (67%)
+  only one                  2/3  (67%)
+  smell money               2/3  (67%)
+  spontaneous               2/3  (67%)
+  crumple                   2/3  (67%)
+  scarcely                  2/3  (67%)
+  scold                     2/3  (67%)
+  spicy                     2/3  (67%)
+  turban                    2/3  (67%)
+  gorilla                   2/3  (67%)
+  mime                      2/3  (67%)
+  santa                     2/3  (67%)
+  hinge                     2/3  (67%)
+  script                    2/3  (67%)
+  sting                     2/3  (67%)
+  fantasy                   2/3  (67%)
+  forfeit                   2/3  (67%)
+  headphones                2/3  (67%)
+  hood                      2/3  (67%)
+  get in_bed                2/3  (67%)
+  ego                       2/3  (67%)
+  grind                     2/3  (67%)
+  dislike                   2/3  (67%)
+  dont mind                 2/3  (67%)
+  cheer                     2/3  (67%)
+  even                      2/3  (67%)
+  think connect             2/3  (67%)
+  eleven                    2/3  (67%)
+  decline                   2/3  (67%)
+  spit out                  2/3  (67%)
+  steam                     2/3  (67%)
+  shooting                  2/3  (67%)
+  a little bit              2/3  (67%)
+  unique                    2/3  (67%)
+  backyard                  2/3  (67%)
+  wand                      2/3  (67%)
+  engagement                2/3  (67%)
+  yucky                     2/3  (67%)
+  tv                        2/3  (67%)
+  maid                      2/3  (67%)
+  champ                     2/3  (67%)
+  offhand                   2/3  (67%)
+  assembly                  2/3  (67%)
+  vlog                      2/3  (67%)
+  bend                      2/3  (67%)
+  lost                      2/3  (67%)
+  stars                     2/3  (67%)
+  delegate                  2/3  (67%)
+  all way                   2/3  (67%)
+  close eyes                2/3  (67%)
+  fraud                     2/3  (67%)
+  ski-ca                    2/3  (67%)
+  turn around               2/3  (67%)
+  nerve                     2/3  (67%)
+  well                      2/3  (67%)
+  cherish                   2/3  (67%)
+  bounce                    2/3  (67%)
+  transgender               2/3  (67%)
+  recite                    2/3  (67%)
+  vegetable                 2/3  (67%)
+  award                     2/3  (67%)
+  hen                       2/3  (67%)
+  incredible                2/3  (67%)
+  accordion                 2/3  (67%)
+  flip switch               2/3  (67%)
+  net                       2/3  (67%)
+  pizza cutter              2/3  (67%)
+  point index               2/3  (67%)
+  acquire                   2/3  (67%)
+  dissect                   2/3  (67%)
+  sweatpants                2/3  (67%)
+  car battery               2/3  (67%)
+  tobacco                   2/3  (67%)
+  clash                     2/3  (67%)
+  park                      2/3  (67%)
+  saturday                  2/3  (67%)
+  identity                  2/3  (67%)
+  so                        2/3  (67%)
+  cigar                     2/3  (67%)
+  bolt                      2/3  (67%)
+  cellphone                 2/3  (67%)
+  grasp                     2/3  (67%)
+  clap                      2/3  (67%)
+  marionette                2/3  (67%)
+  instinct                  2/3  (67%)
+  churn                     2/3  (67%)
+  all gone                  2/3  (67%)
+  zoo                       2/3  (67%)
+  film                      2/3  (67%)
+  align                     2/3  (67%)
+  self                      2/3  (67%)
+  invisible                 2/3  (67%)
+  honk                      2/3  (67%)
+  snap                      2/3  (67%)
+  humor                     2/3  (67%)
+  playground                2/3  (67%)
+  sarcastic                 2/3  (67%)
+  bloom                     2/3  (67%)
+  inspiring                 2/3  (67%)
+  boston                    2/3  (67%)
+  dilemma                   2/3  (67%)
+  all over                  2/3  (67%)
+
+Restricted vocab accuracy:
+     Top N   Accuracy
+       100     100.0%
+       200     100.0%
+       300      96.1%
+       500      84.0%
+     1,000      68.4%
+     1,500      55.7%
+     1,896      44.0%
+
+Classes with 0% accuracy:   465
+Classes with 50%+ accuracy: 803
+Classes with 80%+ accuracy: 266

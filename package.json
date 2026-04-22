@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "slidev presentation/slides.md",
+    "build": "slidev build presentation/slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
+

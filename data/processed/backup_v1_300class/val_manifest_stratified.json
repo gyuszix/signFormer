@@ -1,0 +1,2550 @@
+[
+  {
+    "path": "data/processed/train/07070.npy",
+    "label": "book",
+    "label_idx": 0
+  },
+  {
+    "path": "data/processed/train/17709.npy",
+    "label": "drink",
+    "label_idx": 1
+  },
+  {
+    "path": "data/processed/train/17712.npy",
+    "label": "drink",
+    "label_idx": 1
+  },
+  {
+    "path": "data/processed/aslcitizen/3011563935397368-COMPUTER.npy",
+    "label": "computer",
+    "label_idx": 2,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6643964303284857-COMPUTER.npy",
+    "label": "computer",
+    "label_idx": 2,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/12318.npy",
+    "label": "computer",
+    "label_idx": 2
+  },
+  {
+    "path": "data/processed/aslcitizen/4197770326170689-BEFORE.npy",
+    "label": "before",
+    "label_idx": 5,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06131823386898638-BEFORE.npy",
+    "label": "before",
+    "label_idx": 5,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/05728.npy",
+    "label": "before",
+    "label_idx": 3
+  },
+  {
+    "path": "data/processed/aslcitizen/9713754187357793-CHAIR.npy",
+    "label": "chair",
+    "label_idx": 3,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/24947.npy",
+    "label": "go",
+    "label_idx": 5
+  },
+  {
+    "path": "data/processed/aslcitizen/19142855644010948-GO.npy",
+    "label": "go",
+    "label_idx": 4,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6639188435452066-CLOTHES.npy",
+    "label": "clothes",
+    "label_idx": 6,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/60520933432529-WHO.npy",
+    "label": "who",
+    "label_idx": 7,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/18521627111046346-WHO.npy",
+    "label": "who",
+    "label_idx": 7,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/08917.npy",
+    "label": "candy",
+    "label_idx": 8
+  },
+  {
+    "path": "data/processed/train/13630.npy",
+    "label": "cousin",
+    "label_idx": 9
+  },
+  {
+    "path": "data/processed/train/14886.npy",
+    "label": "deaf",
+    "label_idx": 10
+  },
+  {
+    "path": "data/processed/train/21870.npy",
+    "label": "fine",
+    "label_idx": 11
+  },
+  {
+    "path": "data/processed/aslcitizen/2474722734260606-FINE.npy",
+    "label": "fine",
+    "label_idx": 11,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/8534077485600235-HELP.npy",
+    "label": "help",
+    "label_idx": 12,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/370678413428154-NO.npy",
+    "label": "no",
+    "label_idx": 13,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7932042062420475-NO.npy",
+    "label": "no",
+    "label_idx": 13,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/57942.npy",
+    "label": "thin",
+    "label_idx": 14
+  },
+  {
+    "path": "data/processed/train/57935.npy",
+    "label": "thin",
+    "label_idx": 14
+  },
+  {
+    "path": "data/processed/aslcitizen/7227724484069216-WALK.npy",
+    "label": "walk",
+    "label_idx": 15,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5420082138524283-YEAR.npy",
+    "label": "year",
+    "label_idx": 16,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9009854854743657-YES.npy",
+    "label": "yes",
+    "label_idx": 17,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9605571410103191-YES.npy",
+    "label": "yes",
+    "label_idx": 17,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12844166526089085-ALL.npy",
+    "label": "all",
+    "label_idx": 39,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9045342550783173-BLACK.npy",
+    "label": "black",
+    "label_idx": 18,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/69281.npy",
+    "label": "cool",
+    "label_idx": 20
+  },
+  {
+    "path": "data/processed/train/21945.npy",
+    "label": "finish",
+    "label_idx": 21
+  },
+  {
+    "path": "data/processed/train/21941.npy",
+    "label": "finish",
+    "label_idx": 21
+  },
+  {
+    "path": "data/processed/train/28111.npy",
+    "label": "hot",
+    "label_idx": 22
+  },
+  {
+    "path": "data/processed/train/28110.npy",
+    "label": "hot",
+    "label_idx": 22
+  },
+  {
+    "path": "data/processed/aslcitizen/30651763223309914-LIKE.npy",
+    "label": "like",
+    "label_idx": 42,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/48852938778695965-LIKE.npy",
+    "label": "like",
+    "label_idx": 42,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/34827.npy",
+    "label": "many",
+    "label_idx": 24
+  },
+  {
+    "path": "data/processed/aslcitizen/42574102970121497-MANY.npy",
+    "label": "many",
+    "label_idx": 20,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/36932.npy",
+    "label": "mother",
+    "label_idx": 25
+  },
+  {
+    "path": "data/processed/train/36931.npy",
+    "label": "mother",
+    "label_idx": 25
+  },
+  {
+    "path": "data/processed/aslcitizen/5484965265051842-NOW.npy",
+    "label": "now",
+    "label_idx": 22,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12309075517420354-ORANGE.npy",
+    "label": "orange",
+    "label_idx": 23,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/56558.npy",
+    "label": "table",
+    "label_idx": 28
+  },
+  {
+    "path": "data/processed/train/57634.npy",
+    "label": "thanksgiving",
+    "label_idx": 29
+  },
+  {
+    "path": "data/processed/aslcitizen/6728725640647708-THANKSGIVING.npy",
+    "label": "thanksgiving",
+    "label_idx": 25,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/62964.npy",
+    "label": "what",
+    "label_idx": 30
+  },
+  {
+    "path": "data/processed/train/63665.npy",
+    "label": "woman",
+    "label_idx": 31
+  },
+  {
+    "path": "data/processed/aslcitizen/364470520343124-BED.npy",
+    "label": "bed",
+    "label_idx": 27,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/05630.npy",
+    "label": "bed",
+    "label_idx": 32
+  },
+  {
+    "path": "data/processed/aslcitizen/1280671068151491-BLUE.npy",
+    "label": "blue",
+    "label_idx": 28,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/06834.npy",
+    "label": "blue",
+    "label_idx": 33
+  },
+  {
+    "path": "data/processed/aslcitizen/7276820118122687-BOWLING.npy",
+    "label": "bowling",
+    "label_idx": 29,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/07394.npy",
+    "label": "bowling",
+    "label_idx": 34
+  },
+  {
+    "path": "data/processed/train/08935.npy",
+    "label": "can",
+    "label_idx": 35
+  },
+  {
+    "path": "data/processed/aslcitizen/5465905150307049-DOG.npy",
+    "label": "dog",
+    "label_idx": 44,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/17086.npy",
+    "label": "dog",
+    "label_idx": 36
+  },
+  {
+    "path": "data/processed/train/17085.npy",
+    "label": "dog",
+    "label_idx": 36
+  },
+  {
+    "path": "data/processed/train/20983.npy",
+    "label": "family",
+    "label_idx": 37
+  },
+  {
+    "path": "data/processed/aslcitizen/1290362005086354-FAMILY.npy",
+    "label": "family",
+    "label_idx": 31,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/2418332359492794-FISH.npy",
+    "label": "fish",
+    "label_idx": 61,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/004723795808067477-GRADUATE.npy",
+    "label": "graduate",
+    "label_idx": 32,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/48559253114890266-GRADUATE.npy",
+    "label": "graduate",
+    "label_idx": 32,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/007894696379261434-HAT.npy",
+    "label": "hat",
+    "label_idx": 33,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/26713.npy",
+    "label": "hat",
+    "label_idx": 40
+  },
+  {
+    "path": "data/processed/train/26975.npy",
+    "label": "hearing",
+    "label_idx": 41
+  },
+  {
+    "path": "data/processed/aslcitizen/42621672422859214-HEARING.npy",
+    "label": "hearing",
+    "label_idx": 34,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/31753.npy",
+    "label": "kiss",
+    "label_idx": 42
+  },
+  {
+    "path": "data/processed/aslcitizen/2471707461204955-LANGUAGE.npy",
+    "label": "language",
+    "label_idx": 63,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/32326.npy",
+    "label": "later",
+    "label_idx": 44
+  },
+  {
+    "path": "data/processed/aslcitizen/5484175065329109-LATER.npy",
+    "label": "later",
+    "label_idx": 45,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1300301228681695-MAN.npy",
+    "label": "man",
+    "label_idx": 35,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/34732.npy",
+    "label": "man",
+    "label_idx": 45
+  },
+  {
+    "path": "data/processed/aslcitizen/9715075810233318-SHIRT.npy",
+    "label": "shirt",
+    "label_idx": 46,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/36810616727564227-SHIRT.npy",
+    "label": "shirt",
+    "label_idx": 46,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3657484406457592-STUDY.npy",
+    "label": "study",
+    "label_idx": 36,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/55365.npy",
+    "label": "study",
+    "label_idx": 47
+  },
+  {
+    "path": "data/processed/aslcitizen/7267570988406729-TALL.npy",
+    "label": "tall",
+    "label_idx": 64,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/56842.npy",
+    "label": "tall",
+    "label_idx": 48
+  },
+  {
+    "path": "data/processed/train/63205.npy",
+    "label": "white",
+    "label_idx": 49
+  },
+  {
+    "path": "data/processed/train/64088.npy",
+    "label": "wrong",
+    "label_idx": 50
+  },
+  {
+    "path": "data/processed/aslcitizen/4817688414510197-WRONG.npy",
+    "label": "wrong",
+    "label_idx": 38,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3056853851535579-ACCIDENT.npy",
+    "label": "accident",
+    "label_idx": 65,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/8470559627358119-APPLE.npy",
+    "label": "apple",
+    "label_idx": 47,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/789374508489777-APPLE.npy",
+    "label": "apple",
+    "label_idx": 47,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/03000.npy",
+    "label": "apple",
+    "label_idx": 52
+  },
+  {
+    "path": "data/processed/aslcitizen/9620404145985224-BIRD.npy",
+    "label": "bird",
+    "label_idx": 48,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1228693178848621-BIRD.npy",
+    "label": "bird",
+    "label_idx": 48,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/09953.npy",
+    "label": "change",
+    "label_idx": 54
+  },
+  {
+    "path": "data/processed/aslcitizen/7944424077635479-COLOR.npy",
+    "label": "color",
+    "label_idx": 50,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/13328.npy",
+    "label": "corn",
+    "label_idx": 56
+  },
+  {
+    "path": "data/processed/train/13699.npy",
+    "label": "cow",
+    "label_idx": 57
+  },
+  {
+    "path": "data/processed/aslcitizen/12016357824119273-COW.npy",
+    "label": "cow",
+    "label_idx": 67,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/14624.npy",
+    "label": "dance",
+    "label_idx": 58
+  },
+  {
+    "path": "data/processed/aslcitizen/5407480641167808-DANCE.npy",
+    "label": "dance",
+    "label_idx": 51,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/8430075982280578-DARK.npy",
+    "label": "dark",
+    "label_idx": 68,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/14676.npy",
+    "label": "dark",
+    "label_idx": 59
+  },
+  {
+    "path": "data/processed/train/17015.npy",
+    "label": "doctor",
+    "label_idx": 60
+  },
+  {
+    "path": "data/processed/aslcitizen/30148795754394175-EAT.npy",
+    "label": "eat",
+    "label_idx": 52,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/18325.npy",
+    "label": "eat",
+    "label_idx": 61
+  },
+  {
+    "path": "data/processed/train/19261.npy",
+    "label": "enjoy",
+    "label_idx": 62
+  },
+  {
+    "path": "data/processed/train/22953.npy",
+    "label": "forget",
+    "label_idx": 63
+  },
+  {
+    "path": "data/processed/train/24638.npy",
+    "label": "give",
+    "label_idx": 64
+  },
+  {
+    "path": "data/processed/aslcitizen/0655048725360865-LAST.npy",
+    "label": "last",
+    "label_idx": 71,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/32248.npy",
+    "label": "last",
+    "label_idx": 65
+  },
+  {
+    "path": "data/processed/aslcitizen/9601350078796431-MEET.npy",
+    "label": "meet",
+    "label_idx": 55,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12693870947836405-PINK.npy",
+    "label": "pink",
+    "label_idx": 72,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/0651492743548332-PIZZA.npy",
+    "label": "pizza",
+    "label_idx": 73,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/19005324133505397-PIZZA.npy",
+    "label": "pizza",
+    "label_idx": 73,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/18139225250054647-PLAY.npy",
+    "label": "play",
+    "label_idx": 56,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/49600.npy",
+    "label": "school",
+    "label_idx": 70
+  },
+  {
+    "path": "data/processed/train/49597.npy",
+    "label": "school",
+    "label_idx": 70
+  },
+  {
+    "path": "data/processed/train/49599.npy",
+    "label": "school",
+    "label_idx": 70
+  },
+  {
+    "path": "data/processed/train/50037.npy",
+    "label": "secretary",
+    "label_idx": 71
+  },
+  {
+    "path": "data/processed/aslcitizen/006465165452186117-SECRETARY.npy",
+    "label": "secretary",
+    "label_idx": 74,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/51225.npy",
+    "label": "short",
+    "label_idx": 72
+  },
+  {
+    "path": "data/processed/aslcitizen/6017424580561013-TIME.npy",
+    "label": "time",
+    "label_idx": 58,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/006759596328494544-WANT.npy",
+    "label": "want",
+    "label_idx": 59,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/07008493867456478-WORK.npy",
+    "label": "work",
+    "label_idx": 60,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6027629299585064-WORK.npy",
+    "label": "work",
+    "label_idx": 60,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/01387.npy",
+    "label": "africa",
+    "label_idx": 76
+  },
+  {
+    "path": "data/processed/aslcitizen/06692352920060629-AFRICA.npy",
+    "label": "africa",
+    "label_idx": 96,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06250679912910284-BASKETBALL.npy",
+    "label": "basketball",
+    "label_idx": 76,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06779656223967634-BASKETBALL.npy",
+    "label": "basketball",
+    "label_idx": 76,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9056166669587513-BIRTHDAY.npy",
+    "label": "birthday",
+    "label_idx": 97,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/24421706898456708-BROWN.npy",
+    "label": "brown",
+    "label_idx": 77,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/963967515422786-BROWN.npy",
+    "label": "brown",
+    "label_idx": 77,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/08424.npy",
+    "label": "but",
+    "label_idx": 80
+  },
+  {
+    "path": "data/processed/train/10147.npy",
+    "label": "cheat",
+    "label_idx": 81
+  },
+  {
+    "path": "data/processed/train/10894.npy",
+    "label": "city",
+    "label_idx": 82
+  },
+  {
+    "path": "data/processed/train/13157.npy",
+    "label": "cook",
+    "label_idx": 83
+  },
+  {
+    "path": "data/processed/train/13158.npy",
+    "label": "cook",
+    "label_idx": 83
+  },
+  {
+    "path": "data/processed/aslcitizen/4879800740124409-DECIDE.npy",
+    "label": "decide",
+    "label_idx": 80,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/23766.npy",
+    "label": "full",
+    "label_idx": 85
+  },
+  {
+    "path": "data/processed/train/23769.npy",
+    "label": "full",
+    "label_idx": 85
+  },
+  {
+    "path": "data/processed/train/28205.npy",
+    "label": "how",
+    "label_idx": 86
+  },
+  {
+    "path": "data/processed/aslcitizen/6119825081396184-HOW.npy",
+    "label": "how",
+    "label_idx": 101,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/4831646641208984-JACKET.npy",
+    "label": "jacket",
+    "label_idx": 81,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/8501658448807887-JACKET.npy",
+    "label": "jacket",
+    "label_idx": 81,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/32949.npy",
+    "label": "letter",
+    "label_idx": 88
+  },
+  {
+    "path": "data/processed/aslcitizen/3060651520152393-LETTER.npy",
+    "label": "letter",
+    "label_idx": 102,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06874544214738698-MEDICINE.npy",
+    "label": "medicine",
+    "label_idx": 82,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3674476142478058-MEDICINE.npy",
+    "label": "medicine",
+    "label_idx": 82,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/37881.npy",
+    "label": "need",
+    "label_idx": 90
+  },
+  {
+    "path": "data/processed/aslcitizen/7282432433089898-PAINT.npy",
+    "label": "paint",
+    "label_idx": 84,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7884182782121765-PAINT.npy",
+    "label": "paint",
+    "label_idx": 84,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06360874782428128-PAPER.npy",
+    "label": "paper",
+    "label_idx": 85,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06125435265357204-PAPER.npy",
+    "label": "paper",
+    "label_idx": 85,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/45265.npy",
+    "label": "pull",
+    "label_idx": 93
+  },
+  {
+    "path": "data/processed/train/45434.npy",
+    "label": "purple",
+    "label_idx": 94
+  },
+  {
+    "path": "data/processed/aslcitizen/9094977413740988-PURPLE.npy",
+    "label": "purple",
+    "label_idx": 87,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/48107.npy",
+    "label": "right",
+    "label_idx": 95
+  },
+  {
+    "path": "data/processed/train/49175.npy",
+    "label": "same",
+    "label_idx": 96
+  },
+  {
+    "path": "data/processed/aslcitizen/1928939192359651-SAME.npy",
+    "label": "same",
+    "label_idx": 104,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7253108385335643-SON.npy",
+    "label": "son",
+    "label_idx": 88,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/57277.npy",
+    "label": "tell",
+    "label_idx": 98
+  },
+  {
+    "path": "data/processed/aslcitizen/6102100798298136-THURSDAY.npy",
+    "label": "thursday",
+    "label_idx": 90,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3102981860721523-VISIT.npy",
+    "label": "visit",
+    "label_idx": 91,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/61806.npy",
+    "label": "visit",
+    "label_idx": 100
+  },
+  {
+    "path": "data/processed/aslcitizen/5419469718181713-WAIT.npy",
+    "label": "wait",
+    "label_idx": 92,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/62098.npy",
+    "label": "wait",
+    "label_idx": 101
+  },
+  {
+    "path": "data/processed/aslcitizen/19062537109661482-WATER.npy",
+    "label": "water",
+    "label_idx": 93,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/0032949557328998402-WATER.npy",
+    "label": "water",
+    "label_idx": 93,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12566198434416243-WIFE.npy",
+    "label": "wife",
+    "label_idx": 94,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9604971098957251-YELLOW.npy",
+    "label": "yellow",
+    "label_idx": 95,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/64261.npy",
+    "label": "yellow",
+    "label_idx": 104
+  },
+  {
+    "path": "data/processed/train/04619.npy",
+    "label": "backpack",
+    "label_idx": 105
+  },
+  {
+    "path": "data/processed/aslcitizen/0035239519721155244-BACKPACK.npy",
+    "label": "backpack",
+    "label_idx": 131,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/48831042603303865-BAR.npy",
+    "label": "bar",
+    "label_idx": 132,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6070294786785269-BAR.npy",
+    "label": "bar",
+    "label_idx": 132,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/11971365576674886-BROTHER.npy",
+    "label": "brother",
+    "label_idx": 105,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9635118109017773-BROTHER.npy",
+    "label": "brother",
+    "label_idx": 105,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/09528.npy",
+    "label": "cat",
+    "label_idx": 108
+  },
+  {
+    "path": "data/processed/train/10187.npy",
+    "label": "check",
+    "label_idx": 109
+  },
+  {
+    "path": "data/processed/train/10970.npy",
+    "label": "class",
+    "label_idx": 110
+  },
+  {
+    "path": "data/processed/train/14176.npy",
+    "label": "cry",
+    "label_idx": 111
+  },
+  {
+    "path": "data/processed/train/16192.npy",
+    "label": "different",
+    "label_idx": 112
+  },
+  {
+    "path": "data/processed/train/16194.npy",
+    "label": "different",
+    "label_idx": 112
+  },
+  {
+    "path": "data/processed/aslcitizen/12547377142602878-DOOR.npy",
+    "label": "door",
+    "label_idx": 110,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/4266542122794068-DOOR.npy",
+    "label": "door",
+    "label_idx": 110,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6691110697569587-GREEN.npy",
+    "label": "green",
+    "label_idx": 111,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9695299725983888-GREEN.npy",
+    "label": "green",
+    "label_idx": 111,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/26163.npy",
+    "label": "hair",
+    "label_idx": 115
+  },
+  {
+    "path": "data/processed/train/26159.npy",
+    "label": "hair",
+    "label_idx": 115
+  },
+  {
+    "path": "data/processed/aslcitizen/5499151016968098-HAVE.npy",
+    "label": "have",
+    "label_idx": 113,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9100209192348516-HEADACHE.npy",
+    "label": "headache",
+    "label_idx": 114,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/26837.npy",
+    "label": "headache",
+    "label_idx": 117
+  },
+  {
+    "path": "data/processed/train/29647.npy",
+    "label": "inform",
+    "label_idx": 118
+  },
+  {
+    "path": "data/processed/train/31842.npy",
+    "label": "knife",
+    "label_idx": 119
+  },
+  {
+    "path": "data/processed/train/31843.npy",
+    "label": "knife",
+    "label_idx": 119
+  },
+  {
+    "path": "data/processed/train/32383.npy",
+    "label": "laugh",
+    "label_idx": 120
+  },
+  {
+    "path": "data/processed/aslcitizen/30110588558485074-LEARN.npy",
+    "label": "learn",
+    "label_idx": 116,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/32607.npy",
+    "label": "learn",
+    "label_idx": 121
+  },
+  {
+    "path": "data/processed/train/37125.npy",
+    "label": "movie",
+    "label_idx": 122
+  },
+  {
+    "path": "data/processed/aslcitizen/7902654347947808-RABBIT.npy",
+    "label": "rabbit",
+    "label_idx": 136,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9629079342867501-READ.npy",
+    "label": "read",
+    "label_idx": 118,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06836612476374282-READ.npy",
+    "label": "read",
+    "label_idx": 118,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/46734.npy",
+    "label": "red",
+    "label_idx": 125
+  },
+  {
+    "path": "data/processed/train/48513.npy",
+    "label": "room",
+    "label_idx": 126
+  },
+  {
+    "path": "data/processed/aslcitizen/4265326751925511-RUN.npy",
+    "label": "run",
+    "label_idx": 120,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/11949278159196242-RUN.npy",
+    "label": "run",
+    "label_idx": 120,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7254792418208131-SHOW.npy",
+    "label": "show",
+    "label_idx": 121,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5515681081506727-SICK.npy",
+    "label": "sick",
+    "label_idx": 122,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/51502.npy",
+    "label": "sick",
+    "label_idx": 129
+  },
+  {
+    "path": "data/processed/aslcitizen/2497474123889838-SNOW.npy",
+    "label": "snow",
+    "label_idx": 123,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9120273911351187-SNOW.npy",
+    "label": "snow",
+    "label_idx": 123,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/69500.npy",
+    "label": "take",
+    "label_idx": 131
+  },
+  {
+    "path": "data/processed/aslcitizen/42788073545628125-TAKE.npy",
+    "label": "take",
+    "label_idx": 138,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/57076.npy",
+    "label": "tea",
+    "label_idx": 132
+  },
+  {
+    "path": "data/processed/aslcitizen/6049006802019938-TEA.npy",
+    "label": "tea",
+    "label_idx": 124,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/57041.npy",
+    "label": "teacher",
+    "label_idx": 133
+  },
+  {
+    "path": "data/processed/aslcitizen/8470531619770103-TEACHER.npy",
+    "label": "teacher",
+    "label_idx": 125,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9623138303455094-WEEK.npy",
+    "label": "week",
+    "label_idx": 126,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/36411152769215316-WEEK.npy",
+    "label": "week",
+    "label_idx": 126,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7308465390923164-WHY.npy",
+    "label": "why",
+    "label_idx": 127,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/30163868001403205-WHY.npy",
+    "label": "why",
+    "label_idx": 127,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1827591047370174-WITH.npy",
+    "label": "with",
+    "label_idx": 128,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/63588.npy",
+    "label": "with",
+    "label_idx": 136
+  },
+  {
+    "path": "data/processed/train/64059.npy",
+    "label": "write",
+    "label_idx": 137
+  },
+  {
+    "path": "data/processed/aslcitizen/7326855771738956-WRITE.npy",
+    "label": "write",
+    "label_idx": 129,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7911341127275311-YESTERDAY.npy",
+    "label": "yesterday",
+    "label_idx": 130,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1289596772932744-YESTERDAY.npy",
+    "label": "yesterday",
+    "label_idx": 130,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9059301553642072-AGAIN.npy",
+    "label": "again",
+    "label_idx": 139,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/04708.npy",
+    "label": "bad",
+    "label_idx": 140
+  },
+  {
+    "path": "data/processed/train/04713.npy",
+    "label": "bad",
+    "label_idx": 140
+  },
+  {
+    "path": "data/processed/aslcitizen/7328542672851355-BALL.npy",
+    "label": "ball",
+    "label_idx": 141,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/04850.npy",
+    "label": "ball",
+    "label_idx": 141
+  },
+  {
+    "path": "data/processed/train/05298.npy",
+    "label": "bathroom",
+    "label_idx": 142
+  },
+  {
+    "path": "data/processed/aslcitizen/7299384886649671-BLANKET.npy",
+    "label": "blanket",
+    "label_idx": 143,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/663044128122033-BUY.npy",
+    "label": "buy",
+    "label_idx": 144,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/08691.npy",
+    "label": "call",
+    "label_idx": 145
+  },
+  {
+    "path": "data/processed/aslcitizen/3101430290665197-COFFEE.npy",
+    "label": "coffee",
+    "label_idx": 146,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6077539816507953-COLD.npy",
+    "label": "cold",
+    "label_idx": 147,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/2998058636293097-COLLEGE.npy",
+    "label": "college",
+    "label_idx": 148,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9063376666227501-COLLEGE.npy",
+    "label": "college",
+    "label_idx": 148,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9703390066447444-COPY.npy",
+    "label": "copy",
+    "label_idx": 149,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12010700215949965-CUTE.npy",
+    "label": "cute",
+    "label_idx": 150,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/24703933395881417-CUTE.npy",
+    "label": "cute",
+    "label_idx": 150,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6679554348761698-DAUGHTER.npy",
+    "label": "daughter",
+    "label_idx": 151,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/14752.npy",
+    "label": "daughter",
+    "label_idx": 151
+  },
+  {
+    "path": "data/processed/train/20072.npy",
+    "label": "example",
+    "label_idx": 179
+  },
+  {
+    "path": "data/processed/train/20066.npy",
+    "label": "example",
+    "label_idx": 179
+  },
+  {
+    "path": "data/processed/train/21073.npy",
+    "label": "far",
+    "label_idx": 152
+  },
+  {
+    "path": "data/processed/aslcitizen/06417384647097113-FAR.npy",
+    "label": "far",
+    "label_idx": 177,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/22086.npy",
+    "label": "first",
+    "label_idx": 153
+  },
+  {
+    "path": "data/processed/aslcitizen/004781946295929318-FRIEND.npy",
+    "label": "friend",
+    "label_idx": 154,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1897299706213358-FRIEND.npy",
+    "label": "friend",
+    "label_idx": 154,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/25066.npy",
+    "label": "good",
+    "label_idx": 155
+  },
+  {
+    "path": "data/processed/aslcitizen/4843579408025589-GOOD.npy",
+    "label": "good",
+    "label_idx": 155,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9606353592578751-HAPPY.npy",
+    "label": "happy",
+    "label_idx": 156,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/546204032322096-HAPPY.npy",
+    "label": "happy",
+    "label_idx": 156,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/27766.npy",
+    "label": "home",
+    "label_idx": 157
+  },
+  {
+    "path": "data/processed/train/31898.npy",
+    "label": "know",
+    "label_idx": 158
+  },
+  {
+    "path": "data/processed/train/31899.npy",
+    "label": "know",
+    "label_idx": 158
+  },
+  {
+    "path": "data/processed/aslcitizen/36546237465579146-LATE.npy",
+    "label": "late",
+    "label_idx": 159,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/19135289799198207-LEAVE.npy",
+    "label": "leave",
+    "label_idx": 178,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/33474.npy",
+    "label": "list",
+    "label_idx": 161
+  },
+  {
+    "path": "data/processed/aslcitizen/7853850134482658-LOSE.npy",
+    "label": "lose",
+    "label_idx": 161,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/37582.npy",
+    "label": "name",
+    "label_idx": 163
+  },
+  {
+    "path": "data/processed/aslcitizen/5486544112333125-OLD.npy",
+    "label": "old",
+    "label_idx": 163,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9114482593438638-PERSON.npy",
+    "label": "person",
+    "label_idx": 164,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1817196550268605-PERSON.npy",
+    "label": "person",
+    "label_idx": 164,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/43522.npy",
+    "label": "police",
+    "label_idx": 166
+  },
+  {
+    "path": "data/processed/train/44680.npy",
+    "label": "problem",
+    "label_idx": 167
+  },
+  {
+    "path": "data/processed/train/47177.npy",
+    "label": "remember",
+    "label_idx": 168
+  },
+  {
+    "path": "data/processed/train/50849.npy",
+    "label": "share",
+    "label_idx": 169
+  },
+  {
+    "path": "data/processed/aslcitizen/5460536904456472-SOON.npy",
+    "label": "soon",
+    "label_idx": 179,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/36698689871332846-SOON.npy",
+    "label": "soon",
+    "label_idx": 179,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/54556.npy",
+    "label": "stay",
+    "label_idx": 171
+  },
+  {
+    "path": "data/processed/train/55771.npy",
+    "label": "sunday",
+    "label_idx": 172
+  },
+  {
+    "path": "data/processed/train/55770.npy",
+    "label": "sunday",
+    "label_idx": 172
+  },
+  {
+    "path": "data/processed/aslcitizen/3655860016349528-TEST.npy",
+    "label": "test",
+    "label_idx": 171,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9597152227490053-TEST.npy",
+    "label": "test",
+    "label_idx": 171,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/58593.npy",
+    "label": "tired",
+    "label_idx": 174
+  },
+  {
+    "path": "data/processed/train/58592.npy",
+    "label": "tired",
+    "label_idx": 174
+  },
+  {
+    "path": "data/processed/train/59205.npy",
+    "label": "trade",
+    "label_idx": 175
+  },
+  {
+    "path": "data/processed/aslcitizen/6617376980870351-TRAVEL.npy",
+    "label": "travel",
+    "label_idx": 174,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6113657973412068-TRAVEL.npy",
+    "label": "travel",
+    "label_idx": 174,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/2504824446815448-WINDOW.npy",
+    "label": "window",
+    "label_idx": 175,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/548210838440605-YOU.npy",
+    "label": "you",
+    "label_idx": 176,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/00416.npy",
+    "label": "about",
+    "label_idx": 180
+  },
+  {
+    "path": "data/processed/aslcitizen/8431254228378504-ABOUT.npy",
+    "label": "about",
+    "label_idx": 180,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/03121.npy",
+    "label": "approve",
+    "label_idx": 181
+  },
+  {
+    "path": "data/processed/aslcitizen/25111790510667253-ARRIVE.npy",
+    "label": "arrive",
+    "label_idx": 182,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1240491712342997-ARRIVE.npy",
+    "label": "arrive",
+    "label_idx": 182,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5461498174227286-BALANCE.npy",
+    "label": "balance",
+    "label_idx": 183,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9642985542570395-BANANA.npy",
+    "label": "banana",
+    "label_idx": 184,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/060829601278153955-BANANA.npy",
+    "label": "banana",
+    "label_idx": 184,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/05472.npy",
+    "label": "beard",
+    "label_idx": 185
+  },
+  {
+    "path": "data/processed/aslcitizen/006981198089849094-BEARD.npy",
+    "label": "beard",
+    "label_idx": 185,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9103537770737806-BECAUSE.npy",
+    "label": "because",
+    "label_idx": 186,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/05881386674154254-BECAUSE.npy",
+    "label": "because",
+    "label_idx": 186,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/05599.npy",
+    "label": "because",
+    "label_idx": 186
+  },
+  {
+    "path": "data/processed/aslcitizen/010462485770503571-BOY.npy",
+    "label": "boy",
+    "label_idx": 187,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3098607539628562-BOY.npy",
+    "label": "boy",
+    "label_idx": 187,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/24327370676019622-BUSINESS.npy",
+    "label": "business",
+    "label_idx": 188,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06500388247937172-BUSINESS.npy",
+    "label": "business",
+    "label_idx": 188,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9651280508902436-CAREFUL.npy",
+    "label": "careful",
+    "label_idx": 189,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/19102300390841576-CENTER.npy",
+    "label": "center",
+    "label_idx": 190,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/305903385171685-CHAT.npy",
+    "label": "chat",
+    "label_idx": 191,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7267270316564298-CHILDREN.npy",
+    "label": "children",
+    "label_idx": 192,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/10461.npy",
+    "label": "children",
+    "label_idx": 192
+  },
+  {
+    "path": "data/processed/train/10703.npy",
+    "label": "christmas",
+    "label_idx": 193
+  },
+  {
+    "path": "data/processed/aslcitizen/247040303650079-CHRISTMAS.npy",
+    "label": "christmas",
+    "label_idx": 193,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/48607501856571367-CLOCK.npy",
+    "label": "clock",
+    "label_idx": 194,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3623297795418521-CLOSE.npy",
+    "label": "close",
+    "label_idx": 195,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/13137.npy",
+    "label": "convince",
+    "label_idx": 196
+  },
+  {
+    "path": "data/processed/train/13543.npy",
+    "label": "country",
+    "label_idx": 197
+  },
+  {
+    "path": "data/processed/aslcitizen/37015280863393873-COUNTRY.npy",
+    "label": "country",
+    "label_idx": 197,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/13800.npy",
+    "label": "crash",
+    "label_idx": 198
+  },
+  {
+    "path": "data/processed/train/14792.npy",
+    "label": "day",
+    "label_idx": 199
+  },
+  {
+    "path": "data/processed/aslcitizen/0698683554361359-DISCUSS.npy",
+    "label": "discuss",
+    "label_idx": 200,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/8432015583920305-DISCUSS.npy",
+    "label": "discuss",
+    "label_idx": 200,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7247126575875087-DRESS.npy",
+    "label": "dress",
+    "label_idx": 201,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5481435788523086-DRESS.npy",
+    "label": "dress",
+    "label_idx": 201,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/17758.npy",
+    "label": "drive",
+    "label_idx": 202
+  },
+  {
+    "path": "data/processed/aslcitizen/6693619741322989-DROP.npy",
+    "label": "drop",
+    "label_idx": 203,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/002939368945446219-FAT.npy",
+    "label": "fat",
+    "label_idx": 204,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7320835026313446-FEEL.npy",
+    "label": "feel",
+    "label_idx": 205,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5460681181752922-FEEL.npy",
+    "label": "feel",
+    "label_idx": 205,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6009727281474175-FOOTBALL.npy",
+    "label": "football",
+    "label_idx": 206,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6028480304913704-FOOTBALL.npy",
+    "label": "football",
+    "label_idx": 206,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/18726527420235617-FUTURE.npy",
+    "label": "future",
+    "label_idx": 207,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06739662058600526-FUTURE.npy",
+    "label": "future",
+    "label_idx": 207,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6700586258529033-GAME.npy",
+    "label": "game",
+    "label_idx": 208,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12644868251197527-GIRL.npy",
+    "label": "girl",
+    "label_idx": 209,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06160559840068669-GIRL.npy",
+    "label": "girl",
+    "label_idx": 209,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/25244.npy",
+    "label": "government",
+    "label_idx": 210
+  },
+  {
+    "path": "data/processed/train/26944.npy",
+    "label": "hear",
+    "label_idx": 211
+  },
+  {
+    "path": "data/processed/train/27264.npy",
+    "label": "here",
+    "label_idx": 212
+  },
+  {
+    "path": "data/processed/aslcitizen/183950695488996-HOPE.npy",
+    "label": "hope",
+    "label_idx": 213,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/28159.npy",
+    "label": "house",
+    "label_idx": 214
+  },
+  {
+    "path": "data/processed/aslcitizen/4841234319776855-HOUSE.npy",
+    "label": "house",
+    "label_idx": 214,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/19227636702569528-HUSBAND.npy",
+    "label": "husband",
+    "label_idx": 215,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/36812439575962763-INTEREST.npy",
+    "label": "interest",
+    "label_idx": 216,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/31151.npy",
+    "label": "join",
+    "label_idx": 217
+  },
+  {
+    "path": "data/processed/train/33205.npy",
+    "label": "light",
+    "label_idx": 218
+  },
+  {
+    "path": "data/processed/aslcitizen/25204780191133236-LIVE.npy",
+    "label": "live",
+    "label_idx": 219,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/48360219801328896-MAKE.npy",
+    "label": "make",
+    "label_idx": 220,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/34580.npy",
+    "label": "make",
+    "label_idx": 220
+  },
+  {
+    "path": "data/processed/aslcitizen/06167804090222173-MEAN.npy",
+    "label": "mean",
+    "label_idx": 221,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/35293.npy",
+    "label": "mean",
+    "label_idx": 221
+  },
+  {
+    "path": "data/processed/aslcitizen/48891811825038345-MORE.npy",
+    "label": "more",
+    "label_idx": 222,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/010465663034460171-MORE.npy",
+    "label": "more",
+    "label_idx": 222,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/368543931547731-MOST.npy",
+    "label": "most",
+    "label_idx": 223,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6624739094163039-MUSIC.npy",
+    "label": "music",
+    "label_idx": 224,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/547629260049648-MUSIC.npy",
+    "label": "music",
+    "label_idx": 224,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5457313626444984-NEW.npy",
+    "label": "new",
+    "label_idx": 225,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3638065295293338-NONE.npy",
+    "label": "none",
+    "label_idx": 226,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/39460.npy",
+    "label": "office",
+    "label_idx": 227
+  },
+  {
+    "path": "data/processed/train/40171.npy",
+    "label": "order",
+    "label_idx": 228
+  },
+  {
+    "path": "data/processed/aslcitizen/1815842613339249-PANTS.npy",
+    "label": "pants",
+    "label_idx": 229,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/12477428832750603-PANTS.npy",
+    "label": "pants",
+    "label_idx": 229,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3668590903054323-PARTY.npy",
+    "label": "party",
+    "label_idx": 230,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/41312.npy",
+    "label": "party",
+    "label_idx": 230
+  },
+  {
+    "path": "data/processed/aslcitizen/2476350167015564-PAST.npy",
+    "label": "past",
+    "label_idx": 231,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7861012626503445-PENCIL.npy",
+    "label": "pencil",
+    "label_idx": 232,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/783412788271652-PENCIL.npy",
+    "label": "pencil",
+    "label_idx": 232,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6706925558629944-PLAN.npy",
+    "label": "plan",
+    "label_idx": 233,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/43218.npy",
+    "label": "please",
+    "label_idx": 234
+  },
+  {
+    "path": "data/processed/aslcitizen/9033775093699132-PRESIDENT.npy",
+    "label": "president",
+    "label_idx": 236,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/44371.npy",
+    "label": "president",
+    "label_idx": 236
+  },
+  {
+    "path": "data/processed/train/47659.npy",
+    "label": "restaurant",
+    "label_idx": 237
+  },
+  {
+    "path": "data/processed/train/48044.npy",
+    "label": "ride",
+    "label_idx": 238
+  },
+  {
+    "path": "data/processed/aslcitizen/426366456041017-RUSSIA.npy",
+    "label": "russia",
+    "label_idx": 239,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/48902.npy",
+    "label": "russia",
+    "label_idx": 239
+  },
+  {
+    "path": "data/processed/aslcitizen/9639738269415754-SALT.npy",
+    "label": "salt",
+    "label_idx": 240,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/49132.npy",
+    "label": "salt",
+    "label_idx": 240
+  },
+  {
+    "path": "data/processed/train/49247.npy",
+    "label": "sandwich",
+    "label_idx": 241
+  },
+  {
+    "path": "data/processed/aslcitizen/3088357363430003-SIGN.npy",
+    "label": "sign",
+    "label_idx": 242,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/51616.npy",
+    "label": "sign",
+    "label_idx": 242
+  },
+  {
+    "path": "data/processed/aslcitizen/4885113159051897-SINCE.npy",
+    "label": "since",
+    "label_idx": 243,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/546045102054808-SMALL.npy",
+    "label": "small",
+    "label_idx": 244,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06641118651306921-SOME.npy",
+    "label": "some",
+    "label_idx": 245,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/9072873507973074-SOUTH.npy",
+    "label": "south",
+    "label_idx": 246,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/4809217847213487-STUDENT.npy",
+    "label": "student",
+    "label_idx": 247,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/2444898893094336-TEACH.npy",
+    "label": "teach",
+    "label_idx": 248,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/57785.npy",
+    "label": "theory",
+    "label_idx": 249
+  },
+  {
+    "path": "data/processed/aslcitizen/3022175542580112-THEORY.npy",
+    "label": "theory",
+    "label_idx": 249,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6683237640087505-TOMATO.npy",
+    "label": "tomato",
+    "label_idx": 250,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7268064286556388-TOMATO.npy",
+    "label": "tomato",
+    "label_idx": 250,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/58786.npy",
+    "label": "tomato",
+    "label_idx": 250
+  },
+  {
+    "path": "data/processed/aslcitizen/1852299158778543-TRAIN.npy",
+    "label": "train",
+    "label_idx": 251,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/5407513383331015-UGLY.npy",
+    "label": "ugly",
+    "label_idx": 252,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/25098115370677876-UGLY.npy",
+    "label": "ugly",
+    "label_idx": 252,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/62275.npy",
+    "label": "war",
+    "label_idx": 253
+  },
+  {
+    "path": "data/processed/train/63083.npy",
+    "label": "where",
+    "label_idx": 254
+  },
+  {
+    "path": "data/processed/train/64429.npy",
+    "label": "your",
+    "label_idx": 255
+  },
+  {
+    "path": "data/processed/aslcitizen/6651907513141087-ALWAYS.npy",
+    "label": "always",
+    "label_idx": 256,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/69211.npy",
+    "label": "animal",
+    "label_idx": 257
+  },
+  {
+    "path": "data/processed/train/02584.npy",
+    "label": "animal",
+    "label_idx": 257
+  },
+  {
+    "path": "data/processed/train/03268.npy",
+    "label": "argue",
+    "label_idx": 258
+  },
+  {
+    "path": "data/processed/aslcitizen/7914722472116791-BABY.npy",
+    "label": "baby",
+    "label_idx": 259,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/69218.npy",
+    "label": "back",
+    "label_idx": 260
+  },
+  {
+    "path": "data/processed/train/04768.npy",
+    "label": "bake",
+    "label_idx": 261
+  },
+  {
+    "path": "data/processed/aslcitizen/8462213144332857-BATH.npy",
+    "label": "bath",
+    "label_idx": 261,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7870148195826896-BEHIND.npy",
+    "label": "behind",
+    "label_idx": 262,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/07807.npy",
+    "label": "bring",
+    "label_idx": 264
+  },
+  {
+    "path": "data/processed/train/09461.npy",
+    "label": "catch",
+    "label_idx": 265
+  },
+  {
+    "path": "data/processed/train/09776.npy",
+    "label": "cereal",
+    "label_idx": 266
+  },
+  {
+    "path": "data/processed/aslcitizen/7270428598615575-CHAMPION.npy",
+    "label": "champion",
+    "label_idx": 265,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/007608982936095243-CHAMPION.npy",
+    "label": "champion",
+    "label_idx": 265,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/3036534782847351-CHEESE.npy",
+    "label": "cheese",
+    "label_idx": 266,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/13854.npy",
+    "label": "crazy",
+    "label_idx": 270
+  },
+  {
+    "path": "data/processed/train/15319.npy",
+    "label": "delay",
+    "label_idx": 271
+  },
+  {
+    "path": "data/processed/train/15364.npy",
+    "label": "delicious",
+    "label_idx": 272
+  },
+  {
+    "path": "data/processed/aslcitizen/3682201197973545-DELICIOUS.npy",
+    "label": "delicious",
+    "label_idx": 270,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/16441.npy",
+    "label": "disappear",
+    "label_idx": 273
+  },
+  {
+    "path": "data/processed/aslcitizen/4892957911346618-DISAPPEAR.npy",
+    "label": "disappear",
+    "label_idx": 271,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06632067357228588-DIVORCE.npy",
+    "label": "divorce",
+    "label_idx": 272,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/18316395058805113-DRAW.npy",
+    "label": "draw",
+    "label_idx": 273,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/24217310192206098-DRAW.npy",
+    "label": "draw",
+    "label_idx": 273,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/18292.npy",
+    "label": "east",
+    "label_idx": 276
+  },
+  {
+    "path": "data/processed/aslcitizen/7257474165444848-EAST.npy",
+    "label": "east",
+    "label_idx": 274,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/8524004759358377-EASY.npy",
+    "label": "easy",
+    "label_idx": 275,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/2411691096362154-EGG.npy",
+    "label": "egg",
+    "label_idx": 276,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/0012446426080812145-EGG.npy",
+    "label": "egg",
+    "label_idx": 276,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/19411.npy",
+    "label": "environment",
+    "label_idx": 279
+  },
+  {
+    "path": "data/processed/aslcitizen/12317669745773419-FATHER.npy",
+    "label": "father",
+    "label_idx": 277,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/21207.npy",
+    "label": "father",
+    "label_idx": 280
+  },
+  {
+    "path": "data/processed/train/21275.npy",
+    "label": "fault",
+    "label_idx": 281
+  },
+  {
+    "path": "data/processed/aslcitizen/30813630691670757-FLOWER.npy",
+    "label": "flower",
+    "label_idx": 278,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/48907631267042917-FRIENDLY.npy",
+    "label": "friendly",
+    "label_idx": 279,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/1304390584234303-GLASSES.npy",
+    "label": "glasses",
+    "label_idx": 280,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/24724.npy",
+    "label": "glasses",
+    "label_idx": 284
+  },
+  {
+    "path": "data/processed/train/26254.npy",
+    "label": "halloween",
+    "label_idx": 285
+  },
+  {
+    "path": "data/processed/train/69358.npy",
+    "label": "hard",
+    "label_idx": 286
+  },
+  {
+    "path": "data/processed/aslcitizen/18683022400716598-HEART.npy",
+    "label": "heart",
+    "label_idx": 282,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/28138.npy",
+    "label": "hour",
+    "label_idx": 288
+  },
+  {
+    "path": "data/processed/aslcitizen/363845251533651-HUMBLE.npy",
+    "label": "humble",
+    "label_idx": 284,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7864411174112811-HUMBLE.npy",
+    "label": "humble",
+    "label_idx": 284,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/28426.npy",
+    "label": "hurry",
+    "label_idx": 290
+  },
+  {
+    "path": "data/processed/aslcitizen/6040626949113412-HURRY.npy",
+    "label": "hurry",
+    "label_idx": 285,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7275550135371469-IMPROVE.npy",
+    "label": "improve",
+    "label_idx": 286,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/30234.npy",
+    "label": "internet",
+    "label_idx": 292
+  },
+  {
+    "path": "data/processed/train/69380.npy",
+    "label": "jump",
+    "label_idx": 293
+  },
+  {
+    "path": "data/processed/train/31315.npy",
+    "label": "jump",
+    "label_idx": 293
+  },
+  {
+    "path": "data/processed/aslcitizen/30575082726118774-JUMP.npy",
+    "label": "jump",
+    "label_idx": 288,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/2513252108324002-KILL.npy",
+    "label": "kill",
+    "label_idx": 289,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/186416386039026-KILL.npy",
+    "label": "kill",
+    "label_idx": 289,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/train/32448.npy",
+    "label": "law",
+    "label_idx": 295
+  },
+  {
+    "path": "data/processed/train/35116.npy",
+    "label": "match",
+    "label_idx": 296
+  },
+  {
+    "path": "data/processed/train/35360.npy",
+    "label": "meat",
+    "label_idx": 297
+  },
+  {
+    "path": "data/processed/aslcitizen/18729914184366958-MILK.npy",
+    "label": "milk",
+    "label_idx": 292,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/24474871303354728-MONEY.npy",
+    "label": "money",
+    "label_idx": 293,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/003694144443520786-MONEY.npy",
+    "label": "money",
+    "label_idx": 293,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/19102817848960396-MOVE.npy",
+    "label": "move",
+    "label_idx": 296,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/6092644776503984-MOVE.npy",
+    "label": "move",
+    "label_idx": 296,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/794387128826012-NEAR.npy",
+    "label": "near",
+    "label_idx": 297,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/25236629084275086-NICE.npy",
+    "label": "nice",
+    "label_idx": 299,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/4250378449284671-NEPHEW.npy",
+    "label": "nephew",
+    "label_idx": 298,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/06254613801507869-PRACTICE.npy",
+    "label": "practice",
+    "label_idx": 235,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/37081247931681927-MOON.npy",
+    "label": "moon",
+    "label_idx": 295,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/18190906120311734-COUGH.npy",
+    "label": "cough",
+    "label_idx": 267,
+    "source": "aslcitizen"
+  },
+  {
+    "path": "data/processed/aslcitizen/7837756968424734-MONTH.npy",
+    "label": "month",
+    "label_idx": 294,
+    "source": "aslcitizen"
+  }
+]

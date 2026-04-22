@@ -1,0 +1,79 @@
+   Extracted: 53,929 | DL fails: 4 | MP fails: 1 | Disk: 197.2GB free
+
+  ✓ Aslense done: 53,929 extracted
+  Download failures:  4
+  MediaPipe failures: 1
+
+============================================================
+STEP 5: Rebuilding WLASL manifests
+============================================================
+  WLASL train: 1,045 samples (761 not in vocab, 8859 missing .npy)
+  WLASL val: 227 samples (761 not in vocab, 2424 missing .npy)
+  WLASL test: 206 samples (761 not in vocab, 1792 missing .npy)
+
+============================================================
+STEP 6: Updating ASL Citizen manifest
+============================================================
+  ✓ ASL Citizen: 1,696 kept, 0 skipped
+
+============================================================
+STEP 7: Building combined manifest
+============================================================
+  WLASL:       1,045
+  ASL Citizen: 1,696
+  Aslense:     53,929
+  Total:       56,670
+
+============================================================
+STEP 8: Stratified val split
+============================================================
+  ✓ Train: 51,106 samples
+  ✓ Val:   5,564 samples
+  ✓ Val classes with 2+ samples: 1850
+
+============================================================
+ALL DONE ✓
+============================================================
+
+  Failure summary:
+    Download failures:  4
+    MediaPipe failures: 1
+
+  Old baseline preserved at:
+    data/processed/backup_v1_300class/
+    models/checkpoints/backup_v1_300class/
+
+  To restore old baseline:
+    cp data/processed/backup_v1_300class/vocab.json data/processed/vocab.json
+    cp data/processed/backup_v1_300class/combined_train_manifest.json data/processed/combined_train_manifest.json
+    cp data/processed/backup_v1_300class/val_manifest.json data/processed/val_manifest.json
+
+  Train command:
+    python3 -m src.train --vocab 1896 --epochs 150 --combined --workers 0
+
+Vocab size: 1896
+Train samples: 51,106
+Avg samples/class: 27.0
+Classes with 10+ samples: 1829
+Classes with 30+ samples: 229
+
+
+Full Count:
+WLASL:       3,239
+ASL Citizen: 1,542
+Aslense:     48,797
+Train total: 53,578
+Val total:   6,194
+Vocab:       2591
+
+
+Count Optimized for best samples/class
+Vocab: 1896
+Train: 52,998
+Val:   5,567
+WLASL:       2,659
+ASL Citizen: 1,542
+Aslense:     48,797
+Avg samples/class: 28.0
+
+

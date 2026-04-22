@@ -1,0 +1,201 @@
+/* Premium Light Theme (Stripe / Apple Inspired) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --bg-light: #FAFAFA;
+  --bg-card: #FFFFFF;
+  --border-subtle: #E2E8F0;
+  --text-primary: #0F172A;
+  --text-secondary: #64748B;
+  --accent-teal: #0D9488;
+  --accent-blue: #2563EB;
+}
+
+.slidev-layout {
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(20, 184, 166, 0.05), transparent 40%),
+    radial-gradient(circle at 90% 90%, rgba(59, 130, 246, 0.05), transparent 40%);
+}
+
+/* Typography */
+h1 {
+  font-weight: 700 !important;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+.subtext {
+  color: var(--text-secondary);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 0.95rem;
+}
+
+/* ── Cards ─────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 0.875rem 1rem;
+  font-size: 0.875rem;
+}
+
+.bento-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02), 0 2px 4px -2px rgba(0,0,0,0.02);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-card:hover {
+  border-color: #CBD5E1;
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px -10px rgba(15,23,42,0.08), 0 10px 15px -3px rgba(15,23,42,0.03);
+}
+
+/* ── Callouts ───────────────────────────────────────────── */
+.callout {
+  padding: 0.6rem 0.875rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  border-left: 3px solid;
+}
+
+.callout-blue {
+  background: #EFF6FF;
+  border-color: #2563EB;
+  color: #1E40AF;
+}
+
+.callout-yellow {
+  background: #FFFBEB;
+  border-color: #D97706;
+  color: #92400E;
+}
+
+.callout-green {
+  background: #F0FDF4;
+  border-color: #16A34A;
+  color: #14532D;
+}
+
+/* ── Quote ──────────────────────────────────────────────── */
+.quote {
+  border-left: 3px solid #CBD5E1;
+  padding: 0.4rem 0.875rem;
+  color: #475569;
+  font-style: italic;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+/* ── Stat blocks ────────────────────────────────────────── */
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+
+/* ── Micro-Components ───────────────────────────────────── */
+.mono-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #94A3B8;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #0F172A 0%, #334155 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-hero {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tag.teal  { background: #F0FDFA; border: 1px solid #CCFBF1; color: var(--accent-teal); }
+.tag.blue  { background: #EFF6FF; border: 1px solid #DBEAFE; color: var(--accent-blue); }
+.tag.slate { background: #F8FAFC; border: 1px solid #E2E8F0; color: #475569; }
+
+/* ── Attention bars ─────────────────────────────────────── */
+.attention-track {
+  width: 100%;
+  height: 6px;
+  background: #F1F5F9;
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.02);
+}
+
+.attention-fill {
+  height: 100%;
+  position: absolute;
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+
+/* ── Code blocks — force light theme ───────────────────── */
+.shiki,
+pre.shiki,
+.slidev-code pre {
+  background: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+}
+
+.shiki code,
+.slidev-code pre code {
+  background: transparent !important;
+}
+
+/* Use shiki's own light-mode CSS vars when available */
+.shiki span {
+  color: var(--shiki-light, #334155) !important;
+}
+
+/* Inline code */
+:not(pre) > code {
+  background: #F1F5F9 !important;
+  color: #0F172A !important;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}

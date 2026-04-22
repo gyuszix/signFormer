@@ -1,0 +1,83 @@
+# Virtual environment
+venv/
+.venv/
+.env
+
+# Raw videos — too large, run downloader locally
+data/raw/wlasl/videos/
+data/raw/msasl/videos/
+
+# MediaPipe model file
+data/*.task
+
+
+# Processed keypoints — large binary files, regenerate locally
+data/processed/train/
+data/processed/val/
+data/processed/test/
+data/processed/aslcitizen/
+data/processed/msasl_train/
+
+# HuggingFace download cache
+data/hf_cache/
+
+# Experiment results (metrics are committed, large artifacts are not)
+results/plots/
+results/exports/
+
+# Sensitive files
+.env
+data/raw/msasl/cookies.txt
+scripts/cookies.txt
+failed_downloads.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiments
+wandb/
+runs/
+data/processed/aslense/
+data/processed/train/
+data/processed/val/
+data/processed/test/
+data/processed/train/
+data/processed/val/
+data/processed/test/
+data/processed/aslense/
+data/processed/train/
+data/processed/val/
+data/processed/test/
+data/processed/train/
+data/processed/val/
+data/processed/test/
+data/processed/aslense/
+data/raw/wlasl/videos/
+data/raw/aslense/
+data/raw/msasl/videos/
+data/processed/*.zip
+
+
+zips/*
+data/processed/wlasl/*
+.DS_Store
+
+node_modules/
+
+# ONNX exported models
+models/*.onnx
+models/*.data
+
+.DS_Storepresentation/videos/*.mp4
+models/demo/*.mp4
+presentation/videos/*.mp4
+
+presentation/videos/demo.mp4
+.DS_Store

@@ -1,0 +1,39 @@
+# Core
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Web server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Keypoint extraction
+mediapipe>=0.10.0
+
+# Video I/O
+opencv-python>=4.9.0
+
+# ONNX export and inference
+onnx>=1.16.0
+onnxruntime>=1.18.0
+onnxscript>=0.1.0
+
+# Evaluation
+jiwer>=3.0.3
+
+# Data handling
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
+yt-dlp>=2024.1.0
+scikit-learn>=1.4.0
+
+# Notebook support
+jupyter>=1.0.0
+ipykernel>=6.29.0
