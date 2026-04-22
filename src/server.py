@@ -13,6 +13,7 @@ Run:
 """
 
 import json
+import time
 import numpy as np
 from collections import deque, Counter
 from pathlib import Path
@@ -95,66 +96,79 @@ async def websocket_endpoint(ws: WebSocket):
         await ws.close()
         return
 
-    blank        = _vocab_size
-    buffer       = deque(maxlen=MAX_SEQ_LEN)
-    pred_history = deque(maxlen=SMOOTH_WINDOW)
-    frame_count  = 0
-    INFER_EVERY  = 6   # ~200ms at 30fps
+    CONF_THRESHOLD = 0.10  # min softmax confidence to show a prediction
+    HAND_RATIO_MIN = 0.50  # min fraction of buffer frames that must have hands
+    INFER_INTERVAL = 0.50  # seconds between inference calls
+
+    blank          = _vocab_size
+    buffer         = deque(maxlen=MAX_SEQ_LEN)
+    hand_flags     = deque(maxlen=MAX_SEQ_LEN)
+    pred_history   = deque(maxlen=SMOOTH_WINDOW)
+    last_inference = 0.0
 
     try:
         while True:
             data = await ws.receive_json()
 
             if data.get("type") == "no_hands":
-                buffer.clear()
-                pred_history.clear()
-                frame_count = 0
-                await ws.send_json({"prediction": None, "buffer_fill": 0.0})
+                buffer.append(np.zeros(126, dtype=np.float32))
+                hand_flags.append(False)
+                fill = len(buffer) / WINDOW_FRAMES
+                await ws.send_json({"prediction": None, "buffer_fill": round(min(fill, 1.0), 2)})
                 continue
 
             if data.get("type") != "frame":
                 continue
 
-            kpts = np.array(data["keypoints"], dtype=np.float32)  # (126,)
+            kpts = np.array(data["keypoints"], dtype=np.float32)
             buffer.append(kpts)
-            frame_count += 1
+            hand_flags.append(True)
 
             fill = len(buffer) / WINDOW_FRAMES
-
-            # Not enough frames yet — send progress only
             if len(buffer) < WINDOW_FRAMES:
                 await ws.send_json({"buffer_fill": round(fill, 2), "prediction": None})
                 continue
 
-            # Run inference every INFER_EVERY frames
-            if frame_count % INFER_EVERY != 0:
+            hand_ratio = sum(hand_flags) / len(hand_flags)
+            now        = time.time()
+
+            if hand_ratio < HAND_RATIO_MIN or (now - last_inference) < INFER_INTERVAL:
+                await ws.send_json({"buffer_fill": 1.0, "prediction": None})
                 continue
 
-            seq  = normalize_keypoints(np.stack(list(buffer), axis=0))  # (T, 126)
-            inp  = seq[np.newaxis].astype(np.float32)                    # (1, T, 126)
-            mask = np.zeros((1, seq.shape[0]), dtype=bool)               # no padding
+            last_inference = now
+            seq  = normalize_keypoints(np.stack(list(buffer), axis=0))
+            inp  = seq[np.newaxis].astype(np.float32)
+            mask = np.zeros((1, seq.shape[0]), dtype=bool)
 
             output = _sess.run([_output_name], {
                 "keypoints":    inp,
                 "padding_mask": mask,
             })[0]
 
-            # CE: output is (1, C) — argmax directly
-            # CTC: output is (T, 1, C+1) — greedy decode
             if _output_name == "logits":
-                pred_idx = int(np.argmax(output[0]))
-                pred_history.append(pred_idx)
+                logits   = output[0]
+                exp_l    = np.exp(logits - logits.max())
+                probs    = exp_l / exp_l.sum()
+                pred_idx = int(np.argmax(probs))
+                conf     = float(probs[pred_idx])
             else:
                 decoded = _greedy_decode(output[:, 0, :], blank)
                 if not decoded:
+                    await ws.send_json({"buffer_fill": 1.0, "prediction": None})
                     continue
-                pred_history.append(decoded[0])
+                pred_idx = decoded[0]
+                conf     = 1.0
 
-            best_idx   = Counter(pred_history).most_common(1)[0][0]
-            confidence = pred_history.count(best_idx) / len(pred_history)
+            if conf < CONF_THRESHOLD:
+                await ws.send_json({"buffer_fill": 1.0, "prediction": None})
+                continue
+
+            pred_history.append(pred_idx)
+            best_idx = Counter(pred_history).most_common(1)[0][0]
             await ws.send_json({
                 "prediction":  _idx2word.get(best_idx, "?"),
-                "confidence":  round(float(confidence), 2),
+                "confidence":  round(conf, 2),
                 "buffer_fill": 1.0,
             })
 
