@@ -71,9 +71,11 @@ data/processed/wlasl/*
 
 node_modules/
 
-# ONNX exported models
-models/*.onnx
-models/*.data
+# ONNX exported models (checkpoints stay local, top-level sign_model is committed)
+models/checkpoints/
+models/checkpoints_v1_backup/
+models/demo/
+models/*.pt
 
 .DS_Storepresentation/videos/*.mp4
 models/demo/*.mp4
