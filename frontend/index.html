@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ASL Translator</title>
+  <title>ASL Hand Tracker</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -20,7 +20,7 @@
 
     header {
       width: 100%;
-      max-width: 960px;
+      max-width: 720px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -36,25 +36,12 @@
       border-radius: 20px;
       background: #1e1e1e;
       border: 1px solid #333;
-    }
-    #status.connected    { border-color: #22c55e; color: #22c55e; }
-    #status.disconnected { border-color: #ef4444; color: #ef4444; }
-    #status.connecting   { border-color: #f59e0b; color: #f59e0b; }
-
-    .main {
-      width: 100%;
-      max-width: 960px;
-      display: grid;
-      grid-template-columns: 1fr 340px;
-      gap: 20px;
+      color: #aaa;
     }
 
-    @media (max-width: 700px) {
-      .main { grid-template-columns: 1fr; }
-    }
-
-    /* ── Video panel ── */
     .video-panel {
+      width: 100%;
+      max-width: 720px;
       position: relative;
       background: #1a1a1a;
       border-radius: 12px;
@@ -68,148 +55,22 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transform: scaleX(-1);   /* mirror for natural selfie view */
+      transform: scaleX(-1);
     }
-
-    #buffer-bar-wrap {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      height: 4px;
-      background: rgba(255,255,255,0.1);
-    }
-    #buffer-bar {
-      height: 100%;
-      width: 0%;
-      background: #7c6af7;
-      transition: width 0.15s;
-    }
-
-    /* ── Side panel ── */
-    .side-panel {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .card {
-      background: #1a1a1a;
-      border-radius: 12px;
-      padding: 20px;
-    }
-
-    .card-label {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #666;
-      margin-bottom: 10px;
-    }
-
-    #prediction-word {
-      font-size: 2.8rem;
-      font-weight: 700;
-      color: #fff;
-      min-height: 56px;
-      letter-spacing: -1px;
-    }
-
-    #confidence-bar-wrap {
-      margin-top: 10px;
-      height: 6px;
-      background: #2a2a2a;
-      border-radius: 3px;
-      overflow: hidden;
-    }
-    #confidence-bar {
-      height: 100%;
-      width: 0%;
-      background: linear-gradient(90deg, #7c6af7, #a78bfa);
-      transition: width 0.3s;
-    }
-    #confidence-label {
-      font-size: 0.7rem;
-      color: #666;
-      margin-top: 4px;
-    }
-
-    /* ── Transcript ── */
-    #transcript {
-      flex: 1;
-      min-height: 140px;
-      font-size: 1rem;
-      line-height: 1.6;
-      color: #ccc;
-      word-break: break-word;
-    }
-    #transcript .word { margin-right: 6px; }
-    #transcript .word.new { color: #a78bfa; }
-
-    #clear-btn {
-      margin-top: 10px;
-      background: none;
-      border: 1px solid #333;
-      color: #666;
-      padding: 6px 14px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 0.75rem;
-    }
-    #clear-btn:hover { border-color: #555; color: #aaa; }
-
-    /* ── Instructions ── */
-    .instructions {
-      font-size: 0.75rem;
-      color: #555;
-      line-height: 1.6;
-    }
-    .instructions strong { color: #888; }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>ASL <span>Translator</span></h1>
-    <div id="status" class="connecting">Connecting…</div>
+    <h1>ASL <span>Hand Tracker</span></h1>
+    <div id="status">Loading…</div>
   </header>
 
-  <div class="main">
-    <div class="video-panel">
-      <video id="input_video" autoplay playsinline></video>
-      <canvas id="output_canvas"></canvas>
-      <div id="buffer-bar-wrap">
-        <div id="buffer-bar"></div>
-      </div>
-    </div>
-
-    <div class="side-panel">
-      <div class="card">
-        <div class="card-label">Current Sign</div>
-        <div id="prediction-word">—</div>
-        <div id="confidence-bar-wrap">
-          <div id="confidence-bar"></div>
-        </div>
-        <div id="confidence-label">Confidence: —</div>
-      </div>
-
-      <div class="card" style="flex:1">
-        <div class="card-label">Transcript</div>
-        <div id="transcript"></div>
-        <button id="clear-btn" onclick="clearTranscript()">Clear</button>
-      </div>
-
-      <div class="card">
-        <div class="card-label">Tips</div>
-        <div class="instructions">
-          <strong>Keep hands centered</strong> in the frame.<br>
-          Hold each sign for <strong>1–2 seconds</strong>.<br>
-          Purple bar = buffer filling. When full, translation starts.<br>
-          Best with <strong>plain background + good lighting</strong>.
-        </div>
-      </div>
-    </div>
+  <div class="video-panel">
+    <video id="input_video" autoplay playsinline></video>
+    <canvas id="output_canvas"></canvas>
   </div>
 
-  <!-- MediaPipe Tasks Vision (CDN) -->
   <script type="module">
     import {
       HandLandmarker,
@@ -217,71 +78,11 @@
       DrawingUtils
     } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
 
-    // ── DOM refs ─────────────────────────────────────────────────────────────
-    const video       = document.getElementById("input_video");
-    const canvas      = document.getElementById("output_canvas");
-    const ctx         = canvas.getContext("2d");
-    const statusEl    = document.getElementById("status");
-    const wordEl      = document.getElementById("prediction-word");
-    const confBar     = document.getElementById("confidence-bar");
-    const confLabel   = document.getElementById("confidence-label");
-    const bufferBar   = document.getElementById("buffer-bar");
-    const transcript  = document.getElementById("transcript");
+    const video    = document.getElementById("input_video");
+    const canvas   = document.getElementById("output_canvas");
+    const ctx      = canvas.getContext("2d");
+    const statusEl = document.getElementById("status");
 
-    // ── WebSocket ─────────────────────────────────────────────────────────────
-    const WS_URL = `${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws`;
-    let ws       = null;
-    let lastWord = null;
-
-    function connectWS() {
-      statusEl.textContent = "Connecting…";
-      statusEl.className   = "connecting";
-      ws = new WebSocket(WS_URL);
-
-      ws.onopen  = () => { statusEl.textContent = "Connected"; statusEl.className = "connected"; };
-      ws.onclose = () => {
-        statusEl.textContent = "Disconnected — retrying…";
-        statusEl.className   = "disconnected";
-        setTimeout(connectWS, 2000);
-      };
-      ws.onerror = () => ws.close();
-
-      ws.onmessage = (evt) => {
-        const msg = JSON.parse(evt.data);
-        if (msg.error) { console.error("Server:", msg.error); return; }
-
-        // Buffer fill progress bar
-        if (msg.buffer_fill !== undefined) {
-          bufferBar.style.width = (msg.buffer_fill * 100).toFixed(0) + "%";
-        }
-
-        if (!msg.prediction) {
-          wordEl.textContent    = "—";
-          confBar.style.width   = "0%";
-          confLabel.textContent = "Confidence: —";
-          return;
-        }
-
-        // Update prediction UI
-        wordEl.textContent    = msg.prediction.toUpperCase();
-        confBar.style.width   = (msg.confidence * 100).toFixed(0) + "%";
-        confLabel.textContent = `Confidence: ${(msg.confidence * 100).toFixed(0)}%`;
-
-        // Append to transcript when word changes + confidence high enough
-        if (msg.prediction !== lastWord && msg.confidence >= 0.6) {
-          lastWord = msg.prediction;
-          const span = document.createElement("span");
-          span.className = "word new";
-          span.textContent = msg.prediction;
-          transcript.appendChild(span);
-          transcript.scrollTop = transcript.scrollHeight;
-          // Fade new highlight after 1.5s
-          setTimeout(() => span.classList.remove("new"), 1500);
-        }
-      };
-    }
-
-    // ── MediaPipe HandLandmarker ──────────────────────────────────────────────
     let handLandmarker = null;
     let drawingUtils   = null;
     let lastVideoTime  = -1;
@@ -296,17 +97,15 @@
             "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
           delegate: "GPU",
         },
-        runningMode:            "VIDEO",
-        numHands:               2,
+        runningMode:                "VIDEO",
+        numHands:                   2,
         minHandDetectionConfidence: 0.5,
         minHandPresenceConfidence:  0.5,
         minTrackingConfidence:      0.5,
       });
       drawingUtils = new DrawingUtils(ctx);
-      console.log("MediaPipe HandLandmarker ready");
     }
 
-    // ── Webcam ────────────────────────────────────────────────────────────────
     async function startCamera() {
       const stream = await navigator.mediaDevices.getUserMedia({
         video: { facingMode: "user", width: 640, height: 480 },
@@ -318,27 +117,6 @@
       canvas.height = video.videoHeight;
     }
 
-    // ── Build keypoint vector (126-dim, matches Python pipeline) ─────────────
-    function buildKeypoints(results) {
-      const lh = new Float32Array(63);
-      const rh = new Float32Array(63);
-
-      if (results.landmarks && results.handedness) {
-        for (let i = 0; i < results.landmarks.length; i++) {
-          const lms  = results.landmarks[i];
-          const hand = results.handedness[i][0].categoryName;  // "Left" or "Right"
-          const buf  = hand === "Left" ? lh : rh;
-          for (let j = 0; j < 21; j++) {
-            buf[j * 3]     = lms[j].x;
-            buf[j * 3 + 1] = lms[j].y;
-            buf[j * 3 + 2] = lms[j].z;
-          }
-        }
-      }
-      return [...lh, ...rh];   // 126 floats
-    }
-
-    // ── Main loop ─────────────────────────────────────────────────────────────
     function onFrame() {
       if (video.currentTime !== lastVideoTime) {
         lastVideoTime = video.currentTime;
@@ -347,7 +125,6 @@
 
         ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-        // Draw hand skeleton
         if (results.landmarks) {
           for (const lms of results.landmarks) {
             drawingUtils.drawConnectors(lms, HandLandmarker.HAND_CONNECTIONS, {
@@ -358,35 +135,20 @@
             });
           }
         }
-
-        // Send keypoints to server
-        if (ws && ws.readyState === WebSocket.OPEN) {
-          const handsVisible = results.landmarks && results.landmarks.length > 0;
-          if (handsVisible) {
-            const keypoints = buildKeypoints(results);
-            ws.send(JSON.stringify({ type: "frame", keypoints }));
-          } else {
-            ws.send(JSON.stringify({ type: "no_hands" }));
-          }
-        }
       }
       requestAnimationFrame(onFrame);
     }
 
-    // ── Init ──────────────────────────────────────────────────────────────────
     async function init() {
       await Promise.all([initMediaPipe(), startCamera()]);
-      connectWS();
+      statusEl.textContent = "Ready";
       requestAnimationFrame(onFrame);
     }
 
-    init().catch(console.error);
-
-    // Expose to global for clear button
-    window.clearTranscript = () => {
-      transcript.innerHTML = "";
-      lastWord = null;
-    };
+    init().catch(err => {
+      statusEl.textContent = "Error";
+      console.error(err);
+    });
   </script>
 </body>
 </html>
