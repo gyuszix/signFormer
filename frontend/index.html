@@ -340,11 +340,7 @@
 
         const results = handLandmarker.detectForVideo(video, Date.now());
 
-        // Draw mirrored frame
-        ctx.save();
-        ctx.scale(-1, 1);
-        ctx.drawImage(video, -canvas.width, 0, canvas.width, canvas.height);
-        ctx.restore();
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
         // Draw hand skeleton
         if (results.landmarks) {
